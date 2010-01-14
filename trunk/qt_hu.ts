@@ -1,0 +1,1 @@
+/home/mm/Projektek/eagle_forditas/qt_hu.ts
