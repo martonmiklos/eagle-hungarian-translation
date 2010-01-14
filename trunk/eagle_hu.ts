@@ -1,1 +1,0 @@
-/home/mm/Projektek/eagle_forditas/eagle_hu.ts
