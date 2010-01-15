@@ -3348,7 +3348,7 @@ Kattints a projekten jobb gombbal, a kapcsolási rajz. vagy nyákterv létrehoz�
     </message>
     <message>
         <source>Can&apos;t save project file!</source>
-        <translation>Nem menthető Project fájl!</translation>
+        <translation>Nem menthető a projekt fájl!</translation>
     </message>
     <message>
         <source>User interface</source>
@@ -3384,7 +3384,7 @@ Kattints a projekten jobb gombbal, a kapcsolási rajz. vagy nyákterv létrehoz�
     </message>
     <message>
         <source>&amp;Automatically save project file</source>
-        <translation>Aut.&amp;menti a project fájlt</translation>
+        <translation>&amp;Projektfájl automatikus mentése</translation>
     </message>
     <message>
         <source>Can&apos;t rename &apos;%1&apos; to &apos;%2&apos;
@@ -5215,6 +5215,7 @@ Kérlek használd a .dev és a .pac kiterjesztést ahhoz hogy ontosan megadd mel
     </message>
     <message>
         <source>Syntax eror in call to &apos;1()&apos;</source>
+        <translatorcomment>IHMO 1() should be %1</translatorcomment>
         <translation>Szintaktikai hiba &apos;%1()&apos; hívása során</translation>
     </message>
     <message>
@@ -8788,6 +8789,7 @@ Használd az ERC parancsot, hogy megtudd mi ennek az oka.</translation>
     <message>
         <source>Parameter for option -%1 must be in the range %2...%2
 </source>
+        <translatorcomment>IMHO  the second %2 should be %3</translatorcomment>
         <translation>A -%1 opció paraméterének %2 és %3 közt kell lennie
 </translation>
     </message>
