@@ -2153,7 +2153,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>&amp;Run...</source>
-        <translation>&amp;Futtat...</translation>
+        <translation>&amp;ULP futtatása...</translation>
     </message>
     <message>
         <source>&amp;Set...</source>
@@ -2602,7 +2602,7 @@ Felülírjuk?</translation>
     <name>d_pin.c</name>
     <message>
         <source>Can&apos;t place pin %1 on pin %2!</source>
-        <translation>Nem lehet a %1 lábat  rátennei erre: %2 !</translation>
+        <translation>Nem lehet a %1 lábat  rátenni erre: %2 !</translation>
     </message>
     <message>
         <source>pin name</source>
@@ -3586,7 +3586,7 @@ létrehozzuk ez alapján: %2?</translation>
     </message>
     <message>
         <source>S&amp;cript...</source>
-        <translation>S&amp;zkript...</translation>
+        <translation>S&amp;zkript futtatása...</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
@@ -9471,7 +9471,7 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
     <message>
         <source>Can&apos;t delete Pin from a Symbol that is in use!</source>
         <translation>Nem lehet lábat törölni olyan szimbólumból 
-amely használatban van a megnyitot projektben!</translation>
+amely használatban egy alkatrészben!</translation>
     </message>
     <message>
         <source>%1: Pins: %2 (%3)</source>
