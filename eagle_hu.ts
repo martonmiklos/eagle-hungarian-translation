@@ -2029,7 +2029,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Display right frame border</source>
-        <translation>Kijelző jobb oldali keret</translation>
+        <translation>Keret jobb oldala látszódjon</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -2189,7 +2189,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Display top frame border</source>
-        <translation>Kijelző felső keret</translation>
+        <translation>Keret felső határa látszódjon</translation>
     </message>
     <message>
         <source>Save a&amp;ll</source>
@@ -2448,7 +2448,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Kijelző</translation>
+        <translation>Látható</translation>
     </message>
     <message>
         <source>The attribute &apos;%1&apos; is defined constant.
@@ -9470,8 +9470,10 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
     </message>
     <message>
         <source>Can&apos;t delete Pin from a Symbol that is in use!</source>
-        <translation>Nem lehet lábat törölni olyan szimbólumból 
-amely használatban egy alkatrészben!</translation>
+        <translation>Nem lehet lábat törölni a szimbólumból 
+mert egy alkatrészben hozzá van rendelve egy padhez!
+Csatlakoztasd szét őket az alkatrészben előtte!
+</translation>
     </message>
     <message>
         <source>%1: Pins: %2 (%3)</source>
