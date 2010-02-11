@@ -2193,7 +2193,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Save a&amp;ll</source>
-        <translation>M&amp;indent ment</translation>
+        <translation>&amp;Összes mentése</translation>
     </message>
     <message>
         <source>Save file</source>
@@ -2531,7 +2531,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Merge net segment &apos;%2&apos; into %3 &apos;%1&apos;?</source>
-        <translation>Egyesíted a %2 és %3 vezetékdarabot %1-re?</translation>
+        <translation>Egyesíted a %2 és %3 vezetékszegmenst %1-re?</translation>
     </message>
     <message>
         <source>supply net</source>
@@ -3792,7 +3792,7 @@ to
     </message>
     <message>
         <source>Save a&amp;ll</source>
-        <translation>M&amp;indent ment</translation>
+        <translation>&amp;Összes mentése</translation>
     </message>
     <message>
         <source>&lt;b&gt;Under development&lt;/b&gt;&lt;h1&gt;&lt;font color=red&gt;NOT FOR&lt;br&gt;PRODUCTION USE!&lt;/font&gt;&lt;/h1&gt;&lt;hr&gt;</source>
@@ -7754,7 +7754,7 @@ azokat nem-ortogonális szögekkel lettek lekérve.
     </message>
     <message>
         <source>Net segment &apos;%1&apos; renamed by supply pin &apos;%2&apos;</source>
-        <translation>A %1 vezetékdarab át lett nevezve a %2 tápláb által</translation>
+        <translation>A %1 vezetékszegmens át lett nevezve a %2 tápláb által</translation>
     </message>
     <message>
         <source>Nets: %1 (%2)</source>
