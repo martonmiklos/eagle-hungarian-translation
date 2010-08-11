@@ -1956,7 +1956,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_frame.c</name>
     <message>
         <source>Left-click to draw frame</source>
-        <translation>Kattints bal gombbal akeret rajzolásához</translation>
+        <translation>Kattints bal gombbal a keret rajzolásához</translation>
     </message>
     <message>
         <source>The Frame command can only be used in a board, schematic, package or symbol!</source>
@@ -3854,7 +3854,7 @@ történő használatához</translation>
     </message>
     <message>
         <source>&lt;li&gt;Some of the Clearance parameters for different signals are zero</source>
-        <translation>&lt;li&gt;Néhány különbüöző vezetékek közti távolságtartás paraméter nulla</translation>
+        <translation>&lt;li&gt;Néhány különböző vezetékek közti távolságtartás paraméter nulla</translation>
     </message>
     <message>
         <source>Parse error in design rules file
@@ -3940,7 +3940,7 @@ design rules under a new name.
     </message>
     <message>
         <source>&lt;li&gt;Some of the Clearance parameters for same signals are larger than those for different signals</source>
-        <translation>&lt;li&gt;Néhány távolságtartási paraméter az azonos szignálokra nagyobb mint a különbőzőekhez beállított</translation>
+        <translation>&lt;li&gt;Néhány távolságtartási paraméter az azonos vezetékekre nagyobb mint a különbözőekhez beállított</translation>
     </message>
 </context>
 <context>
@@ -4188,7 +4188,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Different connections on %1%2 pin %3 and pad %4 (%5 / %6)</source>
-        <translation>Különböző csatlakozások a %3 %1%2 lábánál ls a %4 (%5 / %6) padje között</translation>
+        <translation>Különböző csatlakozások a %3 %1%2 lábánál és a %4 (%5 / %6) padje között</translation>
     </message>
     <message>
         <source>Part %1 has uninvoked gate %2 with unconnected input pin %3</source>
@@ -6586,7 +6586,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>&amp;Don&apos;t license now</source>
-        <translation>&amp;Nincs licenszed</translation>
+        <translation>&amp;Licenszelés elhalasztása</translation>
     </message>
     <message>
         <source>Welcome to the EAGLE Setup program.</source>
@@ -6630,7 +6630,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Setup is not complete.&lt;p&gt;</source>
-        <translation>Installálás nem komplett.&lt;p&gt;</translation>
+        <translation>A telepítés még nem teljes.&lt;p&gt;</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is write protected. To overwrite the file, click &quot;Yes&quot;, otherwise click &quot;No&quot;.&lt;p&gt;Note that clicking &quot;No&quot; may lead to an incomplete installation of EAGLE!</source>
@@ -6738,7 +6738,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>EAGLE Setup is now complete</source>
-        <translation>Installálás nem komplett</translation>
+        <translation>Az EAGLE telepítése befejeződött</translation>
     </message>
     <message>
         <source>Write Protected File</source>
@@ -6830,7 +6830,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Do you accept the terms of the preceding License Agreement? If you choose &quot;No&quot;, Setup will close. To install EAGLE, you must accept this agreement.</source>
-        <translation>Elfogadod a Licensz Megállapodást? Ha a &quot;Nem&quot; gombra katintassz a telepítő kilép. Az EAGLE telepítéséhez el kell fogadnod a megállapodást.</translation>
+        <translation> Az EAGLE telepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra katintassz a telepítő kilép.</translation>
     </message>
     <message>
         <source>Software License Agreement</source>
@@ -6842,15 +6842,15 @@ Felülírod?</translation>
     </message>
     <message>
         <source>If you have gotten a Freemium code from&lt;br&gt;%1, select &quot;Use Freemium code&quot;.</source>
-        <translation>Ha megkaptad a Freemium licenszkulcsodat, akkor válaszd a a &quot;Freemium kód megadása&quot; opciót.</translation>
+        <translation>Ha megkaptad a Freemium licenszkulcsodat innen:&lt;br&gt;%1, akkor válaszd a a &quot;Freemium kód megadása&quot; opciót.</translation>
     </message>
     <message>
         <source>&amp;Use license file</source>
-        <translation>&amp;Licnesz fájl kiválasztása</translation>
+        <translation>&amp;Licensz fájl kiválasztása</translation>
     </message>
     <message>
         <source>&amp;Use Freemium code</source>
-        <translation>Freemium kód megadása</translation>
+        <translation>&amp;Freemium kód használata</translation>
     </message>
 </context>
 <context>
@@ -7441,7 +7441,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Command texts</source>
-        <translation>Textmenü</translation>
+        <translation>Szöveges parancsok</translation>
     </message>
     <message>
         <source>Edit a symbol</source>
@@ -7662,7 +7662,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Boards</source>
-        <translation>Keret</translation>
+        <translation>Paneltervek</translation>
     </message>
     <message>
         <source>Portable Network Graphics Files</source>
@@ -7841,7 +7841,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>Open recent</source>
-        <translation>Utolsó megnyitása</translation>
+        <translation>Utoljára használt </translation>
     </message>
     <message>
         <source>Library - </source>
@@ -8500,7 +8500,7 @@ Zárd be az aktuális projektet mielőtt törlöd.</translation>
     </message>
     <message>
         <source>Command texts</source>
-        <translation>Text menü</translation>
+        <translation>Parancs eszköztár</translation>
     </message>
     <message>
         <source>&amp;Maximum backup level</source>
@@ -9101,7 +9101,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>&lt;br&gt;&lt;br&gt;Included by:</source>
-        <translation>&lt;br&gt;&lt;br&gt;Iclude-olva ez által:</translation>
+        <translation>&lt;br&gt;&lt;br&gt;Includolva ez által:</translation>
     </message>
     <message>
         <source>Less format specifiers than arguments</source>
