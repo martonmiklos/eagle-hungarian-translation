@@ -4638,7 +4638,7 @@ Please revert to a backup!</source>
 
 A rajzod súlyosan megsérült emiatt.
 Szedd elő a biztonsági mentéseket
-(a projekt mappájában lévő *.s#n illetve *.b#n fájlok a régebbi board és sémafájlok)!</translation>
+(a projekt mappájában lévő *.s#n illetve *.b#n fájlok a régebbi nyáktervvek és kapcsolásirajzok)!</translation>
     </message>
     <message>
         <source>&lt;p&gt;%2&lt;br&gt;&lt;br&gt;Ok to update with new version?</source>
@@ -5190,7 +5190,7 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
     <name>o_projec.c</name>
     <message>
         <source>No forward-/backannotation will be performed!</source>
-        <translation>A nyák és a séma szinkronban tartása nem megoldható!</translation>
+        <translation>A nyákterv és a kapcsolásirajz szinkronban tartása nem megoldható!</translation>
     </message>
     <message>
         <source>Board and schematic are not consistent!
@@ -5198,9 +5198,9 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
 No forward-/backannotation will be performed!
 
 Use the ERC command to get a detailed error report.</source>
-        <translation>A nyák és a séma inkonzisztens!
+        <translation>A nyákterv és a kapcsolásirajz inkonzisztens!
 
-Mindig együtt módoítsd a nyákot, és a sémát!
+Mindig együtt módoítsd a nyákot, és a kapcsolásirajzot!
 Használd az ERC parancsot, hogy megtudd mi ennek az oka.</translation>
     </message>
 </context>
@@ -5642,7 +5642,7 @@ Elmented a feladatot?</translation>
     </message>
     <message>
         <source>Load a Schematic File</source>
-        <translation>Sémafájl (*.sch) betöltése</translation>
+        <translation>Kapcsolásirajz (*.sch) betöltése</translation>
     </message>
     <message>
         <source>No device specified!</source>
@@ -5698,7 +5698,7 @@ Elmented a feladatot?</translation>
     </message>
     <message>
         <source>&amp;Schematic...</source>
-        <translation>&amp;Séma...</translation>
+        <translation>&amp;Kapcsolásirajz...</translation>
     </message>
     <message>
         <source>&amp;Show selected</source>
@@ -5823,7 +5823,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>%1 is not a schematic file!</source>
-        <translation>%1 nem sémafájl!</translation>
+        <translation>%1 nem kapcsolásirajz!</translation>
     </message>
     <message>
         <source>&amp;Device</source>
@@ -6088,7 +6088,7 @@ Elfogadod ezeket a nagyobb értékeket?</translation>
     </message>
     <message>
         <source>Page &amp;limit:</source>
-        <translation>Lapszám &amp;korlát:</translation>
+        <translation>Ennyi o&amp;ldalon kell elférnie:</translation>
     </message>
     <message>
         <source>&amp;From  </source>
@@ -6558,7 +6558,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Click &quot;Finish&quot; to end Setup.</source>
-        <translation>Kattints a Befejezésgombra a telepítés befejezéséhez.</translation>
+        <translation>Kattints a &quot;Befejezés&quot; gombra a telepítés befejezéséhez.</translation>
     </message>
     <message>
         <source>&amp;Uninstall</source>
@@ -6590,7 +6590,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Welcome to the EAGLE Setup program.</source>
-        <translation>Üdvözöllek az  EAGLE Setup-Programban.</translation>
+        <translation>Köszönti Önt az EAGLE telepítő.</translation>
     </message>
     <message>
         <source>Can&apos;t create link &apos;%1&apos;!</source>
@@ -6614,7 +6614,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Setup will install EAGLE in the following directory.</source>
-        <translation>A követekző mappában fog teleülni az EAGLE.</translation>
+        <translation>A követekező mappába fognak kerülni az EAGLE működéséhez szükséges fájlok.</translation>
     </message>
     <message>
         <source>&lt;p&gt;To continue installing EAGLE, click &quot;Resume&quot;. To quit the Setup program, click &quot;Exit Setup&quot;.</source>
@@ -6642,7 +6642,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Existing Files:</source>
-        <translation>Létező fájl:</translation>
+        <translation>Létező fájlok:</translation>
     </message>
     <message>
         <source>Otherwise you can run EAGLE as Freeware.</source>
@@ -6654,7 +6654,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>To install to this directory, click &quot;Next&quot;.</source>
-        <translation>Ebbe a mappába telepítéshez kattints a &quot;Tovább&quot; gombra.</translation>
+        <translation>Ha a mappa megfelelő akkor kattints a &quot;Tovább&quot; gombra.</translation>
     </message>
     <message>
         <source>Removing Files</source>
@@ -6702,11 +6702,11 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Setup has enough information to start copying the program files. If you want to review or change any settings, click &quot;Back&quot;. If you are satisfied with the settings, click &quot;Next&quot; to begin copying files.</source>
-        <translation>A telepítő már rendelkezik minden szükséges információval a telepítés megkezdéséhez. Ha meg akarod változtatni a beállításokat, akkor kattints a &quot;Vissza&quot; gombra. Ha biztosan mindent jól adtál meg akkor kattints a &quot;Tovább&quot; gombra a telepítés megkezdéséhez. </translation>
+        <translation>A telepítéshez szükséges összes beállítást megadtad. Ha meg akarod változtatni ezeket, akkor kattints a &quot;Vissza&quot; gombra. Ha biztosan mindent jól adtál meg akkor kattints a &quot;Tovább&quot; gombra a telepítés megkezdéséhez. </translation>
     </message>
     <message>
         <source>This program will install EAGLE on your computer.</source>
-        <translation>Ez a program telepíti az EAGLE-t a számítógépedre.</translation>
+        <translation>Ez a program vezet végig az EAGLE telepítési folyamatán.</translation>
     </message>
     <message>
         <source>Current Settings:</source>
@@ -6726,7 +6726,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Update Documentation</source>
-        <translation>Dokumentum frissítése</translation>
+        <translation>Dokumentáció frissítése</translation>
     </message>
     <message>
         <source>If you quit the Setup program now, the installation may be incomplete. You may run the Setup program at a later time to complete the installation.</source>
@@ -6734,7 +6734,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>&amp;Run as Freeware</source>
-        <translation>&amp;Futtatás Freewareként</translation>
+        <translation>&amp;Futtatás Freeware módban</translation>
     </message>
     <message>
         <source>EAGLE Setup is now complete</source>
@@ -6742,7 +6742,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Write Protected File</source>
-        <translation>Irásvédett fájli</translation>
+        <translation>Irásvédett fájl</translation>
     </message>
     <message>
         <source>An error has occurred while installing EAGLE.&lt;p&gt;Please fix the problem and run EAGLE Setup again.</source>
@@ -6750,7 +6750,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>You can choose not to install EAGLE by clicking &quot;Cancel&quot; to exit Setup.</source>
-        <translation>Telepítés megszakításához nyomja meg a &quot;Mégsem&quot; gombot .</translation>
+        <translation>Telepítés megszakításához nyomd meg a &quot;Mégsem&quot; gombot .</translation>
     </message>
     <message>
         <source>Can&apos;t determine start folder!</source>
@@ -6818,7 +6818,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>The directory &apos;%1&apos; contains existing files.&lt;p&gt;Click &quot;Yes&quot; to overwrite these files.&lt;br&gt;Click &quot;No&quot; to select a different destination directory.</source>
-        <translation>A &apos;%1&apos; mappa már fájlokat tartalmaz . &lt;p&gt;Kattints az &quot;Igen&quot; gombra a fájlok felülírásához.&lt;br&gt; Kattints a &quot;Nem&quot; gombra másik mappa kiválasztásához.</translation>
+        <translation>A &apos;%1&apos; mappa fájlokat tartalmaz . &lt;p&gt;Kattints az &quot;Igen&quot; gombra a fájlok felülírásához.&lt;br&gt; Kattints a &quot;Nem&quot; gombra másik mappa kiválasztásához.</translation>
     </message>
     <message>
         <source>Can&apos;t overwrite &apos;%1&apos;</source>
@@ -6830,7 +6830,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Do you accept the terms of the preceding License Agreement? If you choose &quot;No&quot;, Setup will close. To install EAGLE, you must accept this agreement.</source>
-        <translation> Az EAGLE telepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra katintassz a telepítő kilép.</translation>
+        <translation> Az EAGLE feltelepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
     </message>
     <message>
         <source>Software License Agreement</source>
@@ -8018,7 +8018,7 @@ A fájl már létezik</translation>
     </message>
     <message>
         <source>No schematic loaded!</source>
-        <translation>Nincs séma betöltve!</translation>
+        <translation>Nincs kapcsolási rajz betöltve!</translation>
     </message>
     <message>
         <source>Action toolbar</source>
@@ -8026,7 +8026,7 @@ A fájl már létezik</translation>
     </message>
     <message>
         <source>Unknown error while copying files</source>
-        <translation>Ismeretlen hiba a másolás közben</translation>
+        <translation>Ismeretlen hiba történt a fájlok másolása közben</translation>
     </message>
     <message>
         <source>Bubble help</source>
@@ -8039,8 +8039,8 @@ A fájl már létezik</translation>
     <message>
         <source>&lt;b&gt;Empty Project&lt;/b&gt;&lt;p&gt;
 Use the context menu to create new schematic or board files within this project.</source>
-        <translation>&lt;b&gt;Üres projekt&lt;/b&gt;&lt;p&gt;
-Kattints a projekten jobb gombbal, a kapcsolási rajz. vagy nyákterv létrehozásához.</translation>
+        <translation>&lt;b&gt;A projekt üres&lt;/b&gt;&lt;p&gt;
+Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásához.</translation>
     </message>
     <message>
         <source>Run in &amp;Library</source>
@@ -8048,7 +8048,7 @@ Kattints a projekten jobb gombbal, a kapcsolási rajz. vagy nyákterv létrehoz�
     </message>
     <message>
         <source>Mouse wheel zoom</source>
-        <translation>Egér görgő nagyítás</translation>
+        <translation>Zoomolás egér görgővel</translation>
     </message>
     <message>
         <source>&amp;Board</source>
@@ -8068,15 +8068,15 @@ Kattints a projekten jobb gombbal, a kapcsolási rajz. vagy nyákterv létrehoz�
     </message>
     <message>
         <source>No forward-/backannotation will be performed!</source>
-        <translation>A nyák és a séma szinkronban tartása nem megoldható!</translation>
+        <translation>A nyákterv és a kapcsolási rajz szinkronban tartása nem megoldható!</translation>
     </message>
     <message>
         <source>&amp;Library</source>
-        <translation>Alkatrész&amp;könyvtárak</translation>
+        <translation>Alkatrész&amp;könyvtár</translation>
     </message>
     <message>
         <source>Can&apos;t save project file!</source>
-        <translation>Nem menthető a projekt fájl!</translation>
+        <translation>Nem menthető a projektfájl!</translation>
     </message>
     <message>
         <source>User interface</source>
@@ -8555,7 +8555,7 @@ Zárd be az aktuális projektet mielőtt átnevezed.</translation>
         <source>Can&apos;t edit &apos;%1&apos;
 while command is running in schematic window!</source>
         <translation>Nem lehet %1-et szerkeszteni 
-amíg parancs fut a séma szerkesztőben!</translation>
+amíg parancs fut a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>&amp;Open Project</source>
@@ -9149,7 +9149,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Argument 1 in call to &apos;fileread()&apos; must be a string variable,&lt;br&gt;a string array variable or a character array variable</source>
-        <translation>A &apos;fileread()&apos; első argumentuma szövegnek,&lt;br&gt; szövegtömbnek vagy karaktertömbnek kell lennie</translation>
+        <translation>A &apos;fileread()&apos; első argumentumának szövegnek,&lt;br&gt; szövegtömbnek vagy karaktertömbnek kell lennie</translation>
     </message>
     <message>
         <source>Format specifier/argument type mismatch</source>
@@ -9406,7 +9406,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Argument 1 in call to &apos;fileglob()&apos; must be a string array</source>
-        <translation>Az első argumentumnak a &apos;fileglob()&apos; hívása során szövegtömbnek kell lennie</translation>
+        <translation>A &apos;fileglob()&apos; első argumentumának szövegtömbnek kell lennie</translation>
     </message>
     <message>
         <source>The ULP &apos;%1&apos; requests to execute the system command:</source>
@@ -9501,7 +9501,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Proper schematic is not available</source>
-        <translation>Nem elérhető megfelelő séma</translation>
+        <translation>Nem elérhető megfelelő kapcsolásirajz</translation>
     </message>
     <message>
         <source>Argument in call to &apos;%1()&apos; must be an object variable</source>
@@ -9617,7 +9617,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Current drawing is not a schematic</source>
-        <translation>Az adott rajz nem séma</translation>
+        <translation>Az adott rajz nem kapcsolásirajz</translation>
     </message>
     <message>
         <source>Can&apos;t locate invoked instance</source>
