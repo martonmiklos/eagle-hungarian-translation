@@ -5,7 +5,7 @@
     <name>aperture.c</name>
     <message>
         <source>Duplicate code in %1, line %2: %3</source>
-        <translation>Duplikált kód az %1. és a %2.. sorban: %3</translation>
+        <translation>Duplikált kód az %1. és a %2. sorban: %3</translation>
     </message>
     <message>
         <source>Error in %1, line %2: %3</source>
@@ -1621,7 +1621,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&lt;hr&gt;The &lt;b&gt;Grid&lt;/b&gt; check verifies that all pads, smds, vias and wires in signal layers are on the current grid.&lt;p&gt;The &lt;b&gt;Angle&lt;/b&gt; check reports signal wires that are not placed in multiples of 45&amp;deg;.</source>
-        <translation>&lt;hr&gt;A &lt;b&gt;rácsellenőrzés&lt;/b&gt; jelez, ha olyan padet, smd lenyomatot, átkötést vagy vezetékrétegen lévő vezetősávszegmenst talál ami nem egész rácsponton van.&lt;p&gt;A &lt;b&gt;szög&lt;/b&gt; ellenőrzés jelez, ha a n*45&amp;deg;-os vezeőtsáv szegmenst talál. (n € Z).</translation>
+        <translation>&lt;hr&gt;A &lt;b&gt;rácsellenőrzés&lt;/b&gt; jelez, ha olyan padet, smd lenyomatot, átkötést vagy vezetékrétegen lévő vezetősávszegmenst talál ami nem egész rácsponton van.&lt;p&gt;A &lt;b&gt;szög&lt;/b&gt; ellenőrzés jelez, ha olyan vezetősávot talál amely szöge nem  n*45&amp;deg;. (n € Z).</translation>
     </message>
     <message>
         <source>&lt;hr&gt;Layers are combined through either &lt;i&gt;core&lt;/i&gt; or &lt;i&gt;prepreg&lt;/i&gt; material. &lt;b&gt;a*b&lt;/b&gt; combines layers &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt; with a &lt;i&gt;core&lt;/i&gt;, while &lt;b&gt;a+b&lt;/b&gt; does the same with &lt;i&gt;prepreg&lt;/i&gt;.&lt;br&gt;&lt;b&gt;Buried&lt;/b&gt; and &lt;b&gt;through&lt;/b&gt; vias are defined by writing &lt;tt&gt;&lt;b&gt;(...)&lt;/b&gt;&lt;/tt&gt;.&lt;br&gt;&lt;b&gt;Blind&lt;/b&gt; vias are defined by writing &lt;tt&gt;&lt;b&gt;[t:...:b]&lt;/b&gt;&lt;/tt&gt;, which defines a blind via from top to layer &lt;i&gt;t&lt;/i&gt; and from bottom to layer &lt;i&gt;b&lt;/i&gt;.&lt;br&gt;&lt;b&gt;Example:&lt;/b&gt; &lt;tt&gt;[2:1+((2*3)+(4*16))]&lt;/tt&gt; is a multilayer setup with two cores, combining layers 2/3 and 4/16, respectively, with buried vias going through both cores. The cores are combined through a prepreg and buried vias are produced through the resulting stack. Finally layer 1 is added, with blind vias going from layer 1 to 2.</source>
@@ -2305,7 +2305,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_move.c</name>
     <message>
         <source> (Ctrl+right-click to move group)</source>
-        <translation>  (Ctrl + jobb egérgombbal tudsz mozgatnii kijelölést)</translation>
+        <translation> (Ctrl + jobb egérgombbal lehet a kijelölést mozgatni)</translation>
     </message>
     <message>
         <source>Left-click to select object to move</source>
@@ -5835,7 +5835,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>Optimi&amp;ze</source>
-        <translation>&amp;Optimalizál</translation>
+        <translation>&amp;Optimalizálás</translation>
     </message>
     <message>
         <source>&amp;Job...</source>
@@ -6239,7 +6239,7 @@ Vedd fel a kapcsolatot a Cadsoft képviselőjével.</translation>
     </message>
     <message>
         <source>EAGLE License</source>
-        <translation>EAGLE licensz</translation>
+        <translation>Az EAGLE licenszelése</translation>
     </message>
     <message>
         <source>Error while licensing EAGLE.
@@ -6359,19 +6359,19 @@ Vedd fel a kapcsolatot a Cadsofttal!</translation>
     </message>
     <message>
         <source>EAGLE needs to install a license file on your computer in order to work.&lt;br&gt;&lt;br&gt;</source>
-        <translation>A használathoz licenszelned kell az EAGLE-t&lt;br&gt;&lt;br&gt;</translation>
+        <translation>A program használatához licenszelned kell az EAGLE-t&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Select &lt;b&gt;Use license file&lt;/b&gt; if you have a personalized EAGLE license file.&lt;br&gt;</source>
-        <translation>Válaszd ki a licenszedet ha van egyéni licensz fájlod.</translation>
+        <translation>Válaszd ki a licenszedet ha már licensz fájlod.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Select &lt;b&gt;Run as Freeware&lt;/b&gt; to run EAGLE as Freeware.&lt;br&gt;</source>
-        <translation>Válaszd a &lt;b&gt;Futtatás Freeware módban&lt;/b&gt; ha Freeeware módban szeretnéd futtatni az EAGLE-t&lt;br&gt;</translation>
+        <translation>Válaszd a &lt;b&gt;Futtatás Freeware módban&lt;/b&gt; opciót ha Freeeware módban szeretnéd futtatni az EAGLE-t.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Select &lt;b&gt;Freemium&lt;/b&gt; if you have an EAGLE Freemium code from&lt;br&gt;%1.</source>
-        <translation>Válaszd a &lt;b&gt;Freemium módot&lt;/b&gt; ha van Freemium licenszkódod innen&lt;br&gt;%1.</translation>
+        <translation>Válaszd a &lt;b&gt;Freemium módot&lt;/b&gt; ha már szereztél Freemium licenszkódot innen:&lt;br&gt;%1.</translation>
     </message>
     <message>
         <source>Use license file</source>
@@ -7057,7 +7057,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Edit Package</source>
-        <translation>Csomag szerkesztése</translation>
+        <translation>Lenyomat szerkesztése</translation>
     </message>
     <message>
         <source>CAM Processor</source>
@@ -8100,7 +8100,7 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     </message>
     <message>
         <source>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;asily &lt;b&gt;A&lt;/b&gt;pplicable &lt;b&gt;G&lt;/b&gt;raphical &lt;b&gt;L&lt;/b&gt;ayout &lt;b&gt;E&lt;/b&gt;ditor&lt;br&gt;&lt;br&gt;Version %1 for %2&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;gyszerűen &lt;b&gt;A&lt;/b&gt;lkalmazható &lt;b&gt;G&lt;/b&gt;rafikus &lt;b&gt;N&lt;/b&gt;yák &lt;b&gt;T&lt;/b&gt;ervező&lt;br&gt;&lt;br&gt;%1-es verzió Op.rendszer: %2&lt;br&gt;&lt;br&gt;</translation>
+        <translation>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;gyszerűen &lt;b&gt;A&lt;/b&gt;lkalmazható &lt;b&gt;G&lt;/b&gt;rafikus &lt;b&gt;N&lt;/b&gt;yák &lt;b&gt;T&lt;/b&gt;ervező&lt;br&gt;&lt;br&gt;%1-es verzió operációs rendszer: %2&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Target must be a directory</source>
