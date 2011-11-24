@@ -1645,7 +1645,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&lt;hr&gt;&lt;b&gt;Minimum Sizes&lt;/b&gt; of objects in signal layers and of drill holes.&lt;p&gt;&lt;b&gt;Minimum Width&lt;/b&gt; and &lt;b&gt;Minimum Drill&lt;/b&gt; may be overwritten by larger values in the &lt;i&gt;Net classes&lt;/i&gt; for specific signals.&lt;p&gt;&lt;b&gt;Min. Micro Via&lt;/b&gt; applies to &lt;i&gt;blind&lt;/i&gt; vias that are exactly one layer deep. Typical values are in the range 50..100 micron. A value larger than &lt;b&gt;Minimum Drill&lt;/b&gt; (e.g. the default value of 9.99mm) means there are no micro vias.&lt;p&gt;&lt;b&gt;Min. Blind Via Ratio&lt;/b&gt; defines the minimum drill diameter &lt;i&gt;d&lt;/i&gt; a blind via must have if it goes through a layer of thickness &lt;i&gt;t&lt;/i&gt;. Board manufacturers usually give this &quot;aspect ratio&quot; in the form &lt;b&gt;&lt;tt&gt;1:0.5&lt;/tt&gt;&lt;/b&gt;, where &lt;tt&gt;0.5&lt;/tt&gt; would be the value that has to be entered here.</source>
-        <translation>Az jelrétegen lévő objektumok, és furatok &lt;hr&gt;&lt;b&gt;minimális méretei&lt;/b&gt;&lt;br&gt; .&lt;p&gt; A&lt;b&gt;minimális szélességeket&lt;/b&gt; és a &lt;b&gt;minimális furatátmérőket&lt;/b&gt; felülbírálhatják a &lt;i&gt;vezeték osztályban&lt;i&gt; beállított nagyobb értékek.&lt;p&gt;&lt;b&gt;Min. mikro átkötés&lt;/b&gt; azokra a  &lt;i&gt;vak&lt;/i&gt;-átkötésekre vonatkozik amelyek pontosan egy réteg mélységűek.. Általános értéke 50..100 mikron. Ha a &lt;b&gt;minimális furatnál&lt;/b&gt; nagyobb értéket adunk meg (pld. az alap méretet ami 9.99 mm) az azt jelenti, hogy nincsenek mikro átkötéseink.&lt;p&gt;A &lt;b&gt;Min. vakfurat arány&lt;/b&gt;megadja azt,  a vakfurat minimális átmérőjét &lt;i&gt;d&lt;i&gt; az átkötött réteg vastagságának &lt;i&gt;t&lt;i&gt;  megfelelően. A nyákgyártó cégek ezt általában &quot;aspect arány&quot; néven adják meg ami általában &lt;b&gt;&lt;tt&gt;1:0.5&lt;/tt&gt;&lt;/b&gt; és  &lt;tt&gt;0.5&lt;/tt&gt; közé szokott esni.</translation>
+        <translation>A jelrétegen lévő objektumok, és furatok &lt;hr&gt;&lt;b&gt;minimális méretei&lt;/b&gt;&lt;br&gt; .&lt;p&gt; A &lt;b&gt;minimális szélességeket&lt;/b&gt; és a &lt;b&gt;minimális furatátmérőket&lt;/b&gt; felülbírálhatják a &lt;i&gt;vezeték osztályban&lt;i&gt; beállított nagyobb értékek.&lt;p&gt;&lt;b&gt;Min. mikro átkötés&lt;/b&gt; azokra a  &lt;i&gt;vak&lt;/i&gt;-átkötésekre vonatkozik amelyek pontosan egy réteg mélységűek.. Általános értéke 50..100 mikron. Ha a &lt;b&gt;minimális furatnál&lt;/b&gt; nagyobb értéket adunk meg (pld. az alap méretet ami 9.99 mm) az azt jelenti, hogy nincsenek mikro átkötéseink.&lt;p&gt;A &lt;b&gt;Min. vakfurat arány&lt;/b&gt;megadja azt,  a vakfurat minimális átmérőjét &lt;i&gt;d&lt;i&gt; az átkötött réteg vastagságának &lt;i&gt;t&lt;i&gt;  megfelelően. A nyákgyártó cégek ezt általában &quot;aspect arány&quot; néven adják meg ami általában &lt;b&gt;&lt;tt&gt;1:0.5&lt;/tt&gt;&lt;/b&gt; és  &lt;tt&gt;0.5&lt;/tt&gt; közé szokott esni.</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -5952,7 +5952,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>Top  </source>
-        <translation>Fent</translation>
+        <translation>Felső  </translation>
     </message>
     <message>
         <source>S&amp;cale factor:</source>
@@ -6052,7 +6052,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>  Bottom  </source>
-        <translation>  lent  </translation>
+        <translation>  Alsó  </translation>
     </message>
     <message>
         <source>canceled</source>
@@ -8298,7 +8298,7 @@ ezzel: %2 ?</translation>
 Create from %2?</source>
         <translation>A %1 nyákterv nem létezik
 
-létrehozzuk ez alapján: %2?</translation>
+Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>Can&apos;t create new folder
