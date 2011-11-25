@@ -6806,7 +6806,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation>Üdvözöljük</translation>
+        <translation>Üdvözöllek</translation>
     </message>
     <message>
         <source>Click &quot;Next&quot; to continue with the Setup program.</source>
@@ -6830,11 +6830,11 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Do you accept the terms of the preceding License Agreement? If you choose &quot;No&quot;, Setup will close. To install EAGLE, you must accept this agreement.</source>
-        <translation> Az EAGLE feltelepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
+        <translation>Az EAGLE feltelepítéséhez el kell fogadnod a licenszet.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
     </message>
     <message>
         <source>Software License Agreement</source>
-        <translation>Szoftver Licensz Megállapodás</translation>
+        <translation>Végfelhasználói Licensszerződés</translation>
     </message>
     <message>
         <source>If you have received a license file, please select &quot;Use license file&quot; below.</source>
@@ -7938,7 +7938,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&amp;Use</source>
-        <translation>&amp;Haszál</translation>
+        <translation>&amp;Használatba vesz</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -9886,7 +9886,7 @@ nem tehetjük meg automatikusan:
     </message>
     <message>
         <source>Inconsistent pin/pad connections in file %1!</source>
-        <translation>Érvényteln láb-pad kapcsolatot találtam a %1 fájlban!</translation>
+        <translation>Érvénytelen láb-pad kapcsolatot találtam a %1 fájlban!</translation>
     </message>
 </context>
 </TS>
