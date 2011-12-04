@@ -4546,7 +4546,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     <name>drill.c</name>
     <message>
         <source>Error in %1, line %2: %3</source>
-        <translation>Hiba az %1. és a %2.. sorban:  %3</translation>
+        <translation>Hiba itt: %1 (%2. sor %3)</translation>
     </message>
 </context>
 <context>
@@ -5199,11 +5199,11 @@ Az eszközkészlet régi verzióján egy könyvtárfrissítés javasolt.
     <name>netstuff.c</name>
     <message>
         <source>net</source>
-        <translation>Összeköttetés (net)</translation>
+        <translation>Összekötés (net)</translation>
     </message>
     <message>
         <source>Net: </source>
-        <translation>Összeköttetés (net):</translation>
+        <translation>Összekötés (net):</translation>
     </message>
     <message>
         <source>Cannot connect bus segments &apos;%1&apos; and &apos;%2&apos;</source>
