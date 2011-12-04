@@ -1570,7 +1570,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Layer &apos;%1 %2&apos; can&apos;t be a supply layer because it contains signal wires!</source>
-        <translation>%1.%2 réteg nem lehet tápréteg, mivel már tartalmaz más összeköttetéseket is!</translation>
+        <translation>%1.%2 réteg nem lehet tápréteg, mivel már tartalmaz msá vezetékeket is!</translation>
     </message>
     <message>
         <source>A&amp;ll</source>
@@ -4110,7 +4110,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     <name>drill.c</name>
     <message>
         <source>Error in %1, line %2: %3</source>
-        <translation>Hiba az %1. és a %2.. sorban:  %3</translation>
+        <translation>Hiba itt: %1 (%2. sor %3)</translation>
     </message>
 </context>
 <context>
@@ -4735,11 +4735,11 @@ A méretkorláton kívül nem lehet mást csinálni az alkatrészekkel csak elmo
     <name>netstuff.c</name>
     <message>
         <source>net</source>
-        <translation>Összeköttetés (net)</translation>
+        <translation>Összekötés (net)</translation>
     </message>
     <message>
         <source>Net: </source>
-        <translation>Összeköttetés (net):</translation>
+        <translation>Összekötés (net):</translation>
     </message>
     <message>
         <source>Cannot connect bus segments &apos;%1&apos; and &apos;%2&apos;</source>
@@ -4867,7 +4867,7 @@ tudom hozzárendelni egyetlen padhez sem a %4 csomag új verziójában.</transla
     </message>
     <message>
         <source>Signal &apos;%1&apos; contains an invalid polygon.</source>
-        <translation>A %1 összeköttetés van tartalmaz egy érvénytelen sokszöget.</translation>
+        <translation>A %1 összeköttetés tartalmaz egy érvénytelen sokszöget.</translation>
     </message>
     <message>
         <source>Element &apos;%1&apos; had to be shifted in order to remain within the allowed board area.
