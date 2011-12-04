@@ -3482,7 +3482,7 @@ csak a sémában és a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Please specify a valid drill size!</source>
-        <translation>Kérlek adj megy egy érvényes furatméteret!</translation>
+        <translation>Kérlek adj meg egy érvényes furatméteret!</translation>
     </message>
     <message>
         <source>Invalid display mode: %1</source>
@@ -4372,7 +4372,7 @@ design rules under a new name.
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
     <message>
         <source>&lt;li&gt;Some of the Clearance parameters for same signals are larger than those for different signals</source>
@@ -4847,7 +4847,7 @@ Retry?</source>
         <source>Can&apos;t open &apos;%1&apos;
 
 %2</source>
-        <translation>%1 nem megynithaó
+        <translation>&apos;%1&apos; nem nyitható meg
 
 %2</translation>
     </message>
@@ -4873,7 +4873,7 @@ Retry?</source>
     </message>
     <message>
         <source>Can&apos;t open &apos;%1&apos;</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>&apos;%1&apos; nem nyitható meg</translation>
     </message>
     <message>
         <source>Out of memory!</source>
@@ -5833,7 +5833,7 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
     <message>
         <source>Can&apos;t open &apos;%1&apos;
 </source>
-        <translation>%1 nem megynyitható
+        <translation>&apos;%1&apos; nem nyitható meg
 </translation>
     </message>
     <message>
@@ -10022,7 +10022,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Can&apos;t open &apos;%1&apos;</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>&apos;%1&apos; nem nyitható meg</translation>
     </message>
     <message>
         <source>Argument 2 in call to &apos;sort()&apos; cannot be a constant</source>
@@ -10373,7 +10373,8 @@ Elmentsük?</translation>
     <message>
         <source>Update from version %1
 </source>
-        <translation>Frissítessz a  %1 verzióról</translation>
+        <translation>Frissítés a %1 verzióról
+</translation>
     </message>
     <message>
         <source>&lt;language en&gt;
@@ -10398,7 +10399,7 @@ a %2 sorban</translation>
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
     <message>
         <source>Library &apos;%1&apos;, device set &apos;%2&apos;:</source>
