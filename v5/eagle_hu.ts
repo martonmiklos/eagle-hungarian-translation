@@ -1775,7 +1775,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source> - board and schematic are consistent</source>
-        <translation> - A panel és kapcsolási rajz nem konzisztens</translation>
+        <translation> - a nyákterv és kapcsolási rajz konzisztens</translation>
     </message>
     <message>
         <source>Checking invisibly connected pins...</source>
@@ -1894,7 +1894,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Board and schematic are consistent</source>
-        <translation>Kapcsolási rajz és a nyákterv közti eltérések</translation>
+        <translation>Kapcsolásirajz és a nyákterv konzisztens</translation>
     </message>
     <message>
         <source>Dis&amp;approve</source>
@@ -3656,7 +3656,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
     <message>
         <source>renamed %1 libraries</source>
@@ -3679,7 +3679,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
 </context>
 <context>
@@ -6511,7 +6511,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Invalid via layers: &apos;%1&apos;</source>
-        <translation>Érvénytelen Via-réteg: &apos;%1&apos;</translation>
+        <translation>Érvénytelen átkötésréteg: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Invalid %1: &apos;%2&apos;</source>
@@ -6554,7 +6554,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Finished</source>
-        <translation>Ekészült</translation>
+        <translation>Elkészült</translation>
     </message>
     <message>
         <source>Click &quot;Finish&quot; to end Setup.</source>
@@ -9830,7 +9830,7 @@ régi_név@sorszám.</translation>
     </message>
     <message>
         <source>Can&apos;t open &apos;%1&apos;</source>
-        <translation>%1 nem megynithaó</translation>
+        <translation>%1 nem megnyitható</translation>
     </message>
     <message>
         <source>&lt;html&gt;The restring parameters for %1 have not been changed.&lt;p&gt;&lt;b&gt;PLEASE MAKE SURE YOU CHECK THE RESTRING PARAMETERS IN THE DESIGN RULES OF THIS BOARD!&lt;/b&gt;&lt;/html&gt;</source>

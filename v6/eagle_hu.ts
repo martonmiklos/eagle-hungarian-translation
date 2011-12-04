@@ -622,6 +622,10 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
         <source>The %1 command can only be used in the default assembly variant!</source>
         <translation>A %1 parancs csak az alap beültetési verzióban használható</translation>
     </message>
+    <message>
+        <source>Some objects extend outside the allowed board area.</source>
+        <translation>Néhány objektum túlnyúlik a megengedett területen.</translation>
+    </message>
 </context>
 <context>
     <name>consist.c</name>
@@ -699,6 +703,10 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
         <source>Package not found: </source>
         <translation>Lenyomat nem található:</translation>
     </message>
+    <message>
+        <source>You can&apos;t add parts to this sheet.</source>
+        <translation>Ezt az alkatrészt nem lehet ehhez a laphoz hozzáadni.</translation>
+    </message>
 </context>
 <context>
     <name>d_arc.c</name>
@@ -720,7 +728,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>The Arc command can&apos;t be used in a device set!</source>
-        <translation type="unfinished">Az ARC parancs nem használható a </translation>
+        <translation>A Arc parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -1105,6 +1113,10 @@ Felülírjuk?</translation>
         <source>Job created: %1</source>
         <translation>Feladat létrehozva: %1</translation>
     </message>
+    <message>
+        <source>Some objects extend outside the allowed board area.</source>
+        <translation>Néhány objektum túlnyúlik a megengedett területen.</translation>
+    </message>
 </context>
 <context>
     <name>d_board.c</name>
@@ -1274,7 +1286,11 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translatio
     </message>
     <message>
         <source>&lt;nobr&gt;The &apos;CHANGE %1&apos; command can only work with groups&lt;br&gt;if a package variant is given in quotes, as in&lt;br&gt;&lt;br&gt;&lt;tt&gt;CHANGE %2 &apos;FK&apos;&lt;/tt&gt;&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;A CHANGE %1 parancs csak kijelölésen hajtható végre,&lt;br&gt; ha a csomagvariáns neve idézőjelek közt van.&lt;br&gt;&lt;br&gt;&lt;tt&gt;Pld.:  CHANGE %2 &apos;FK&apos;&lt;/tt&gt;&lt;nobr&gt;</translation>
+    </message>
+    <message>
+        <source>You can&apos;t change an object into layer %1.</source>
+        <translation>Nem lehet az objektumot a %1 rétegre áttenni</translation>
     </message>
 </context>
 <context>
@@ -1289,7 +1305,7 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translatio
     </message>
     <message>
         <source>The Circle command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Circle parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -1371,11 +1387,11 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     </message>
     <message>
         <source>Net class %1 must have a name that is not a number!</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 vezetékosztálynak nem lehet szám a neve!</translation>
     </message>
     <message>
         <source>Missing net class number!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiányzó vezetékosztály szám!</translation>
     </message>
 </context>
 <context>
@@ -1520,19 +1536,19 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     <name>d_dimension.c</name>
     <message>
         <source>The Dimension command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Dimension parancs nem használható az eszközkészletben+</translation>
     </message>
     <message>
         <source>Left-click to start dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal a méretvonal rajzolásához</translation>
     </message>
     <message>
         <source>Left-click to draw dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal a méretvonal rajzolásához</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
-        <translation type="unfinished">Érvénytelen opció: %1</translation>
+        <translation>Érvénytelen opció: %1</translation>
     </message>
 </context>
 <context>
@@ -1750,23 +1766,27 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>&lt;hr&gt;&lt;b&gt;Minimum Clearance&lt;/b&gt; between objects in signal layers.&lt;p&gt;The &lt;b&gt;Same Signals&lt;/b&gt; check between &lt;i&gt;Smd&lt;/i&gt; and &lt;i&gt;Via&lt;/i&gt; does not apply to &lt;i&gt;Micro Vias&lt;/i&gt;.&lt;p&gt;The &lt;b&gt;Same Signals&lt;/b&gt; check does not apply if an &lt;i&gt;Smd&lt;/i&gt; and &lt;i&gt;Smd/Pad&lt;/i&gt; are in the same package.&lt;p&gt;Setting the values for the &lt;b&gt;Same Signals&lt;/b&gt; checks to 0 disables the respective check.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;
+&lt;b&gt;Minimális távolság&lt;/b&gt; jelrétegeken lévő objektumok közt.
+&lt;p&gt;Az &lt;b&gt;Azonos vezetékeknél&lt;/b&gt; megadott értéket figyelembe veszem az&lt;i&gt;SMD padeknél&lt;/i&gt; és az &lt;i&gt;átkötéseknél&lt;/i&gt; is, viszont a &lt;i&gt;zsákfuratoknál&lt;/i&gt; nem. Továbbá ez az ellenőrzés azonos alketrészhez tartozó SMD padek közt sme fut le. Amennyiben az ellenőrzést ki akarod hagyni állítsd az értékét 0-ra.</translation>
     </message>
     <message>
         <source>&lt;hr&gt;The &lt;b&gt;Thermal isolation&lt;/b&gt; parameter is used when subtracting pad shapes from signal polygons.&lt;p&gt;If &lt;b&gt;Generate thermals for vias&lt;/b&gt; is checked, vias will be connected to signal polygons via thermals.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;A &lt;b&gt;Termikus izoláció&lt;/b&gt; az a távolság ami az azonos vezetékhez tartozó padek és a teliföldek közt lesz kihagyva. &lt;p&gt;Ha a &lt;b&gt;termálok generálása átkötésekhez&lt;/b&gt; engedélyezve van, ugyanez a paraméter lesz érvényes az azonos vezetékhez tartozó átkötések és teliföldek között.</translation>
     </message>
     <message>
         <source>Max. length difference in differential pairs</source>
-        <translation type="unfinished"></translation>
+        <translation>Differenciális érpárok maximális hosszkülönbsége</translation>
     </message>
     <message>
         <source>Gap factor for meanders in differential pairs</source>
-        <translation type="unfinished"></translation>
+        <translation>Differenciális érpárok meandereinek rés fakora</translation>
     </message>
     <message>
         <source>&lt;hr&gt;The &lt;b&gt;Grid&lt;/b&gt; check verifies that all pads, smds, vias and wires in signal layers are on the current grid.&lt;p&gt;The &lt;b&gt;Angle&lt;/b&gt; check reports signal wires that are not placed in multiples of 45&amp;deg;.&lt;p&gt;The &lt;b&gt;Gap factor&lt;/b&gt; is multiplied with the clearance used in the differential pair and determines the distance between the loops of the meander.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;A &lt;b&gt;rácsellenőrzés&lt;/b&gt; minden padet, átkötést, vezetékszegmenst ellenőríz, hogy illeszkedik-e a beállított rácspontokra. 
+&lt;p&gt;A &lt;b&gt;szögellenőrzése&lt;/b&gt; minden olyan vezetékszakaszra dob egy figyelmeztetést, amely nem 45 fok egész számú többszörösét zárja be a vízszintessel.
+&lt;p&gt;A &lt;b&gt;résfaktor&lt;/b&gt; meg lesz szorozva a differenciális érpárak számára beállított távtartási értékkel, meghatározza a hurkok közti távolságot.</translation>
     </message>
 </context>
 <context>
@@ -1790,6 +1810,10 @@ elérhető ebben a %2 verzióban!</translation>
     <message>
         <source>Don&apos;t know what to edit!</source>
         <translation>Nem tudom mit kell szerkeszteni!</translation>
+    </message>
+    <message>
+        <source>You can&apos;t edit the given sheet.</source>
+        <translation>A megadott lap nem szerkeszthető.</translation>
     </message>
 </context>
 <context>
@@ -1824,7 +1848,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source> - board and schematic are consistent</source>
-        <translation> - A panel és kapcsolási rajz nem konzisztens</translation>
+        <translation> -a panel és kapcsolási rajz konzisztens</translation>
     </message>
     <message>
         <source>Checking invisibly connected pins...</source>
@@ -1943,7 +1967,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Board and schematic are consistent</source>
-        <translation>Kapcsolási rajz és a nyákterv közti eltérések</translation>
+        <translation>Kapcsolásirajz és a nyákterv konzisztens</translation>
     </message>
     <message>
         <source>Dis&amp;approve</source>
@@ -1979,23 +2003,23 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>&amp;Approve all</source>
-        <translation type="unfinished"></translation>
+        <translation>Összeset &amp;elfogad</translation>
     </message>
     <message>
         <source>Dis&amp;approve all</source>
-        <translation type="unfinished"></translation>
+        <translation>Mindet &amp;megtagad</translation>
     </message>
     <message>
         <source>Do you really want to approve all errors?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan jóvá kívánod hagyni az összes hibát?</translation>
     </message>
     <message>
         <source>Do you really want to approve all warnings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan jóvá kívánod hagyni az összes figyelmeztetést?</translation>
     </message>
     <message>
         <source>Do you really want to disapprove all errors/warnings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan vissza kívánod  vonni az összes figyelmeztetést/hiba jóváhagyását?</translation>
     </message>
 </context>
 <context>
@@ -2037,7 +2061,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Frame command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Frame parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -2068,7 +2092,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Can&apos;t swap gate %1%2 and %3%4</source>
-        <translation type="unfinished">Nem lehet a %1 kaput  kicserélni erre: %3%4  {1%2 ?}</translation>
+        <translation>A %1 %2 kapu nem cserélhető erre:%3%4</translation>
     </message>
 </context>
 <context>
@@ -2305,6 +2329,10 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
         <source>Invalid layer number: %1</source>
         <translation>Érvénytelen rétegszám: %1</translation>
     </message>
+    <message>
+        <source>You can&apos;t create layer %1.</source>
+        <translation>A %1 réteget nem hozhatod létre.</translation>
+    </message>
 </context>
 <context>
     <name>d_lock.c</name>
@@ -2348,19 +2376,19 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_meander.c</name>
     <message>
         <source>The Meander command can only be used in a board!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Meander parancs csak a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Left-click to select wire to meander</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints a meanderrel ellátni kívánt vezetékre</translation>
     </message>
     <message>
         <source>Left-click to place meander</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints a meander alkalmazásához</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
-        <translation type="unfinished">Érvénytelen opció: %1</translation>
+        <translation>Érvénytelen opció: %1</translation>
     </message>
 </context>
 <context>
@@ -2378,7 +2406,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Miter command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Miter parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -2398,6 +2426,10 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <message>
         <source>Left-click to place object</source>
         <translation>Kattints bal gombbal az objektum letételéhez</translation>
+    </message>
+    <message>
+        <source>You can&apos;t edit the given sheet.</source>
+        <translation>A megadott lap nem szerkeszthető.</translation>
     </message>
 </context>
 <context>
@@ -2627,57 +2659,59 @@ Valóban ilyen nagy ráccsal szeretnéd elkészíteni a könyvtárat?</translati
     </message>
     <message>
         <source>New name:</source>
-        <translation type="unfinished">Új név:</translation>
+        <translation>Új név:</translation>
     </message>
     <message>
         <source>net name</source>
-        <translation type="unfinished">vezetéknév</translation>
+        <translation>vezetéknév</translation>
     </message>
     <message>
         <source>Net name &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; vezetéknév már létezik!</translation>
     </message>
     <message>
         <source>Net names:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vezetéknevek:</translation>
     </message>
     <message>
         <source>Old name</source>
-        <translation type="unfinished"></translation>
+        <translation>Régi név</translation>
     </message>
     <message>
         <source>New name</source>
-        <translation type="unfinished"></translation>
+        <translation>Új név</translation>
     </message>
     <message>
         <source>Net will connect to drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>A vezeték egy vezetősávhoz lesz rendelve</translation>
     </message>
     <message>
         <source>Net has a label</source>
-        <translation type="unfinished"></translation>
+        <translation>A vezetéknek van címkéje</translation>
     </message>
     <message>
         <source>Net has a supply pin</source>
-        <translation type="unfinished"></translation>
+        <translation>A vezetékhez tartozik tápláb</translation>
     </message>
     <message>
         <source>Clipboard buffer is empty!</source>
-        <translation type="unfinished"></translation>
+        <translation>A vágólap üres!</translation>
     </message>
     <message>
         <source>Updating libraries from pasted drawing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Könyvtárak frissítése a beillesztett tartalom alapján...</translation>
     </message>
     <message>
         <source>The library update from the pasted drawing has modified the board.
 
 Please run a Design Rule Check (DRC).</source>
-        <translation type="unfinished"></translation>
+        <translation>A beillesztett tartalom megváltoztatta a nyáktervet. 
+
+Futtasd újra a DRC-t!</translation>
     </message>
     <message>
         <source>Left-click to place objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal az objektumok elhelyezéséhez</translation>
     </message>
     <message>
         <source>The files
@@ -2689,54 +2723,68 @@ and
   %2
 
 are inconsistent and can&apos;t be pasted!</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájlok
+  %1
+
+és
+
+  %2
+
+nem konzisztensek, ezért nem  illeszthetőek be!</translation>
     </message>
     <message>
         <source>No schematic loaded to paste file to!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs kapcsolási rajz betöltve a beilleszteni kívánt fájlhoz!</translation>
     </message>
     <message>
         <source>No board loaded to paste file to!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs nyákterv betöltve a beilleszteni kívánt fájlhoz!</translation>
     </message>
     <message>
         <source>Part naming conflict: &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkatrésznév ütközés: a &apos;%1&apos; már létezik!</translation>
     </message>
     <message>
         <source>Element naming conflict: &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemnév ütközés: a &apos;%1&apos; már létezik!</translation>
     </message>
     <message>
         <source>Net naming conflict: &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vezetéknév ütközés: a &apos;%1&apos; már létezik!</translation>
     </message>
     <message>
         <source>Signal naming conflict: &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vezeték ütközés: a &apos;%1&apos; már létezik!</translation>
     </message>
     <message>
         <source>Consistency lost during paste from file!
 No forward-/backannotation will be performed!
 
 Please contact CadSoft!</source>
-        <translation type="unfinished"></translation>
+        <translation>Felborult a konzisztencia a beillesztés során!
+Ameddig ez fennáll a visszavonás nem működik!
+
+Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>PASTE from a file is only possible in a board or a schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A beillesztés csak a kapcsolásirajz-szerkesztőben és a nyáktervezőben működik!</translation>
     </message>
     <message>
         <source>Paste from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Beillesztés fájlból</translation>
     </message>
     <message>
         <source>Can&apos;t paste file %1 into a board!</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; fájl nem illeszthető be a panelre!</translation>
     </message>
     <message>
         <source>Can&apos;t paste file %1 into a schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; fájl nem illeszthető be a kapcsolási rajzra!</translation>
+    </message>
+    <message>
+        <source>There are not enough sheets.</source>
+        <translation>Nincs elég lap.</translation>
     </message>
 </context>
 <context>
@@ -2845,7 +2893,7 @@ Please contact CadSoft!</source>
     </message>
     <message>
         <source>The Polygon command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Polygon parancs nem használható az eszközkészletben+</translation>
     </message>
 </context>
 <context>
@@ -2965,7 +3013,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Rectangle command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Rectangle parancs nem használható az eszközkészletben+</translation>
     </message>
 </context>
 <context>
@@ -3162,11 +3210,11 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Rotate command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Rotate parancs nem használható az eszközkészletben!</translation>
     </message>
     <message>
         <source>The Mirror command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Mirror parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -3556,75 +3604,75 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Dimensions</source>
-        <translation type="unfinished"></translation>
+        <translation>Méretvonalak</translation>
     </message>
     <message>
         <source>Dimension line width</source>
-        <translation type="unfinished"></translation>
+        <translation>Méretvonal vastagsága</translation>
     </message>
     <message>
         <source>Extension line width</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiterjesztés vastagsága</translation>
     </message>
     <message>
         <source>Extension line extension</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiterjesztés vonalvastagsága</translation>
     </message>
     <message>
         <source>Extension line offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiterjesztés vonal eltolása</translation>
     </message>
     <message>
         <source>Arrow length</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyíl hossza</translation>
     </message>
     <message>
         <source>Arrow angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyíl szöge</translation>
     </message>
     <message>
         <source>Text size</source>
-        <translation type="unfinished"></translation>
+        <translation>Szövegméret</translation>
     </message>
     <message>
         <source>Text ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg kövérsége</translation>
     </message>
     <message>
         <source>Text offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg eltolása</translation>
     </message>
     <message>
         <source>Linear precision</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineáris pontosság</translation>
     </message>
     <message>
         <source>Angular precision</source>
-        <translation type="unfinished"></translation>
+        <translation>Anguláris pontosság</translation>
     </message>
     <message>
         <source>Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>Mértékegység</translation>
     </message>
     <message>
         <source>&amp;Show unit</source>
-        <translation type="unfinished"></translation>
+        <translation>Mértékegység &amp;mutatása</translation>
     </message>
     <message>
         <source>Invalid confirm mode: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen megerősítési mód: %1</translation>
     </message>
     <message>
         <source>Missing confirm mode!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiányzik a megerősítési mód!</translation>
     </message>
     <message>
         <source>Missing arguments!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiányzó argumentumok!</translation>
     </message>
     <message>
         <source>Unknown object type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen objektumtípus: %1</translation>
     </message>
 </context>
 <context>
@@ -3743,7 +3791,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Split command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Split parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -3771,7 +3819,8 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     <message>
         <source>&lt;pre&gt;%1
 %2&lt;/pre&gt;&lt;br&gt;Invalid character in technology!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;pre&gt;%1
+%2&lt;/pre&gt;&lt;br&gt;Érvénytelen karakter a technológia mezőben!</translation>
     </message>
 </context>
 <context>
@@ -3790,7 +3839,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Text command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Text parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -3805,7 +3854,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Invalid option: %1</source>
-        <translation type="unfinished">Érvénytelen opció: %1</translation>
+        <translation>Érvénytelen opció: %1</translation>
     </message>
 </context>
 <context>
@@ -3912,7 +3961,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
     <message>
         <source>renamed %1 libraries</source>
@@ -3935,7 +3984,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>Can&apos;t open %1</source>
-        <translation>%1 nem megynyitható</translation>
+        <translation>%1 nem nyitható meg</translation>
     </message>
 </context>
 <context>
@@ -3977,127 +4026,127 @@ Valóban megváltoztatod?</translation>
     <name>d_variant.c</name>
     <message>
         <source>New assembly variant</source>
-        <translation type="unfinished"></translation>
+        <translation>Új beültetési verzió</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Név:</translation>
     </message>
     <message>
         <source>Copy from:</source>
-        <translation type="unfinished"></translation>
+        <translation>Másolás innen:</translation>
     </message>
     <message>
         <source>Please enter a name for the new assembly variant!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kérlek adj nevet a beültetési verziónak!</translation>
     </message>
     <message>
         <source>There is already an assembly variant by this name!</source>
-        <translation type="unfinished"></translation>
+        <translation>Már létezik ilyen nevű beültetési verzió!</translation>
     </message>
     <message>
         <source>Rename assembly variant</source>
-        <translation type="unfinished"></translation>
+        <translation>Beültetési verzió átnevezése</translation>
     </message>
     <message>
         <source>New name:</source>
-        <translation type="unfinished">Új név:</translation>
+        <translation>Új név:</translation>
     </message>
     <message>
         <source>Please enter a new name for the assembly variant!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kérlek adj új nevet a beültetési verziónak!</translation>
     </message>
     <message>
         <source>Assembly variants</source>
-        <translation type="unfinished"></translation>
+        <translation>Beültetési verziók</translation>
     </message>
     <message>
         <source>Parts</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkatrészek</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Érték</translation>
+        <translation>Érték</translation>
     </message>
     <message>
         <source>Technology</source>
-        <translation type="unfinished"></translation>
+        <translation>Technológia</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Leírás</translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Új...</translation>
     </message>
     <message>
         <source>&amp;Rename...</source>
-        <translation type="unfinished">&amp;Átnevezés...</translation>
+        <translation>&amp;Átnevezés...</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Törlés</translation>
+        <translation>&amp;Törlés</translation>
     </message>
     <message>
         <source>Please select a variant to rename!</source>
-        <translation type="unfinished"></translation>
+        <translation>Válaszd ki az átnevezni kívánt verziót!</translation>
     </message>
     <message>
         <source>Really delete variant &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Valóban töröljük a &apos;%1&apos; változatot</translation>
     </message>
     <message>
         <source>Please select a variant to delete!</source>
-        <translation type="unfinished"></translation>
+        <translation>Válaszd ki a törölni kívánt verziót!</translation>
     </message>
     <message>
         <source>The Variant command can only be used in a board or schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Variant parancs csak a kapcsolási rajzban vagy a nyáktervben használható!</translation>
     </message>
     <message>
         <source>Missing variant name!</source>
-        <translation type="unfinished"></translation>
+        <translation>A változatnak nincs neve!</translation>
     </message>
     <message>
         <source>Unknown variant name: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen változat név: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Part &apos;%1&apos; has no user definable value</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z)&apos; %1&apos; alkatrésznek nincs felhasználó által módosítandó értéke</translation>
     </message>
     <message>
         <source>Unknown technology &apos;%1&apos; in device &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen technológia mező: &apos;%1&apos; a(z) &apos;%2&apos; alkatrészben</translation>
     </message>
     <message>
         <source>Part &apos;%1&apos; has no package</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; alkatrészhez nincs tokozás rendelve</translation>
     </message>
     <message>
         <source>Unknown part name: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen alaktrésznév: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Delete all assembly variants?</source>
-        <translation type="unfinished"></translation>
+        <translation>Minden beültetési verziót törölni kívánsz?</translation>
     </message>
     <message>
         <source>Delete assembly variant &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan törölni kívánod a &apos;%1&apos; beültetési verziót?</translation>
     </message>
     <message>
         <source>Missing populate keyword!</source>
-        <translation type="unfinished"></translation>
+        <translation>A beütetendő paraméter hiányzik!</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
-        <translation type="unfinished">Érvénytelen opció: %1</translation>
+        <translation>Érvénytelen opció: %1</translation>
     </message>
 </context>
 <context>
@@ -4108,7 +4157,7 @@ Valóban megváltoztatod?</translation>
     </message>
     <message>
         <source>The Via command can only be used in a board!</source>
-        <translation>A z átkötés (VIA) parancs csak a nyáktervezőben használható!</translation>
+        <translation>Az átkötés (VIA) parancs csak a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t place via on pad!</source>
@@ -4179,7 +4228,7 @@ történő használatához</translation>
     </message>
     <message>
         <source>The Wire command can&apos;t be used in a device set!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Wire parancs nem használható az eszközkészletben!</translation>
     </message>
 </context>
 <context>
@@ -4532,7 +4581,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     <message>
         <source>Can&apos;t open &apos;%1&apos;
 </source>
-        <translation type="unfinished">%1 nem megynyitható
+        <translation>&apos;%1&apos; nem nyitható meg
 </translation>
     </message>
 </context>
@@ -4680,23 +4729,23 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Different route parameters of connections on %1%2 pin %3 and pad %4 (%5 / %6)</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1%2 láb és a %4 (%5 / %6) pad routolás paraméterei eltérnek</translation>
     </message>
     <message>
         <source>Different number of assembly variants in schematic and board (%1 / %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>A beültetési verziók száma eltér a kapcsolási rajzban és a nyáktervben: (%1 vs. %2)</translation>
     </message>
     <message>
         <source>Assembly variant %1 not found in board</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 beültetési verzió nem található meg a nyákterven</translation>
     </message>
     <message>
         <source>Assembly variant %1 not found in schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 beültetési verzió nem található meg a kapcsolási rajzban</translation>
     </message>
     <message>
         <source>Assembly variant %1 has different settings in schematic and board (%2 / %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 beültetési verzióhoz más beállítások tartoznak a kapcsolási rajzban és a nyáktervben (%2 / %3)</translation>
     </message>
 </context>
 <context>
@@ -5079,11 +5128,13 @@ to new version.</source>
         <source>Package variant %1 in the old version of device set %2 is not
 present in the new version of this device set. A library update for the old device may be required first.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>A %2 eszközkészlet %1 tokozású verziója nincs meg az eszközkészlet új verziójában.
+Az eszközkészlet régi verzióján egy könyvtárfrissítés javasolt.
+</translation>
     </message>
     <message>
         <source>&lt;html&gt;Technology &lt;b&gt;&apos;%1&apos;&lt;/b&gt; in the old version of device &lt;b&gt;%2&lt;/b&gt; (package variant &lt;b&gt;%3&lt;/b&gt;) is not present in the new version of this device.&lt;p&gt;Please select a new technology:&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;A(z) &lt;b&gt;%2&lt;/b&gt; alkatrész (&lt;b&gt;%3&lt;/b&gt; tokozásának) &lt;b&gt;&apos;%1&apos;&lt;/b&gt; technológiája nem találató meg az alkatrész új verziójában.&lt;p&gt;Válaszd ki a helyette használni kívánt technológiát:&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5091,16 +5142,6 @@ present in the new version of this device set. A library update for the old devi
     <message>
         <source>Student Version - NOT FOR COMMERCIAL USE!</source>
         <translation>Oktatási verzió - KERESKEDELMI HASZNÁLATA TILOS!</translation>
-    </message>
-    <message>
-        <source>The %1 edition of EAGLE can&apos;t perform the requested action!
-
-See Help for further details.</source>
-        <translation>Az EAGLE %1 verziójában nem engedélyezett ez a művelet.
-Ha a freeware vagy más korlátozott verziót használsz,
-ügyelj arra, hogy  csak a megengedett méreten belül tudsz csak alkatrészt letenni.
-A méretkorláton kívül nem lehet mást csinálni az alkatrészekkel csak elmozgatni őket onnan
-(nem lehet tükrözni forgatni stb.) Mozgass be mindent a munkaterületre, majd utánna dolgozz rajtuk. </translation>
     </message>
     <message>
         <source>%u User License</source>
@@ -5121,6 +5162,14 @@ A méretkorláton kívül nem lehet mást csinálni az alkatrészekkel csak elmo
     <message>
         <source>Expiration Date: %s</source>
         <translation>Licensz lejár: %s</translation>
+    </message>
+    <message>
+        <source>The %1 edition of EAGLE can&apos;t perform the requested action!
+
+%2</source>
+        <translation>A kívánt művelet nem végezhető el az EAGLE %1 verziójában!
+
+%2</translation>
     </message>
 </context>
 <context>
@@ -5234,6 +5283,13 @@ A méretkorláton kívül nem lehet mást csinálni az alkatrészekkel csak elmo
     </message>
 </context>
 <context>
+    <name>o_any.c</name>
+    <message>
+        <source>Some objects extend outside the allowed board area.</source>
+        <translation>Néhány objektum túlnyúlik a megengedett területen.</translation>
+    </message>
+</context>
+<context>
     <name>o_board.c</name>
     <message>
         <source>
@@ -5290,15 +5346,15 @@ Ellenőrízd az elemet, és futtasd újra a DRC-t!</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; of element &apos;%2&apos; is not visible</source>
-        <translation type="unfinished">A %2 elem %1 attribútuma nem látható</translation>
+        <translation>A &apos;%2&apos; elem &apos;%1&apos; attribútuma nem látható</translation>
     </message>
     <message>
         <source>Element &apos;%1&apos; has no attribute or accessible placeholder &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; elemnek nincs attribútuma vagy elérhető leírása &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Unknown element: %1</source>
-        <translation type="unfinished">Ismeretlen elem: %1</translation>
+        <translation>Ismeretlen elem: %1</translation>
     </message>
 </context>
 <context>
@@ -5315,11 +5371,11 @@ mint ahány padje van a %4 csomagváltozatnak</translation>
     </message>
     <message>
         <source>has unconnected pin (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Unknown gate: %1</source>
-        <translation type="unfinished">Ismeretlen kapu: %1</translation>
+        <translation>Ismeretlen kapu: %1</translation>
     </message>
 </context>
 <context>
@@ -5383,19 +5439,24 @@ Folytassam?</translation>
         <source>The file has been loaded into the editor, but there have been
 warnings while parsing the intermediate XML file.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl be lett töltve a szerkesztőbe, azonban az XML feldolgozása
+során figyelmeztetések merültek fel.</translation>
     </message>
     <message>
         <source>An error occurred while parsing the intermediate XML file.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba történt az átmeneti XML feldolgozása során.
+</translation>
     </message>
     <message>
         <source>The XML file has been loaded into a text editor window as
 %1
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Az XML fáj be lett töltve a szövegszerkesztő ablakba mint
+%1
+
+</translation>
     </message>
     <message>
         <source>EAGLE update report
@@ -5404,31 +5465,38 @@ Date: %1
 File: %2
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>EAGLE frissítési jelentés
+
+Dátum: %1
+Fájl: %2
+
+</translation>
     </message>
     <message>
         <source>This file uses a newer format than this version of EAGLE can handle.
 Please read the following compatibility notes carefully!
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl újabb formátumot használ mint amit ez a verzió támogat.
+Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
     </message>
     <message>
         <source>Compatibility note, version %1 (%2):
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Kompatibilitési megjegyzés a %1 (%2) verzióhoz:
+</translation>
     </message>
     <message>
         <source>invalid version number</source>
-        <translation type="unfinished"></translation>
+        <translation>érvénytelen verziószám</translation>
     </message>
     <message>
         <source>Can&apos;t handle file format!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlformátum nem támogatott!</translation>
     </message>
     <message>
         <source>This is not an EAGLE file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fáj nem EAGLE-el készült</translation>
     </message>
 </context>
 <context>
@@ -5470,7 +5538,7 @@ Vedd fel a kapcsolatot a Cadsofttal!</translation>
     </message>
     <message>
         <source>gate &apos;%1&apos; of part &apos;%2&apos; already used</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%2&apos; alkatrész &apos;%1&apos; kapuja már használatban van</translation>
     </message>
 </context>
 <context>
@@ -5495,7 +5563,7 @@ Vagy a Mégsemre a kijelölés törlésének kihagyásához.</translation>
     </message>
     <message>
         <source>Unknown pad: %1</source>
-        <translation type="unfinished">Ismeretlen pad: %1</translation>
+        <translation>Ismeretlen pad: %1</translation>
     </message>
 </context>
 <context>
@@ -5540,18 +5608,18 @@ Használd a név (NAME) parancsot a vezetéknevek összekapcsolásához.</transl
     <name>o_pinref.c</name>
     <message>
         <source>attributes part &apos;%1&apos; and gate &apos;%2&apos; reference undefined instance on this sheet in tag &lt;%3&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%1&apos; alkatrész attributumai és a &apos;%2&apos; kapu érvénytelen elemre hivatokzik ezen a lapon ebben a tagben: &lt;%3&gt;</translation>
     </message>
 </context>
 <context>
     <name>o_polygo.c</name>
     <message>
         <source>Processing polygons...</source>
-        <translation type="unfinished">Sokszögek létrehozása...</translation>
+        <translation>Sokszögek feldolgozása...</translation>
     </message>
     <message>
         <source>Signal &apos;%1&apos; contains an invalid polygon.</source>
-        <translation type="unfinished">A %1 összeköttetés van tartalmaz egy érvénytelen sokszöget.</translation>
+        <translation>A %1 jelvezeték van tartalmaz egy érvénytelen sokszöget.</translation>
     </message>
 </context>
 <context>
@@ -5576,7 +5644,7 @@ Használd az ERC parancsot, hogy megtudd mi ennek az oka.</translation>
     <name>o_schema.c</name>
     <message>
         <source>ignoring unused part &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%2&apos; nem használt alkatrész elhanyagolása</translation>
     </message>
 </context>
 <context>
@@ -5599,29 +5667,29 @@ Használd az ERC parancsot, hogy megtudd mi ennek az oka.</translation>
     </message>
     <message>
         <source>Can&apos;t delete &quot;Must&quot; gates!</source>
-        <translation type="unfinished">Nem törölheted a &quot;Kell&quot; hozzáadási szinttel rendeljkező kapukat!</translation>
+        <translation>Nem törölheted a &quot;Kell&quot; hozzáadási szinttel rendelkező kapukat!</translation>
     </message>
     <message>
         <source>
 
 Click OK to skip deleting this gate,
 Cancel to cancel deleting the group.</source>
-        <translation type="unfinished">
+        <translation>
 
 Kattints az OK-ra a kapu törlésének kihagyásához,
 vagy a Mégsemre a kijelölés törléséhez.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; of part &apos;%2&apos; is not visible</source>
-        <translation type="unfinished">A %2 alkatrész %1 attribútuma nem látható</translation>
+        <translation>A(z) &apos;%2&apos; alkatrész &apos;%1&apos; attribútuma nem látható</translation>
     </message>
     <message>
         <source>Part &apos;%1&apos; has no attribute or accessible placeholder &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; elemnek nincs attribútuma vagy elérhető leírása &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Unknown part: %1</source>
-        <translation type="unfinished">Ismeretlen alkatrész: %1</translation>
+        <translation>Ismeretlen alkatrész: %1</translation>
     </message>
 </context>
 <context>
@@ -5692,7 +5760,7 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
     </message>
     <message>
         <source>Unknown pin: %1</source>
-        <translation type="unfinished">Ismeretlen láb: %1</translation>
+        <translation>Ismeretlen láb: %1</translation>
     </message>
 </context>
 <context>
@@ -5940,59 +6008,63 @@ azokat nem-ortogonális szögekkel lettek lekérve.
     <name>parsexml.c</name>
     <message>
         <source>skipped unexpected tag &lt;%1&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &lt;%1&gt; váratlan tag kihagyva</translation>
     </message>
     <message>
         <source>Warning(s):
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Figyelmeztetés(ek):
+
+</translation>
     </message>
     <message>
         <source>Error:
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba:
+
+</translation>
     </message>
     <message>
         <source>line %1, column %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>sor %1, oszlop %2 %3</translation>
     </message>
     <message>
         <source>redefinition of name &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%1&apos; név újra lett definiálva a &lt;%2&gt; tagban</translation>
     </message>
     <message>
         <source>invalid/missing attribute &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%1&apos; hiányzó vagy érvénytelen attribútum a &lt;%2&gt; tagben</translation>
     </message>
     <message>
         <source>attribute &apos;%1&apos; references undefined object &apos;%2&apos; in tag &lt;%3&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a(z) &apos;%1&apos; attribútum érvénytelen objektumra (&apos;%2&apos;) hivatokozik a &lt;%3&gt; tagban</translation>
     </message>
     <message>
         <source>missing attribute &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &lt;%2&gt; tagból hiányzik az &apos;%1&apos; attribútum</translation>
     </message>
     <message>
         <source>invalid value &apos;%3&apos; for attribute &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%3&apos; érvénytelen érték a(z) &apos;%1&apos; attribútum számára a &lt;%2&gt; tagban</translation>
     </message>
     <message>
         <source>unknown attribute &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>az &apos;%1 &apos;ismeretlen attribútum a &lt;%2&gt; tagban</translation>
     </message>
     <message>
         <source>line %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1. sor: %2</translation>
     </message>
     <message>
         <source>ignoring redefinition of %1 in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a %1 újradefiniálása ignorálva lett a &lt;%2&gt; tagban</translation>
     </message>
     <message>
         <source>ignoring attribute %1 in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 attribútum figyelmen kívül lett hagyva %2 tagban</translation>
     </message>
 </context>
 <context>
@@ -6366,7 +6438,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>%1 doesn&apos;t contain assembly variant &apos;%2&apos;!</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nem tartalmazza a(z) &apos;%2&apos; beültetési verziót!</translation>
     </message>
 </context>
 <context>
@@ -6840,11 +6912,15 @@ Vedd fel a kapcsolatot a Cadsofttal!</translation>
 is an installed binary key file.
 
 Please select a license file you have received from CadSoft!</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; fájl
+
+egy már telepített bináris kulcsfájl
+
+Kérlek válaszd ki azt a fájlt amelyet a CadSoft-tól kaptál!</translation>
     </message>
     <message>
         <source>Please run EAGLE as administrator to install your license!</source>
-        <translation type="unfinished"></translation>
+        <translation>Az EAGLE liceneszeléséhez Rendszergazda módban kell futtatnod a programot!</translation>
     </message>
 </context>
 <context>
@@ -6948,7 +7024,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Invalid via layers: &apos;%1&apos;</source>
-        <translation>Érvénytelen Via-réteg: &apos;%1&apos;</translation>
+        <translation>Érvénytelen átkötésréteg: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Invalid %1: &apos;%2&apos;</source>
@@ -6974,11 +7050,13 @@ Felülírod?</translation>
         <source>Invalid rank: &apos;%1&apos;
 
 (valid range is %2..%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen kitöltésrangsor: &apos;%1&apos;
+
+(%2 .. %3 érvényes csak)</translation>
     </message>
     <message>
         <source>Invalid swap level: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen csereszint: &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -6993,7 +7071,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Finished</source>
-        <translation>Ekészült</translation>
+        <translation>Elkészült</translation>
     </message>
     <message>
         <source>Click &quot;Finish&quot; to end Setup.</source>
@@ -7998,129 +8076,135 @@ Felülírod?</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished"></translation>
+        <translation>név</translation>
     </message>
     <message>
         <source>Variants</source>
-        <translation type="unfinished"></translation>
+        <translation>Változatok</translation>
     </message>
     <message>
         <source>Assembly variant</source>
-        <translation type="unfinished"></translation>
+        <translation>Beültetési verziók</translation>
     </message>
     <message>
         <source>Open a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl megnyitása</translation>
     </message>
     <message>
         <source>Missing closing &apos;]&apos; in MENU command
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiányzik a lezáró &apos;]&apos; a MENU parancsból
+
+%1</translation>
     </message>
     <message>
         <source>No valid button description before &apos;{&apos; in MENU command
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs érvényes gomb megavdva a &apos;{&apos; előtt a MENU parancsban
+
+%1</translation>
     </message>
     <message>
         <source>Unexpected closing &apos;}&apos; in MENU command
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem várt záró &apos;}&apos; a MENU parancsban
+
+%1</translation>
     </message>
     <message>
         <source>Import...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importálás...</translation>
     </message>
     <message>
         <source>Undo/Redo list...</source>
-        <translation type="unfinished"></translation>
+        <translation>Módosítások listája...</translation>
     </message>
     <message>
         <source>Paste from...</source>
-        <translation type="unfinished"></translation>
+        <translation>Beillesztés...</translation>
     </message>
     <message>
         <source>Schematic description...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kapcsolási rajz leírása...</translation>
     </message>
     <message>
         <source>Assembly variants...</source>
-        <translation type="unfinished"></translation>
+        <translation>Beültetési verziók...</translation>
     </message>
     <message>
         <source>Parallel dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Párhuzamos méret</translation>
     </message>
     <message>
         <source>Horizontal dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintes méret</translation>
     </message>
     <message>
         <source>Vertical dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőleges méret</translation>
     </message>
     <message>
         <source>Radius dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Sugár</translation>
     </message>
     <message>
         <source>Diameter dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Átmérő</translation>
     </message>
     <message>
         <source>Angle dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Szög</translation>
     </message>
     <message>
         <source>Leader dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Mutatónyíl</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normál</translation>
     </message>
     <message>
         <source>Spun</source>
-        <translation type="unfinished"></translation>
+        <translation>Forgatás</translation>
     </message>
     <message>
         <source>Mirrored</source>
-        <translation type="unfinished"></translation>
+        <translation>Tükrözött</translation>
     </message>
     <message>
         <source>Align</source>
-        <translation type="unfinished"></translation>
+        <translation>Igazítás</translation>
     </message>
     <message>
         <source>Select alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Igazítás kiválasztása</translation>
     </message>
     <message>
         <source>&lt;b&gt;&lt;font color=red&gt;Use the DESCRIPTION command to enter a description of this object.&lt;/font&gt;&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;&lt;font color=red&gt;Használd a DESCRIPTION parancsot az objektum leírásának megadásához.&lt;/font&gt;&lt;/b&gt;</translation>
     </message>
     <message>
         <source>f/b annotation is not available</source>
-        <translation type="unfinished"></translation>
+        <translation>visszavonás a továbbiakban nem lehetséges</translation>
     </message>
     <message>
         <source>f/b annotation is active</source>
-        <translation type="unfinished"></translation>
+        <translation>visszavonás működik</translation>
     </message>
     <message>
         <source>f/b annotation is not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>visszavonás nem lehetséges</translation>
     </message>
     <message>
         <source>f/b annotation is not active</source>
-        <translation type="unfinished"></translation>
+        <translation>visszavonás nem aktív</translation>
     </message>
     <message>
         <source>f/b annotation has been severed</source>
-        <translation type="unfinished"></translation>
+        <translation>A visszavonási lehetőség megszűnt</translation>
     </message>
 </context>
 <context>
@@ -8319,7 +8403,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>name</source>
-        <translation type="unfinished"></translation>
+        <translation>név</translation>
     </message>
 </context>
 <context>
@@ -8390,19 +8474,23 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>click to hide</source>
-        <translation type="unfinished"></translation>
+        <translation>kattints az elrejtéséhez</translation>
     </message>
     <message>
         <source>Drawing is unmodified</source>
-        <translation type="unfinished"></translation>
+        <translation>A rajz nem módosult</translation>
     </message>
     <message>
         <source>Drawing was modified</source>
-        <translation type="unfinished"></translation>
+        <translation>A rajz módosítva</translation>
     </message>
     <message>
         <source>F/B Annotation has been severed!</source>
-        <translation type="unfinished"></translation>
+        <translation>A visszavonási lehetőség megszűnt</translation>
+    </message>
+    <message>
+        <source>You can&apos;t create sheet %1.</source>
+        <translation>Nem hozhatod létre a %1 lapot</translation>
     </message>
 </context>
 <context>
@@ -8471,7 +8559,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&amp;Use</source>
-        <translation type="unfinished">&amp;Használatba vesz</translation>
+        <translation>&amp;Használatba vesz</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -10030,11 +10118,11 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Invalid prefix &apos;%1&apos; in name parameter of call to &apos;%2()&apos;:&lt;br&gt;%3</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; érvénytelen előtag a &apos;%2()&apos; név paraméterének:&lt;br&gt;%3</translation>
     </message>
     <message>
         <source>Invalid character in name parameter of call to &apos;%1()&apos;:&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen karakter a &apos;%1()&apos; név paraméterében&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -10193,11 +10281,11 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Multiple contacts on pin, use contacts() instead</source>
-        <translation type="unfinished"></translation>
+        <translation>Több láb egy padhez csatlakoztatásához használd a contacts() függvényt</translation>
     </message>
     <message>
         <source>Argument in call to &apos;%1()&apos; must be a number</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1()&apos; argumentumának számnak kell lennie</translation>
     </message>
 </context>
 <context>
@@ -10411,45 +10499,45 @@ contains %2 data, which doesn&apos;t match the filename extension!</source>
     </message>
     <message>
         <source>Inconsistent pin/pad connections in file %1!</source>
-        <translation type="unfinished">Érvénytelen láb-pad kapcsolatot találtam a %1 fájlban!</translation>
+        <translation>Érvénytelen láb-pad kapcsolatot találtam a %1 fájlban!</translation>
     </message>
     <message>
         <source>This file contained library objects with the same names,
 which have been renamed by adding the &apos;@&apos; character and
 a number to their existing name.</source>
-        <translation type="unfinished">Ez a fájl tartalmaz könyvtárobjetktumokat azonos névvel,
-amelyeket ezért átneveztük az alábbi módon:
+        <translation>Ez a fájl tartalmaz könyvtárobjetktumokat azonos névvel,
+amelyeket ezért átneveztem őket az alábbi módon:
 régi_név@sorszám.</translation>
     </message>
     <message>
         <source>Unknown primitive #%1 in file %2!</source>
-        <translation type="unfinished">Ismeretlen primitív #%1a %2 fájlban!</translation>
+        <translation>Ismeretlen primitív #%1a %2 fájlban!</translation>
     </message>
     <message>
         <source>Inconsistent text primitive in file %1!</source>
-        <translation type="unfinished">Inkonzisztens szöveg primitív %1 fájlban!</translation>
+        <translation>Inkonzisztens szöveg primitív %1 fájlban!</translation>
     </message>
     <message>
         <source>Inconsistent bus primitive in file %1!</source>
-        <translation type="unfinished">Inkonzisztens busz primitív %1-ben!</translation>
+        <translation>Inkonzisztens busz primitív %1-ben!</translation>
     </message>
     <message>
         <source>Skipping inconsistent pin connections to the same pad in device &apos;%1&apos;!
 Please use the CONNECT command to fix this!</source>
-        <translation type="unfinished">A %1 eszközben lévő hiányos PIN-PAD öszszeköttetések ki lettek hagyva
+        <translation>A %1 eszközben lévő hiányos PIN-PAD öszszeköttetések ki lettek hagyva
 Használd a CONNECT ( összekötés ) parancsot a probléma orvosolására!</translation>
     </message>
     <message>
         <source>Skipping inconsistent primitive #%1 in device &apos;%2&apos; (devices can contain only gates)!</source>
-        <translation type="unfinished">Inkonzisztens primitív kihagyása #%1 az %2 eszközben (az eszköz lehet csak kapukat tartalmaz)!</translation>
+        <translation>Inkonzisztens primitív kihagyása #%1 az %2 eszközben (az eszköz csak kapukat tartalmazhat)!</translation>
     </message>
     <message>
         <source>Updating from older version...</source>
-        <translation type="unfinished">Frissítés régebbi verzióról...</translation>
+        <translation>Frissítés régebbi verzióról...</translation>
     </message>
     <message>
         <source> and </source>
-        <translation type="unfinished">és</translation>
+        <translation> és </translation>
     </message>
     <message>
         <source>The restring parameters for %1 in the Design Rules of
@@ -10458,12 +10546,16 @@ This is probably a result of updating a board file from
 version 3.5 or earlier (where these parameters have been
 set to 0) and not adjusting the Design Rules as recommended.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%1&apos; furatarány paraméterei az ezen fájlhoz tartozó
+Tervezési szabályban 0-ra vannak állítva, ami segítségével használhatatlan nyákot is
+elő lehet állítani. Ez lehet annak is a következménye, hogy a nyákterv 3.5 vagy azelőtti verziókból 
+lett importálva. A biztonság kedvéért ellenőrízd a DRC beállításait!</translation>
     </message>
     <message>
         <source>The restring parameters for %1 have been set to their default values.
 PLEASE RUN A DESIGN RULE CHECK TO VERIFY THEM!</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; furatarány paraméterei alapértelmezett értékre lettek visszaállítva.
+Kérlek futtasd a DRC ellenőrzést!</translation>
     </message>
     <message>
         <source>The following pads have a diameter that is smaller than their drill
@@ -10471,7 +10563,7 @@ and should be replaced with &apos;holes&apos;. However, since these pads are
 connected to pins this can&apos;t be done automatically:
 
    Library      Device       Package  Pad</source>
-        <translation type="unfinished">A következő padeknek kisebb az átmérőjük mint a furatuk
+        <translation>A következő padeknek kisebb az átmérőjük mint a furatuk
 így inkább furattal kellene őket helyettesíteni. Mivel azonban 
 ezek lábakhoz vannak csatlakoztatva, így nem lehet ezt automatikusan megtenni
 
@@ -10482,9 +10574,10 @@ ezek lábakhoz vannak csatlakoztatva, így nem lehet ezt automatikusan megtenni
 and thus have been replaced with &apos;holes&apos;:
 
    Library      Package      Pad</source>
-        <translation type="unfinished">A következő padek átmérője kisebb mint a furatátmérőjük,
+        <translation>A következő padek átmérője kisebb mint a furatátmérőjük,
 így furatokra lettek kicserélve.
-Könyvtár Csomag  Pad</translation>
+
+   Könyvtár   Csomag       Pad</translation>
     </message>
     <message>
         <source>The following pads have a diameter that is smaller than their drill
@@ -10492,9 +10585,9 @@ and should be replaced with &apos;holes&apos;. However, since these pads are
 connected to signals this can&apos;t be done automatically:
 
    Library      Package      Pad      Element  Signal</source>
-        <translation type="unfinished">A következő padeknek kisebb az átmérője kisebb mint a furatuk 
-ezért lyukra kellene őket cserélni. Mivel ezekhez szignálok vannak kapcsolva, ezt
-nem tehetjük meg automatikusan:
+        <translation>A következő padeknek kisebb az átmérője mint a furatuk 
+ezért furatokra kellene őket cserélni. Mivel azonban vezetékekhez vannak csatlakoztatva, ezt
+nem tehetem meg automatikusan:
 
   Könyvtár      Csomag      Pad      Elem  Szignál</translation>
     </message>
@@ -10503,8 +10596,8 @@ nem tehetjük meg automatikusan:
 THE VALUE THAT WILL RESULT FROM THE DESIGN RULES (THESE PADS WILL BE
 LARGER THAN IN VERSION 3.5). PLEASE CHECK IF THIS IS OK AND ADJUST
 YOUR DESIGN RULES IF NECESSARY!</source>
-        <translation type="unfinished">EZ A PANEL TARTALMAZ OLYAN PADEKET MELYEK MÉRETHATÁRA KISEBBEK
-MINT AMI A TERVEZÉIS SZABÁLYOKNÁL BE VAN ÁLLÍTVA (EZEK A PADEK NAGYOBBAK LESZNEK
+        <translation>EZ A NYÁKTERV TARTALMAZ OLYAN PADEKET MELYEK MÉRETHATÁRA KISEBBEK
+MINT AMI A TERVEZÉSI SZABÁLYOKNÁL BE VAN ÁLLÍTVA (EZEK A PADEK NAGYOBBAK LESZNEK
 MINT A 3.5-ÖS VERZIÓBAN). KÉRELK ELLENŐRÍZD, HOGY EZ ÍGY RENDBEN VAN-E ÉS 
 ÁLLÍTSD ÁT A TERVEZÉSI SZABÁLYOKAT HA SZÜKSÉGES!</translation>
     </message>
@@ -10513,51 +10606,57 @@ MINT A 3.5-ÖS VERZIÓBAN). KÉRELK ELLENŐRÍZD, HOGY EZ ÍGY RENDBEN VAN-E ÉS
 and thus have been replaced with &apos;holes&apos;:
 
    Signal   Position</source>
-        <translation type="unfinished">A következő átkötések átmérője kisebb mint a furatátmérőjük,
+        <translation>A következő átkötések átmérője kisebb mint a furatuk ámérője,
 így furatokra lettek kicserélve.
-   Szignél    Pozíció</translation>
+
+   Vezeték    Pozíció</translation>
     </message>
     <message>
         <source>THIS BOARD CONTAINS VIAS THAT HAVE A RESTRING THAT IS SMALLER THAN
 THE VALUE THAT WILL RESULT FROM THE DESIGN RULES (THESE VIAS WILL BE
 LARGER THAN IN VERSION 3.5). PLEASE CHECK IF THIS IS OK AND ADJUST
 YOUR DESIGN RULES IF NECESSARY!</source>
-        <translation type="unfinished">EZ A NYÁK OLYAN ÁTKÖTÉSEKET TARTALMAZ AMELYEK FÓLIASUGARA KISEBB MINT
+        <translation>EZ A NYÁKTERV OLYAN ÁTKÖTÉSEKET TARTALMAZ AMELYEK FÓLIASUGARA KISEBB MINT
 A TERVEZÉSI ELLENŐRZÉS EREDMÉNYE (EZEK AZ ÁTKÖTÉSEK NAGYOBBAK MINT A 
 3.5-ÖS VERZIÓBAN) KÉRLEK ELLENŐRÍZD HA EZ FENNÁLL, ÉS ÁLLÍTSD ÁT A TEVEZÉSI
 ELLENŐRZŐT HA VALÓBAN SZÜKSÉGES!</translation>
     </message>
     <message>
         <source>Can&apos;t resolve conflicting layer names (%1 and %2)!</source>
-        <translation type="unfinished">nem tudom feloldani az ütköző réteg neveket (%1 és %2)!</translation>
+        <translation>nem tudom feloldani az ütköző réteg neveket (%1 és %2)!</translation>
     </message>
     <message>
         <source>Polygon rank in packages is now obsolete, and package polygons
 in signal layers are now part of the signal an enclosed pad or
 smd is connected to.
 Please check whether the following parts still behave as expected:</source>
-        <translation type="unfinished"></translation>
+        <translation>A poligonok rangosorolása az alkatrészkönyvtárakban már nem megengedett. 
+A polygonok mostantól a hozájuk kötött padhoz vannak rendelve. 
+Kérlek ellenőrízd hogy a következő alkatrészek környéke úgy néz ki ahogy szeretnéd:</translation>
     </message>
     <message>
         <source>Invalid data in file %1!</source>
-        <translation type="unfinished">Érvénytelen adat a %1 fájlban!</translation>
+        <translation>Érvénytelen adat a %1 fájlban!</translation>
     </message>
     <message>
         <source>Can&apos;t update file %1
 (data structure is older than version 2.60)</source>
-        <translation type="unfinished">Nem tudom a %1 fájl frissíteni
+        <translation>Nem tudom a %1 fájl frissíteni
 (régebbi verzióval készítették mint 2.60)</translation>
     </message>
     <message>
         <source>Can&apos;t open &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; nem nyitható meg</translation>
     </message>
     <message>
         <source>This drawing contains supply layer(s)
 %2
 for which signal polygons have been generated during the update to this version of EAGLE.
 PLEASE RUN RATSNEST TO VERIFY THAT ALL PADS ARE STILL CONNECTED TO THEIR SIGNALS!</source>
-        <translation type="unfinished"></translation>
+        <translation>A rajzon található
+%2 
+táprétegre a poligonok újra lettek generálva a fájl új EAGLE verzióra történő frissítésekor. 
+Futtasd a RATNETS parancsot, hogy megbizonyosodj arról, hogy minden pad megfelelően van bekötve!</translation>
     </message>
 </context>
 </TS>
