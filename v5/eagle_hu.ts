@@ -613,7 +613,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     <name>d_add.c</name>
     <message>
         <source>Can&apos;t find gate &apos;%1&apos; in device &apos;%2&apos;</source>
-        <translation>Nem találom a %1 kaput a(z) %2 alkatrészben</translation>
+        <translation>Nem találom a(z) &apos;%1&apos; kaput a(z) &apos;%2&apos; alkatrészben</translation>
     </message>
     <message>
         <source>Device not found: </source>
@@ -1504,7 +1504,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     </message>
     <message>
         <source>Can&apos;t delete internal layers!</source>
-        <translation>Belső rétegek nem törölhetők!</translation>
+        <translation>A belső rétegek nem törölhetők!</translation>
     </message>
     <message>
         <source>&amp;Color</source>
@@ -1570,7 +1570,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Layer &apos;%1 %2&apos; can&apos;t be a supply layer because it contains signal wires!</source>
-        <translation>%1.%2 réteg nem lehet tápréteg, mivel már tartalmaz msá vezetékeket is!</translation>
+        <translation>%1.%2 réteg nem lehet tápréteg, mivel már tartalmaz más vezetékeket is!</translation>
     </message>
     <message>
         <source>A&amp;ll</source>
@@ -2018,7 +2018,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Dots</source>
-        <translation>Pöttyök</translation>
+        <translation>Pontok</translation>
     </message>
     <message>
         <source>Lines</source>
@@ -3061,7 +3061,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>Dots</source>
-        <translation>Pöttyök</translation>
+        <translation>Pontok</translation>
     </message>
     <message>
         <source>Grid</source>

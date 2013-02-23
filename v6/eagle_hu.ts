@@ -645,7 +645,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     <name>d_add.c</name>
     <message>
         <source>Can&apos;t find gate &apos;%1&apos; in device &apos;%2&apos;</source>
-        <translation>Nem találom a %1 kaput a(z) %2 alkatrészben</translation>
+        <translation>Nem találom a(z) &apos;%1&apos; kaput a(z) &apos;%2&apos; alkatrészben</translation>
     </message>
     <message>
         <source>Device not found: </source>
@@ -669,7 +669,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>The Add command can only be used in a schematic, board or device set!</source>
-        <translation>A hozzáadás parancs csak a sémában a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
+        <translation>A hozzáadás parancs csak a kapcsolási rajzban, a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
     </message>
     <message>
         <source>Device %1 %2!</source>
@@ -832,7 +832,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; is defined in the schematic and can&apos;t be deleted here.</source>
-        <translation>%1 tulajdonság a sémában lett megadva, így itt nem törölhető.</translation>
+        <translation>%1 tulajdonság a kapcsolási rajzban lett megadva, így itt nem törölhető.</translation>
     </message>
     <message>
         <source>Reserved attribute name: &apos;%1&apos;</source>
@@ -1126,14 +1126,14 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>The Board command can only be used in a schematic!</source>
-        <translation>A Board parancs csak a sémában használható!</translation>
+        <translation>A Board parancs csak a kapcsolási rajzban használható!</translation>
     </message>
 </context>
 <context>
     <name>d_bus.c</name>
     <message>
         <source>The Bus command can only be used in a schematic!</source>
-        <translation>A Bus parancs csak a sémában használható!</translation>
+        <translation>A BUS parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Left-click to draw bus wire (double-click ends bus)</source>
@@ -1242,7 +1242,8 @@ Felülírjuk?</translation>
         <source>The element &apos;%1&apos; has no corresponding part in the schematic!
 
 Use the REPLACE command instead.</source>
-        <translation>%1 elemnek nincs megfelelő alkatrésze a sémában
+        <translation>%1 elemnek nincs megfelelő alkatrésze a kapcsolási rajzban!
+
 Használd a REPLACE (kicserél parancsot) helyett.</translation>
     </message>
     <message>
@@ -1258,7 +1259,7 @@ Használd a REPLACE (kicserél parancsot) helyett.</translation>
 
 Use the REPLACE command instead if you don&apos;t have a schematic.</source>
         <translation>Ez a művelet csak aktív F/B jegyzet esetén végrehajtható
-Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translation>
+Használd a REPLACE (kicserél) parancsot helyette ha nincs kapcsolási rajzod.</translation>
     </message>
     <message>
         <source>Change %1 of %2</source>
@@ -1368,7 +1369,7 @@ vezetékosztályok közti távtartás-értékek elvesznek.</translation>
     </message>
     <message>
         <source>The Class command can only be used in a schematic or board!</source>
-        <translation>A kijelölés (CLASS) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A Class (osztályok) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t use unnamed net class %1</source>
@@ -1856,7 +1857,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source>The Erc command can only be used with a schematic!</source>
-        <translation>Az ERC parancs csak a sémában használható!</translation>
+        <translation>Az ERC parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Board and schematic are not consistent!
@@ -1935,7 +1936,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Errors command can only be used in a board or a schematic!</source>
-        <translation>A hibák (ERRORS) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A hibák (ERRORS) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Consistency errors (%1)</source>
@@ -2030,7 +2031,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a schematic!</source>
-        <translation>Ez az exportálási opció csak a sémában érhető el!</translation>
+        <translation>Ez az exportálási opció csak a kapcsolási rajzban érhető el!</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
@@ -2042,7 +2043,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a board or schematic!</source>
-        <translation>Ez az exportálási opció csak a sémában vagy a nyákszerkesztőben érhető el!</translation>
+        <translation>Ez az exportálási opció csak a kapcsolási rajzban vagy a nyákszerkesztőben érhető el!</translation>
     </message>
 </context>
 <context>
@@ -2080,7 +2081,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Gateswap command can only be used in a schematic!</source>
-        <translation>A kapucsere (GATESWAP) parancs csak a sémában használható!</translation>
+        <translation>A kapucsere (GATESWAP) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Can&apos;t swap gate %1</source>
@@ -2111,7 +2112,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Dots</source>
-        <translation>Pöttyök</translation>
+        <translation>Pontok</translation>
     </message>
     <message>
         <source>Lines</source>
@@ -2246,7 +2247,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Invoke command can only be used in a schematic!</source>
-        <translation>A felhasznál (INVOKE) parancs csak a sémában használható!</translation>
+        <translation>Az INVOKE parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Unknown gate: %1</source>
@@ -2273,7 +2274,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Junction command can only be used in a schematic!</source>
-        <translation>A csomópont (JUNCTION) parancs csak a sémában használható!</translation>
+        <translation>A JUNCTION parancs csak a kapcsolási rajzban használható!</translation>
     </message>
 </context>
 <context>
@@ -2288,7 +2289,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Label command can only be used in a schematic!</source>
-        <translation>A címke (LABEL) parancs csak a sémában használható!</translation>
+        <translation>A LABEL parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Left-click to select net or bus</source>
@@ -2483,7 +2484,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_net.c</name>
     <message>
         <source>The Net command can only be used in a schematic!</source>
-        <translation>A vezeték (Net) parancs csak a sémában használható!</translation>
+        <translation>A vezeték (Net) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>%1 is not member of %2</source>
@@ -2818,7 +2819,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     <name>d_pinswa.c</name>
     <message>
         <source>The Pinswap command can only be used in a board or schematic!</source>
-        <translation>A lábcsre (PINSWAP) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A lábcsre (PINSWAP) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Pin %1 has SwapLevel %2 and therefore can&apos;t be swapped!</source>
@@ -2862,7 +2863,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>Pad %1 has no corresponding pin used in the schematic!</source>
-        <translation>A %1 padnek nincs megfelelő párja a sémában!</translation>
+        <translation>A %1 padnek nincs megfelelő párja a kapcsolási rajzban!</translation>
     </message>
 </context>
 <context>
@@ -3136,7 +3137,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Replace command can only be used in a schematic or a board!</source>
-        <translation>A kicserélés (REPLACE) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A kicserélés (REPLACE) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
 </context>
 <context>
@@ -3179,7 +3180,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>Ripup all signals?</source>
-        <translation>Felbontassz minden összeköttetést?</translation>
+        <translation>Valóban fel kívánod bontani az összes routolást?</translation>
     </message>
     <message>
         <source>Left-click to select signal to ripup</source>
@@ -3286,7 +3287,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>Dots</source>
-        <translation>Pöttyök</translation>
+        <translation>Pontok</translation>
     </message>
     <message>
         <source>Grid</source>
@@ -3470,7 +3471,7 @@ Valóban szeretnéd folytatni?</translation>
         <source>SET VECTOR_FONT ON/OFF can only be used
 in a board or schematic!</source>
         <translation>A SET VECTOR_FONT ON/OFF parancs
-csak a sémában és a nyáktervezőben használható!</translation>
+csak a kapcsolási rajzban és a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Invalid fill style: %1</source>
@@ -3861,7 +3862,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     <name>d_update.c</name>
     <message>
         <source>&apos;Update +/-@&apos; can only be used in a board or schematic!</source>
-        <translation>A frissítés +/-@ csak a nyáktervezőben és a sémában használható!</translation>
+        <translation>A frissítés +/-@ csak a nyáktervezőben és a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>finished</source>
@@ -4007,7 +4008,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>The Value command can only be used in a board, schematic or device!</source>
-        <translation>Az érték (VALUE) parancs csak a sémában a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
+        <translation>Az érték (VALUE) parancs csak a kapcsolási rajzban a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
     </message>
     <message>
         <source>Unknown part: %1</source>
@@ -4478,7 +4479,7 @@ Felülírod?</translation>
     <message>
         <source>%1 not saved!
 </source>
-        <translation>%1 tartalmaz olyan módosításokat, amelyek nincsenek elmentve!
+        <translation>%1 mentetlen módosításokat tartalmaz!
 </translation>
     </message>
     <message>
@@ -4617,7 +4618,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Part %1 not found in schematic</source>
-        <translation>%1 alkatrész nem található meg a sémában</translation>
+        <translation>%1 alkatrész nem található meg a kapcsolási rajzban</translation>
     </message>
     <message>
         <source>NC pin %1 %2 connected to %3</source>
@@ -4653,7 +4654,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Attribute %1 of part %2 has different value in schematic and board (%3 / %4)</source>
-        <translation>A %2 alkatrész %1 attribútumának eltérő értéke van a sémában és a nyákterven (%3/%4)</translation>
+        <translation>A %2 alkatrész %1 attribútumának eltérő értéke van a kapcsolási rajzon és a nyákterven (%3/%4)</translation>
     </message>
     <message>
         <source>Part %1 not found in board</source>
@@ -4665,11 +4666,11 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Net class %1 has different %2 in schematic and board (%3 / %4)</source>
-        <translation>A %1 vezetékosztály %2-e különbözik a nyákban (%3 / %4) és a sémában </translation>
+        <translation>A %1 vezetékosztály %2-e különbözik a nyákban (%3 / %4) és a kapcsolási rajzban</translation>
     </message>
     <message>
         <source>Part %1 has inconsistent packages in schematic and board (%2 / %3)</source>
-        <translation>A %1 alkatrésznek nem konzisztens csomagja van a sémában és a nyákban (%2 / %3)</translation>
+        <translation>A %1 alkatrésznek nem konzisztens csomagja van a kapcsolási rajzban és a nyákban (%2 / %3)</translation>
     </message>
     <message>
         <source>Pin %1 %2 connected to %3 without any net wire, junction or other pin</source>
@@ -4701,7 +4702,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Net %1 has different class in schematic and board (%2 / %3)</source>
-        <translation>A %1 vezeték más osztályba esik a sémában és a nyáktervben (%2 / %3)</translation>
+        <translation>A %1 vezeték más osztályba esik a kapcsolási rajzban és a nyáktervben (%2 / %3)</translation>
     </message>
     <message>
         <source>Only INPUT pins on net %1</source>
@@ -4717,7 +4718,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Part %1 has different values in schematic and board (%2 / %3)</source>
-        <translation>A %1 alkatrésznek eltérő értéke van a sémában és a nyáktervben (%2 / %3) KÉSZ van:)</translation>
+        <translation>A %1 alkatrésznek eltérő értéke van a kapcsolási rajzban és a nyáktervben (%2 / %3) KÉSZ van:)</translation>
     </message>
     <message>
         <source>OUTPUT and OC pins mixed on net %1 (%2)</source>
@@ -5525,7 +5526,7 @@ No forward-/backannotation will be performed!
 
 Please contact CadSoft!</source>
         <translation>Konzisztencia hiba!
-Nem tudom tovább a nyákot és a sémát szinkronban tartani!
+Nem tudom tovább a nyákot és a kapcsolási rajzot szinkronban tartani!
 
 Vedd fel a kapcsolatot a Cadsofttal!</translation>
     </message>
@@ -5702,7 +5703,7 @@ vagy a Mégsemre a kijelölés törléséhez.</translation>
         <source>Can&apos;t backannotate this operation.
 Please do this in the schematic!</source>
         <translation>Ezt a parancsot nem tudom szinkronban végezni.
-Kérlek a sémában tedd ezt!</translation>
+Kérlek a kapcsolási rajzban tedd ezt!</translation>
     </message>
     <message>
         <source>Can&apos;t set via to layer &apos;%1&apos; at (%2 %3)</source>
@@ -6880,11 +6881,11 @@ Vedd fel a kapcsolatot a Cadsofttal!</translation>
     </message>
     <message>
         <source>Select &lt;b&gt;Run as Freeware&lt;/b&gt; to run EAGLE as Freeware.&lt;br&gt;</source>
-        <translation>Válaszd a &lt;b&gt;Futtatás Freeware módban&lt;/b&gt; opciót ha Freeeware módban szeretnéd futtatni az EAGLE-t.&lt;br&gt;</translation>
+        <translation>Kattints a &lt;b&gt;Freewareként futtatás&lt;/b&gt; gombra ha Freeware módban szeretnéd futtatni az EAGLE-t.&lt;br&gt;</translation>
     </message>
     <message>
         <source>Select &lt;b&gt;Freemium&lt;/b&gt; if you have an EAGLE Freemium code from&lt;br&gt;%1.</source>
-        <translation>Válaszd a &lt;b&gt;Freemium módot&lt;/b&gt; ha már szereztél Freemium licenszkódot innen:&lt;br&gt;%1.</translation>
+        <translation>Kattints a &lt;b&gt;Freemium&lt;/b&gt; gombra ha már beszerezted a Freemium licenszkódot innen:&lt;br&gt;%1.</translation>
     </message>
     <message>
         <source>Use license file</source>
@@ -7071,7 +7072,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Finished</source>
-        <translation>Elkészült</translation>
+        <translation>A művelet befejeződött</translation>
     </message>
     <message>
         <source>Click &quot;Finish&quot; to end Setup.</source>
@@ -7087,7 +7088,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Uninstall</source>
-        <translation>Eltávolítás</translation>
+        <translation>EAGLE eltávolítása</translation>
     </message>
     <message>
         <source>Please read the following License Agreement. Press the PAGE DOWN key to see the rest of the agreement.</source>
@@ -7107,7 +7108,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Welcome to the EAGLE Setup program.</source>
-        <translation>Köszönti Önt az EAGLE telepítő.</translation>
+        <translation>Üdvözöl az EAGLE telepítő.</translation>
     </message>
     <message>
         <source>Can&apos;t create link &apos;%1&apos;!</source>
@@ -7119,7 +7120,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Click &quot;Cancel&quot; if you are not sure.</source>
-        <translation>Click &quot;Mégsem&quot;,ha nem vagy biztos benne.</translation>
+        <translation>Kattints a &quot;Mégsem&quot; gombra ha meg kívánod szakítani az eltávolítást.</translation>
     </message>
     <message>
         <source>Can&apos;t create directory &apos;%1&apos;</source>
@@ -7147,7 +7148,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Setup is not complete.&lt;p&gt;</source>
-        <translation>A telepítés még nem teljes.&lt;p&gt;</translation>
+        <translation>A telepítés még nem fejeződött be.&lt;p&gt;</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is write protected. To overwrite the file, click &quot;Yes&quot;, otherwise click &quot;No&quot;.&lt;p&gt;Note that clicking &quot;No&quot; may lead to an incomplete installation of EAGLE!</source>
@@ -7191,7 +7192,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Uninstall has removed EAGLE %1 from your computer.</source>
-        <translation>Eltávolítás EAGLE %1 a te gépedről.</translation>
+        <translation>A program készen áll arra, hogy eltávolítsa az EAGLE %1-et a számítógépedről.</translation>
     </message>
     <message>
         <source>E&amp;xit Setup</source>
@@ -7215,11 +7216,11 @@ Felülírod?</translation>
     </message>
     <message>
         <source>This program removes EAGLE %1 from your computer.</source>
-        <translation>Az EAGLE %1 eltávolítása a te gépedről.</translation>
+        <translation>A program készen áll arra, hogy eltávolítsa az EAGLE %1-et a számítógépedről.</translation>
     </message>
     <message>
         <source>Setup has enough information to start copying the program files. If you want to review or change any settings, click &quot;Back&quot;. If you are satisfied with the settings, click &quot;Next&quot; to begin copying files.</source>
-        <translation>A telepítéshez szükséges összes beállítást megadtad. Ha meg akarod változtatni ezeket, akkor kattints a &quot;Vissza&quot; gombra. Ha biztosan mindent jól adtál meg akkor kattints a &quot;Tovább&quot; gombra a telepítés megkezdéséhez. </translation>
+        <translation>A telepítéshez szükséges összes beállítást megadtad. Ha meg kívánod változtatni ezeket, akkor kattints a &quot;Vissza&quot; gombra. Ha biztosan mindent jól adtál meg akkor kattints a &quot;Tovább&quot; gombra a telepítés elkezdéséhez. </translation>
     </message>
     <message>
         <source>This program will install EAGLE on your computer.</source>
@@ -7247,7 +7248,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>If you quit the Setup program now, the installation may be incomplete. You may run the Setup program at a later time to complete the installation.</source>
-        <translation>Ha most kilépsz a telepítőből, akkor a telepítés befejezetlen maradhat. Viszont később is futtathatod a telepítőt.</translation>
+        <translation>Ha most kilépsz a telepítőből, akkor a telepítés befejezetlen maradhat. Azonban később is futtathatod a telepítőt.</translation>
     </message>
     <message>
         <source>&amp;Run as Freeware</source>
@@ -7323,7 +7324,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation>Üdvözöljük</translation>
+        <translation>Üdvözletem</translation>
     </message>
     <message>
         <source>Click &quot;Next&quot; to continue with the Setup program.</source>
@@ -7347,7 +7348,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Do you accept the terms of the preceding License Agreement? If you choose &quot;No&quot;, Setup will close. To install EAGLE, you must accept this agreement.</source>
-        <translation> Az EAGLE feltelepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
+        <translation>Az EAGLE feltelepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
     </message>
     <message>
         <source>Software License Agreement</source>
@@ -7658,7 +7659,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>S&amp;witch to schematic</source>
-        <translation>Váltás a s&amp;émára</translation>
+        <translation>Váltás a kac&amp;solási rajzra</translation>
     </message>
     <message>
         <source>Invalid alias name &apos;%1&apos;!</source>
@@ -8442,7 +8443,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>Open recent</source>
-        <translation>Utoljára használt </translation>
+        <translation>Legutóbbi fájlok</translation>
     </message>
     <message>
         <source>Library - </source>
@@ -8559,7 +8560,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&amp;Use</source>
-        <translation>&amp;Használatba vesz</translation>
+        <translation>&amp;Használ</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -8943,7 +8944,7 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>&amp;Add to Schematic</source>
-        <translation>Hozz&amp;áadás a sémához</translation>
+        <translation>Hozz&amp;áadás a kapcsolási rajzhoz</translation>
     </message>
     <message>
         <source>Description of %1</source>
@@ -9063,7 +9064,7 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>Execute in &amp;Schematic</source>
-        <translation>Futtatás a &amp;sémában</translation>
+        <translation>Futtatás a &amp;kapcsolási rajzban</translation>
     </message>
     <message>
         <source>&amp;Add to Board</source>
@@ -9774,7 +9775,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Call to &apos;printf()&apos; without &apos;output&apos; statement</source>
-        <translation>printf() hívása történt a kimeneti kifejezés nélkül</translation>
+        <translation>A printf() csak egy output(&quot;fájlnév&quot;, &quot;mód&quot;) {} blokkon belül hívható!</translation>
     </message>
     <message>
         <source>Too many arguments in call to &apos;%1()&apos;</source>
