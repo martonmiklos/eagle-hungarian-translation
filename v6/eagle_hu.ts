@@ -2043,7 +2043,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a board or schematic!</source>
-        <translation>Ez az exportálási opció csak a kapcsolási rajzban vagy a nyákszerkesztőben érhető el!</translation>
+        <translation type="unfinished">Ez az exportálási opció csak a kapcsolási rajzban vagy a nyáktervező érhető el!</translation>
     </message>
 </context>
 <context>
@@ -2519,7 +2519,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Optimize command can only be used in a board!</source>
-        <translation>Az optimalizál (OPTIMIZE) parancs csak az nyákszerkesztőben alkalmazható!</translation>
+        <translation>Az optimalizál (OPTIMIZE) parancs csak az nyáktervezőben alkalmazható!</translation>
     </message>
     <message>
         <source>Left-click to select signal to optimize or click GO to optimize all signals</source>
@@ -2987,7 +2987,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>The Ratsnest command can only be used in a board!</source>
-        <translation>Az kitöltés (Ratnets) parancs csak az nyákszerkesztőben alkalmazható!</translation>
+        <translation>Az kitöltés (Ratnets) parancs csak az nyáktervezőben alkalmazható!</translation>
     </message>
     <message>
         <source>Unknown signals: %1
@@ -7515,11 +7515,11 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Switch to board</source>
-        <translation>Váltás a nyákszerkesztőre</translation>
+        <translation>Váltás a nyáktervezőre</translation>
     </message>
     <message>
         <source>S&amp;witch to board</source>
-        <translation>Váltás a &amp;nyákszerkesztőre</translation>
+        <translation>Váltás a &amp;nyáktervezőre</translation>
     </message>
     <message>
         <source>Remo&amp;ve...</source>
@@ -7659,7 +7659,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>S&amp;witch to schematic</source>
-        <translation>Váltás a kac&amp;solási rajzra</translation>
+        <translation>Váltás a kapc&amp;solási rajzra</translation>
     </message>
     <message>
         <source>Invalid alias name &apos;%1&apos;!</source>
@@ -8007,7 +8007,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Command buttons</source>
-        <translation>Parancsgomb</translation>
+        <translation>Parancsgombok</translation>
     </message>
     <message>
         <source>Stop command</source>
@@ -8780,7 +8780,7 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     </message>
     <message>
         <source>Translator</source>
-        <translation>Hungarian translation by Marton Miklos, martonmiklos@t-online.hu</translation>
+        <translation>Hungarian translation by Marton Miklos, martonmiklosqdev@gmail.com</translation>
     </message>
     <message>
         <source>S&amp;cript</source>
@@ -9208,7 +9208,7 @@ doesn&apos;t exist!
     </message>
     <message>
         <source>Command buttons</source>
-        <translation>Parancsgomb</translation>
+        <translation>Parancsgombok</translation>
     </message>
     <message>
         <source>Can&apos;t edit &apos;%1&apos;
