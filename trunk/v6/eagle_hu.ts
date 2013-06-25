@@ -657,7 +657,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Left-click to place &apos;%1&apos;</source>
-        <translation>Kattints bal gombbal a %1 letételéhezz</translation>
+        <translation>Kattints bal gombbal a %1 elhelyezéséhez</translation>
     </message>
     <message>
         <source>element name</source>
@@ -912,7 +912,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Left-click to place attribute</source>
-        <translation>Kattints bal gombbal a tulajdonság letételéhez</translation>
+        <translation>Kattints bal gombbal a tulajdonság elhelyezéséhez</translation>
     </message>
     <message>
         <source>Globally defined by board</source>
@@ -1442,7 +1442,7 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     </message>
     <message>
         <source>Left-click to place object</source>
-        <translation>Kattints bal gombbal az objektum letételéhez</translation>
+        <translation>Kattints bal gombbal az objektum elhelyezéséhez</translation>
     </message>
     <message>
         <source>Can&apos;t copy texts of parts!</source>
@@ -1735,7 +1735,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Check angle</source>
-        <translation>Szögek ellenőrzése</translation>
+        <translation>Szögellenőrzés</translation>
     </message>
     <message>
         <source>Edit Description...</source>
@@ -2043,7 +2043,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a board or schematic!</source>
-        <translation type="unfinished">Ez az exportálási opció csak a kapcsolási rajzban vagy a nyáktervező érhető el!</translation>
+        <translation>Ez az exportálás csak a kapcsolási rajzban vagy a nyáktervező érhető el!</translation>
     </message>
 </context>
 <context>
@@ -2205,7 +2205,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Left-click to place hole</source>
-        <translation>Kattints bal gombbal a lyuk letételéhez</translation>
+        <translation>Kattints bal gombbal a furat elhelyezéséhez</translation>
     </message>
 </context>
 <context>
@@ -2266,7 +2266,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Left-click to place junction</source>
-        <translation>Kattints bal gombbal az csomópont letételéhez</translation>
+        <translation>Kattints bal gombbal az csomópont elhelyezéséhez</translation>
     </message>
     <message>
         <source>No net selected!</source>
@@ -2285,7 +2285,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Left-click to place label</source>
-        <translation>Kattints bal gombbal a címke letételéhez</translation>
+        <translation>Kattints bal gombbal a címke elhelyezéséhez</translation>
     </message>
     <message>
         <source>The Label command can only be used in a schematic!</source>
@@ -2422,11 +2422,11 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Left-click to place group</source>
-        <translation>Kattints bal gombbal a kijelölés letételéhez</translation>
+        <translation>Kattints bal gombbal a kijelölés létrehozásához</translation>
     </message>
     <message>
         <source>Left-click to place object</source>
-        <translation>Kattints bal gombbal az objektum letételéhez</translation>
+        <translation>Kattints bal gombbal az objektum elhelyezéséhez</translation>
     </message>
     <message>
         <source>You can&apos;t edit the given sheet.</source>
@@ -2607,7 +2607,7 @@ min a(z) (%2) lábához</translation>
     <name>d_pad.c</name>
     <message>
         <source>Left-click to place pad</source>
-        <translation>Kattints bal gombbal a &quot;pad&quot; letételéhez</translation>
+        <translation>Kattints bal gombbal a &quot;pad&quot; elhelyezéséhez</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
@@ -2640,7 +2640,7 @@ min a(z) (%2) lábához</translation>
         <source>The current grid in your board window is &apos;%1&apos;, which is larger than &apos;50 mil&apos;.
 Do you really want to place the packages in such a coarse grid?</source>
         <translation>Az aktuális rács a nyáktervben %1, ami 50 mil
-Valóban ilyen nagy ráccsal szeretnéd elkészíteni a könyvtárat?</translation>
+Valóban ilyen nagy rácsot kívánsz használni?</translation>
     </message>
     <message>
         <source>Can&apos;t Cut/Paste devices!</source>
@@ -2800,7 +2800,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>Left-click to place pin</source>
-        <translation>Kattints bal gombbal a láb letételéhez</translation>
+        <translation>Kattints bal gombbal a láb elhelyezéséhez</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
@@ -3753,7 +3753,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     <name>d_smd.c</name>
     <message>
         <source>Left-click to place smd</source>
-        <translation>Kattints bal gombbal az SMD pad letételéhez</translation>
+        <translation>Kattints bal gombbal az SMD pad elhelyezéséhez</translation>
     </message>
     <message>
         <source>pad name</source>
@@ -3784,7 +3784,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Left-click to place wire</source>
-        <translation>Kattints bal gombbal a vonal vagy vezeték rögzítéséhez letételéhez</translation>
+        <translation>Kattints bal gombbal a vonal elhelyezéséhez</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
@@ -3836,7 +3836,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Left-click to place text (or type in new text)</source>
-        <translation>Kattints bal gombbal a szöveg letételéhez (vagy írj be új szöveget)</translation>
+        <translation>Kattints bal gombbal a szöveg elhelyezéséhez (vagy írj be új szöveget)</translation>
     </message>
     <message>
         <source>The Text command can&apos;t be used in a device set!</source>
@@ -4154,7 +4154,7 @@ Valóban megváltoztatod?</translation>
     <name>d_via.c</name>
     <message>
         <source>Left-click to place via</source>
-        <translation>Kattints bal gombbal az átkötés letételéhez</translation>
+        <translation>Kattints bal gombbal az átkötés elhelyezéséhez</translation>
     </message>
     <message>
         <source>The Via command can only be used in a board!</source>
@@ -5039,7 +5039,7 @@ egyetlen kapu helyére sem az új verzióban
     </message>
     <message>
         <source>A different version of %1 %2 is already present in this file.</source>
-        <translation>%1 eltérő %2 verziója már létezik a fájlban.</translation>
+        <translation>A %1 %2 verzióját már tartalmazza a fájl.</translation>
     </message>
     <message>
         <source>symbol</source>
@@ -5117,7 +5117,7 @@ mapped%3 to any pin in the new version of this symbol.</source>
     </message>
     <message>
         <source>Since there are differences in the %1, they will be replaced by...</source>
-        <translation>Mivel eltérések vannak ebben: %1, ezért le lesznek cserélve...</translation>
+        <translation>A %1 eltérésel a következő módon legyenk cserélve:</translation>
     </message>
     <message>
         <source>Can&apos;t map connected pins from %1, gate %2
