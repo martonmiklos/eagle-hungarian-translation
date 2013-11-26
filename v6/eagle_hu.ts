@@ -373,7 +373,7 @@ Ez egy korlátozott idejű EAGLE licensz, ami csatlakozást igényel a Cadsoft s
     </message>
     <message>
         <source>Define technologies for a device</source>
-        <translation>Technológia megadása az eszközhöz</translation>
+        <translation>Technológia megadása az alkatrészhez</translation>
     </message>
     <message>
         <source>Show object properties</source>
@@ -417,7 +417,7 @@ Ez egy korlátozott idejű EAGLE licensz, ami csatlakozást igényel a Cadsoft s
     </message>
     <message>
         <source>Define a package variant</source>
-        <translation>Új csomag variáns definiálása</translation>
+        <translation>Új tokozás variáns definiálása</translation>
     </message>
     <message>
         <source>Draw a frame</source>
@@ -673,7 +673,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Device %1 %2!</source>
-        <translation>Eszköz %1 %2!</translation>
+        <translation>Alkatrész %1 %2!</translation>
     </message>
     <message>
         <source>part name</source>
@@ -685,7 +685,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Device %1 has no package!</source>
-        <translation>A(z) %1 eszköznek nincs lenyomata!</translation>
+        <translation>A(z) %1 alkatrésznek nincs lenyomata!</translation>
     </message>
     <message>
         <source>Can&apos;t find symbol %1</source>
@@ -728,7 +728,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>The Arc command can&apos;t be used in a device set!</source>
-        <translation>A Arc parancs nem használható az eszközkészletben!</translation>
+        <translation>A Arc parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -924,7 +924,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>The Attribute command can only be used in a device!</source>
-        <translation>A tulajdonság parancs csak eszközön alkalmazható!</translation>
+        <translation>A tulajdonság parancs csak alkatrészen alkalmazható!</translation>
     </message>
     <message>
         <source>&amp;Change</source>
@@ -1287,7 +1287,7 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs kapcsolási rajzod.<
     </message>
     <message>
         <source>&lt;nobr&gt;The &apos;CHANGE %1&apos; command can only work with groups&lt;br&gt;if a package variant is given in quotes, as in&lt;br&gt;&lt;br&gt;&lt;tt&gt;CHANGE %2 &apos;FK&apos;&lt;/tt&gt;&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;A CHANGE %1 parancs csak kijelölésen hajtható végre,&lt;br&gt; ha a csomagvariáns neve idézőjelek közt van.&lt;br&gt;&lt;br&gt;&lt;tt&gt;Pld.:  CHANGE %2 &apos;FK&apos;&lt;/tt&gt;&lt;nobr&gt;</translation>
+        <translation>&lt;nobr&gt;A CHANGE %1 parancs csak kijelölésen hajtható végre,&lt;br&gt; ha a tokozás variáns neve idézőjelek közt van.&lt;br&gt;&lt;br&gt;&lt;tt&gt;Pld.:  CHANGE %2 &apos;FK&apos;&lt;/tt&gt;&lt;nobr&gt;</translation>
     </message>
     <message>
         <source>You can&apos;t change an object into layer %1.</source>
@@ -1306,7 +1306,7 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs kapcsolási rajzod.<
     </message>
     <message>
         <source>The Circle command can&apos;t be used in a device set!</source>
-        <translation>A Circle parancs nem használható az eszközkészletben!</translation>
+        <translation>A Circle parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -1399,7 +1399,7 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     <name>d_connec.c</name>
     <message>
         <source>Use the PACKAGE command to select a package variant first!</source>
-        <translation>Használd a csomag (PACKAGE) parancsot a csomagtípus kiválasztásához!</translation>
+        <translation>Használd a tokozás (PACKAGE) parancsot a tokozás típusának kiválasztásához!</translation>
     </message>
     <message>
         <source>Copy &amp;from:</source>
@@ -1446,7 +1446,7 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     </message>
     <message>
         <source>Can&apos;t copy texts of parts!</source>
-        <translation>Nem lehet az alkatrész szövegét másolni!</translation>
+        <translation>Az alkatrészhez tartozó szövegeket nem lehet magában másolni!</translation>
     </message>
     <message>
         <source>Copy Device Set</source>
@@ -1459,7 +1459,7 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     <message>
         <source>A device set with the name %1 already exists.
 Please enter a new name</source>
-        <translation>A(z) %1 nevű eszközkészlet már létezik
+        <translation>A(z) %1 nevű alkatrészkészlet már létezik
 Kérlek adj meg másik nevet</translation>
     </message>
     <message>
@@ -1475,8 +1475,8 @@ Kérlek adj meg másik nevet</translation>
 exists as both device set and package.
 Please use extension &apos;.dev&apos; or &apos;.pac&apos; to specify which one to use.</source>
         <translation> A %1 könyvtár objektum 
-mind az eszközkészletben mind a csomagban benne van
-Kérlek használd a .dev és a .pac kiterjesztést ahhoz hogy ontosan megadd melyiket szeretnéd használni. </translation>
+mind az alkatrészkészletben mind a tokozásban benne van
+Kérlek használd a .dev és a .pac kiterjesztést ahhoz hogy pontosan megadd melyiket szeretnéd használni. </translation>
     </message>
     <message>
         <source>The Copy command with a name can only be used in a library!</source>
@@ -1495,7 +1495,7 @@ Kérlek használd a .dev és a .pac kiterjesztést ahhoz hogy ontosan megadd mel
     <name>d_cut.c</name>
     <message>
         <source>Can&apos;t Cut/Paste devices!</source>
-        <translation>Nem tudom vágólapra tenni/beilleszteni az eszközöket!</translation>
+        <translation>Nem tudom vágólapra tenni/beilleszteni az alkatrészeket!</translation>
     </message>
     <message>
         <source>Left-click to select group reference point or click GO to select group at center</source>
@@ -1537,7 +1537,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     <name>d_dimension.c</name>
     <message>
         <source>The Dimension command can&apos;t be used in a device set!</source>
-        <translation>A Dimension parancs nem használható az eszközkészletben+</translation>
+        <translation>A Dimension parancs nem használható az alkatrészkészletben+</translation>
     </message>
     <message>
         <source>Left-click to start dimension</source>
@@ -2062,7 +2062,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Frame command can&apos;t be used in a device set!</source>
-        <translation>A Frame parancs nem használható az eszközkészletben!</translation>
+        <translation>A Frame parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -2201,7 +2201,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_hole.c</name>
     <message>
         <source>The Hole command can only be used in a board or package!</source>
-        <translation>A lyuk (HOLE) parancs csak a nyákt- vagy a csomagszerkesztőben  használható!</translation>
+        <translation>A lyuk (HOLE) parancs csak a nyákt- vagy a tokozásszerkesztőben  használható!</translation>
     </message>
     <message>
         <source>Left-click to place hole</source>
@@ -2407,7 +2407,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Miter command can&apos;t be used in a device set!</source>
-        <translation>A Miter parancs nem használható az eszközkészletben!</translation>
+        <translation>A Miter parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -2530,17 +2530,17 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     <name>d_packag.c</name>
     <message>
         <source>Please select a package!</source>
-        <translation>Kérlek válassz csomagot!</translation>
+        <translation>Kérlek válassz tokozást!</translation>
     </message>
     <message>
         <source>Package %1 doesn&apos;t have enough pads for
 all %2 pins of device %3</source>
-        <translation>A %1 csomagnak nincs elég padje az %3 eszköz
-min a(z) (%2) lábához</translation>
+        <translation>A %1 tokozásnak nincs elég padje az %3 alkatrész
+mind a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>Package variant %1 does not exist!</source>
-        <translation>A %1 csomag változat nem létezik!</translation>
+        <translation>A %1 tokozás nem létezik!</translation>
     </message>
     <message>
         <source>Unexpected parameter: %1</source>
@@ -2548,19 +2548,19 @@ min a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>Missing name of package to copy!</source>
-        <translation>Hiányzik a másolni kívánt csomag neve!</translation>
+        <translation>Hiányzik a másolni kívánt tokozás neve!</translation>
     </message>
     <message>
         <source>Can&apos;t find package variant %1</source>
-        <translation>A %1 csomag változat nem található</translation>
+        <translation>A %1 tokozás nem található</translation>
     </message>
     <message>
         <source>The Package command can only be used in a device!</source>
-        <translation>A csomag (Package) parancs csak az eszközszerkesztőben használható!</translation>
+        <translation>A tokozás (Package) parancs csak az alkatrészszerkesztőben használható!</translation>
     </message>
     <message>
         <source>Package Variant</source>
-        <translation>Csomag változat</translation>
+        <translation>Tokozás</translation>
     </message>
     <message>
         <source>&lt;font color=red&gt;&lt;b&gt;This package doesn&apos;t have enough pads for %1!&lt;/b&gt;&lt;/font&gt;&lt;p&gt;</source>
@@ -2568,27 +2568,27 @@ min a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>Package variant %1 already defined!</source>
-        <translation>A %1 csomag változat már létezik!</translation>
+        <translation>A %1 tokozás már létezik!</translation>
     </message>
     <message>
         <source>Create new package variant for %1</source>
-        <translation>Új csomag változat létrehozása a %1-hez</translation>
+        <translation>Új tokozás létrehozása ehhez: %1</translation>
     </message>
     <message>
         <source>Enter name of new package variant</source>
-        <translation>Add meg az új csomag változat nevét</translation>
+        <translation>Add meg az új tokozás nevét</translation>
     </message>
     <message>
         <source>package name</source>
-        <translation>csomag név</translation>
+        <translation>tokozás</translation>
     </message>
     <message>
         <source>The package %1 does not have enough pads for %2!</source>
-        <translation>A %1 csomagnak nincs elég padje ehhez: %2!</translation>
+        <translation>A %1 tokozásnak nincs elég padje ehhez: %2!</translation>
     </message>
     <message>
         <source>Delete package variant %1?</source>
-        <translation>Valóban törlöd ezt a csomag változatot: %1?</translation>
+        <translation>Valóban törlöd ezt a tokozást: %1?</translation>
     </message>
     <message>
         <source>Missing name of library to copy from!</source>
@@ -2600,7 +2600,7 @@ min a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>Can&apos;t find package: %1</source>
-        <translation>A %1 csomag nem található</translation>
+        <translation>A(z) %1 tokozás nem található</translation>
     </message>
 </context>
 <context>
@@ -2623,7 +2623,7 @@ min a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>The Pad command can only be used in a package!</source>
-        <translation>A pad parancs csak a csomagkezelőben használható!</translation>
+        <translation>A pad parancs csak a tokozásszerkesztőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t place pad %1 on pad %2!</source>
@@ -2644,7 +2644,7 @@ Valóban ilyen nagy rácsot kívánsz használni?</translation>
     </message>
     <message>
         <source>Can&apos;t Cut/Paste devices!</source>
-        <translation>Nem lehet másolni vagy beilleszteni eszközöket!</translation>
+        <translation>Nem lehet másolni vagy beilleszteni alkatrészeket!</translation>
     </message>
     <message>
         <source>Skipped unsuitable objects!</source>
@@ -2894,7 +2894,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>The Polygon command can&apos;t be used in a device set!</source>
-        <translation>A Polygon parancs nem használható az eszközkészletben+</translation>
+        <translation>A Polygon parancs nem használható az alkatrészkészletben+</translation>
     </message>
 </context>
 <context>
@@ -2905,7 +2905,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>The Prefix command can only be used in a device!</source>
-        <translation>Az előtag (PREFIX) parancs csak az eszközszerkesztőben alkalmazható!</translation>
+        <translation>Az előtag (PREFIX) parancs csak az alkatrészszerkesztőben alkalmazható!</translation>
     </message>
     <message>
         <source>New prefix: </source>
@@ -3014,7 +3014,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Rectangle command can&apos;t be used in a device set!</source>
-        <translation>A Rectangle parancs nem használható az eszközkészletben+</translation>
+        <translation>A Rectangle parancs nem használható az alkatrészkészletben+</translation>
     </message>
 </context>
 <context>
@@ -3121,7 +3121,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>Package not found: %1</source>
-        <translation>A %1 csomag nem található</translation>
+        <translation>A %1 tokozás nem található</translation>
     </message>
     <message>
         <source>Left-click to select element to replace</source>
@@ -3207,15 +3207,15 @@ Folytatod?</translation>
     </message>
     <message>
         <source>Non orthogonal orientations can only be used in a board or package!</source>
-        <translation>Nem ortogonális (nem n*90  fokos) orientációk csak a nyáktervben vagy az eszközszerkesztőben használható!</translation>
+        <translation>Nem ortogonális (nem n*90  fokos) orientációk csak a nyáktervben vagy az alkatrészszerkesztőben használható!</translation>
     </message>
     <message>
         <source>The Rotate command can&apos;t be used in a device set!</source>
-        <translation>A Rotate parancs nem használható az eszközkészletben!</translation>
+        <translation>A Rotate parancs nem használható az alkatrészkészletben!</translation>
     </message>
     <message>
         <source>The Mirror command can&apos;t be used in a device set!</source>
-        <translation>A Mirror parancs nem használható az eszközkészletben!</translation>
+        <translation>A Mirror parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -3303,7 +3303,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>&amp;Beep</source>
-        <translation>S&amp;ípol</translation>
+        <translation>S&amp;ípolás</translation>
     </message>
     <message>
         <source>&amp;Real</source>
@@ -3769,7 +3769,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Smd command can only be used in a package!</source>
-        <translation>Az SMD parancs csak a csomagkezelőben használható!</translation>
+        <translation>Az SMD parancs csak a tokozásszerkesztőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t place smd %1 on pad %2!</source>
@@ -3792,7 +3792,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Split command can&apos;t be used in a device set!</source>
-        <translation>A Split parancs nem használható az eszközkészletben!</translation>
+        <translation>A Split parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -3803,7 +3803,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Use the PACKAGE command to select a package variant first!</source>
-        <translation>Használd a PACKAGE parancsot  a csomagváltozat kiválasztásához!</translation>
+        <translation>Használd a PACKAGE parancsot  a tokozás kiválasztásához!</translation>
     </message>
     <message>
         <source>Technologies of %1</source>
@@ -3811,11 +3811,11 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Technology command can only be used in a device!</source>
-        <translation>A technológia parancs csak eszközön alkalmazható!</translation>
+        <translation>A technológia parancs csak alkatrészen alkalmazható!</translation>
     </message>
     <message>
         <source>No technology %1 in package variant %2!</source>
-        <translation>Nincs %1 technológia megadva a %2 csomagvariánshoz!</translation>
+        <translation>Nincs %1 technológia megadva a %2 tokozáshoz!</translation>
     </message>
     <message>
         <source>&lt;pre&gt;%1
@@ -3840,7 +3840,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>The Text command can&apos;t be used in a device set!</source>
-        <translation>A Text parancs nem használható az eszközkészletben!</translation>
+        <translation>A Text parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -4229,7 +4229,7 @@ történő használatához</translation>
     </message>
     <message>
         <source>The Wire command can&apos;t be used in a device set!</source>
-        <translation>A Wire parancs nem használható az eszközkészletben!</translation>
+        <translation>A Wire parancs nem használható az alkatrészkészletben!</translation>
     </message>
 </context>
 <context>
@@ -4670,7 +4670,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>Part %1 has inconsistent packages in schematic and board (%2 / %3)</source>
-        <translation>A %1 alkatrésznek nem konzisztens csomagja van a kapcsolási rajzban és a nyákban (%2 / %3)</translation>
+        <translation>A %1 alkatrésznek nem konzisztens a tokozása a kapcsolási rajzban és a nyáktervben (%2 / %3)</translation>
     </message>
     <message>
         <source>Pin %1 %2 connected to %3 without any net wire, junction or other pin</source>
@@ -5017,7 +5017,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
         <source>Gate %1 in the old version of device set %2 can&apos;t be
 mapped to any gate in the new version of this device set
 (neither by name nor by coordinates).</source>
-        <translation>A régi verzió %2 eszközének %1 kapuja nem kapcsolható 
+        <translation>A régi verzió %2 alkatrészének %1 kapuja nem kapcsolható 
 egyetlen kapu helyére sem az új verzióban
 (Sem név sem koordináták által).</translation>
     </message>
@@ -5031,11 +5031,11 @@ egyetlen kapu helyére sem az új verzióban
     </message>
     <message>
         <source>package</source>
-        <translation>csomag</translation>
+        <translation>tokozás</translation>
     </message>
     <message>
         <source>device</source>
-        <translation>eszköz</translation>
+        <translation>alkatrész</translation>
     </message>
     <message>
         <source>A different version of %1 %2 is already present in this file.</source>
@@ -5047,7 +5047,7 @@ egyetlen kapu helyére sem az új verzióban
     </message>
     <message>
         <source>A different version of device set %1 is already present in this file and needs to be updated.</source>
-        <translation>A %1 eszközkészelt különböző verziója megtalálható ebben a fájlban, így azt frissíteni kell.</translation>
+        <translation>A %1 alkatrészkészelt különböző verziója megtalálható ebben a fájlban, így azt frissíteni kell.</translation>
     </message>
     <message>
         <source>Ok to update with new version?</source>
@@ -5055,7 +5055,7 @@ egyetlen kapu helyére sem az új verzióban
     </message>
     <message>
         <source>In order to do this, the following other devices need to be updated, because they share symbols and/or packages:&lt;p&gt;</source>
-        <translation>Ahhoz, hogy ezt megtedd a következő eszközöket frissítened kell, mert azok is használják a szimbólumokat és/vagy csomagokat: &lt;p&gt;</translation>
+        <translation>Ahhoz, hogy ezt megtedd a következő alkatrészeket frissítened kell, mert azok is használják a szimbólumokat és/vagy tokozásokat: &lt;p&gt;</translation>
     </message>
     <message>
         <source>&amp;Coordinates</source>
@@ -5063,7 +5063,7 @@ egyetlen kapu helyére sem az új verzióban
     </message>
     <message>
         <source>Device %1 is being added.</source>
-        <translation>%1 eszköz hozzá lett adva.</translation>
+        <translation>%1 alkatrész hozzá lett adva.</translation>
     </message>
     <message>
         <source>Consistency lost during library update!
@@ -5088,7 +5088,7 @@ de %3 nem össszeegyeztethetőek sem nevük sem a koordinátáik alapján! </tra
     <message>
         <source>Package variant %1 in the new version of device set %2
 %3!</source>
-        <translation>A %1 csomagváltozat az új %2 eszközkészletben 
+        <translation>A %1 tokozás az új %2 alkatrészkészletben 
 %3!</translation>
     </message>
     <message>
@@ -5113,7 +5113,7 @@ mapped%3 to any pin in the new version of this symbol.</source>
     </message>
     <message>
         <source>&lt;html&gt;Package variant &lt;b&gt;%1&lt;/b&gt; is not present in the new version of device set &lt;b&gt;%2&lt;/b&gt;.&lt;p&gt;Please select a new package variant:&lt;/html&gt;</source>
-        <translation>&lt;html&gt;A csomag változat &lt;b&gt;%1&lt;/b&gt; nem található meg az új eszközkészletben  &lt;b&gt;%2&lt;/b&gt;. &lt;p&gt;Kérlek válassz másik csomag variánst:&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;A tokozás&lt;b&gt;%1&lt;/b&gt; nem található meg az új alkatrészkészletben  &lt;b&gt;%2&lt;/b&gt;. &lt;p&gt;Kérlek válassz másik tokozást:&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Since there are differences in the %1, they will be replaced by...</source>
@@ -5129,8 +5129,8 @@ to new version.</source>
         <source>Package variant %1 in the old version of device set %2 is not
 present in the new version of this device set. A library update for the old device may be required first.
 </source>
-        <translation>A %2 eszközkészlet %1 tokozású verziója nincs meg az eszközkészlet új verziójában.
-Az eszközkészlet régi verzióján egy könyvtárfrissítés javasolt.
+        <translation>A %2 alkatrészkészlet %1 tokozású verziója nincs meg az alkatrészkészlet új verziójában.
+Az alkatrészkészlet régi verzióján egy könyvtárfrissítés javasolt.
 </translation>
     </message>
     <message>
@@ -5306,7 +5306,7 @@ Vagy a Mégsemre a kijelölés törlésének kihagyásához.</translation>
         <source>Package &apos;%1&apos;
 of library &apos;%2&apos;
 contains an invalid polygon.</source>
-        <translation>A %2 könyvtár  %1 csomagja 
+        <translation>A %2 könyvtár  %1 tokozása 
 érvénytelen sokszöget tartalmaz.</translation>
     </message>
     <message>
@@ -5327,7 +5327,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
         <source>Pad %1 of element %2 is connected to signal %3, but can&apos;t be mapped
 to any pad in the new version of package %4.</source>
         <translation>A %2 elem %1 padja hozzá van rendelve a %3 összeköttetéshez, de nem 
-tudom hozzárendelni egyetlen padhez sem a %4 csomag új verziójában.</translation>
+tudom hozzárendelni egyetlen padhez sem a %4 tokozásban.</translation>
     </message>
     <message>
         <source>Use ratsnest before deleting airwires!</source>
@@ -5368,7 +5368,7 @@ Ellenőrízd az elemet, és futtasd újra a DRC-t!</translation>
         <source>Adding symbol %1 to %2 would exceed the minimum number
 of pads (%3) available in package variant %4</source>
         <translation>%1 szimbólum hozzáadása %2 nem lehetséges mivel a szimbólumnak több lába van (%3), 
-mint ahány padje van a %4 csomagváltozatnak</translation>
+mint ahány padje van a %4 tokozásnak</translation>
     </message>
     <message>
         <source>has unconnected pin (%1/%2)</source>
@@ -5422,7 +5422,7 @@ Folytassam?</translation>
     </message>
     <message>
         <source>Package &apos;%1&apos; of element &apos;%2&apos; %3</source>
-        <translation>A %2 %3 elem %1 csomagja</translation>
+        <translation>A %2 %3 elem %1 tokozása</translation>
     </message>
     <message>
         <source>Sheet %1</source>
@@ -5589,7 +5589,7 @@ Használd a név (NAME) parancsot a vezetéknevek összekapcsolásához.</transl
         <source>Can&apos;t change package of &apos;%1&apos;
 
 </source>
-        <translation>A(z) %1  csomag nem cserélhető
+        <translation>A(z) %1  tokozás nem cserélhető
 
 </translation>
     </message>
@@ -7041,7 +7041,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Non orthogonal orientations can only be used in a board or package!</source>
-        <translation>Nem ortogonális irányok csak a nyák- vagy a csomagszerkesztőben használhatók!</translation>
+        <translation>Nem ortogonális irányok csak a nyák- vagy a tokozásszerkesztőben használhatók!</translation>
     </message>
     <message>
         <source>Invalid rotation: &apos;%1&apos;</source>
@@ -7835,7 +7835,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>&amp;Ratsnest</source>
-        <translation>&amp;Légkötések újraszámolása</translation>
+        <translation>&amp;Légvezetékek újraszámolása</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -7931,7 +7931,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Edit a symbol</source>
-        <translation>Szimbólum szerk</translation>
+        <translation>Szimbólum szerkesztő</translation>
     </message>
     <message>
         <source>Shape octagon</source>
@@ -7983,7 +7983,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Edit a device</source>
-        <translation>Eszköz szerkesztő</translation>
+        <translation>Alkatrész szerkesztő</translation>
     </message>
     <message>
         <source>Cross-reference label</source>
@@ -7995,7 +7995,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Edit a package</source>
-        <translation>Csomag szerkesztő</translation>
+        <translation>Tokozás szerkesztése</translation>
     </message>
     <message>
         <source>Select net class</source>
@@ -8031,7 +8031,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Rename package variant</source>
-        <translation>Csomagvariáns átnevezése</translation>
+        <translation>Tokozás átnevezése</translation>
     </message>
     <message>
         <source>Invalid value: &apos;%1&apos;
@@ -8063,7 +8063,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>overwrites device name</source>
-        <translation>felülírja az eszköz nevét</translation>
+        <translation>felülírja az alkatrész nevét</translation>
     </message>
     <message>
         <source>not applicable if Drill &gt; %1
@@ -8415,7 +8415,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>Create new package &apos;%1&apos;?</source>
-        <translation>Valóban létrehozzuk a %1 csomagot?</translation>
+        <translation>Valóban létrehozzuk a %1 tokozást?</translation>
     </message>
     <message>
         <source>Point not expected!</source>
@@ -8459,7 +8459,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>Create new device &apos;%1&apos;?</source>
-        <translation>Valóban létrehozzuk a %1 eszközt?</translation>
+        <translation>Valóban létrehozzuk a %1 alkatrészt?</translation>
     </message>
     <message>
         <source>Unknown command: %1</source>
@@ -8525,7 +8525,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&lt;i&gt;Search pattern&lt;/i&gt; can be one or more words, separated by blanks. These words are searched case insensitively in the device names and descriptions (if &lt;i&gt;Description&lt;/i&gt; is checked), and must &lt;u&gt;all&lt;/u&gt; match.&lt;p&gt;The wildcard character &apos;*&apos; matches any number of non-whitespace characters, while &apos;?&apos; matches exactly &lt;u&gt;one&lt;/u&gt; of these characters.&lt;p&gt;If &lt;i&gt;Smds&lt;/i&gt; is checked, devices that contain SMDs will be included in the search.&lt;p&gt;To find all NAND devices from the 74xx series, enter: &lt;tt&gt;74* nand&lt;/tt&gt;</source>
-        <translation>A &lt;i&gt;keresési szűrő&lt;/i&gt; lehet egy vagy több szó szóközökkel elválasztva. A szavak keresésekor a kisbetű nagybetű nem számít. A keresés az eszközök nevében illetve leírásában keres (már ha a Leírás be van pipálva). &lt;p&gt;A  * dzsókerkarakter bármennyi nem szóköz karakterre illeszkedik, míg a ? csak &lt;u&gt;egyre&lt;/u&gt;. Ha az SMD be van pipálva a keresés eredményei között SMD alkatrészek is szerepelni fognak. &lt;p&gt;Példa: Ha pld. minden NAND kaput tartalmazó 74xx szériába tartozó alkatrészt látni szeretnénk, akkor ezt írjuk be: &lt;tt&gt;74** nand &lt;/tt&gt;</translation>
+        <translation>A &lt;i&gt;keresési szűrő&lt;/i&gt; lehet egy vagy több szó szóközökkel elválasztva. A szavak keresésekor a kisbetű nagybetű nem számít. A keresés az alkatrészek nevében illetve leírásában keres (már ha a Leírás be van pipálva). &lt;p&gt;A  * dzsókerkarakter bármennyi nem szóköz karakterre illeszkedik, míg a ? csak &lt;u&gt;egyre&lt;/u&gt;. Ha az SMD be van pipálva a keresés eredményei között SMD alkatrészek is szerepelni fognak. &lt;p&gt;Példa: Ha pld. minden NAND kaput tartalmazó 74xx szériába tartozó alkatrészt látni szeretnénk, akkor ezt írjuk be: &lt;tt&gt;74** nand &lt;/tt&gt;</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
@@ -10242,7 +10242,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Can&apos;t access contact from pin without a device context</source>
-        <translation>A láb mezőből nem lehet elérni a contact mezőt, az eszköz megadása nélkül</translation>
+        <translation>A láb mezőből nem lehet elérni a contact mezőt, az alkatrész megadása nélkül</translation>
     </message>
     <message>
         <source>Invalid use of loop member &apos;%1&apos;</source>
@@ -10250,7 +10250,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Current drawing is not a package</source>
-        <translation>Az adott rajz nem csomag</translation>
+        <translation>Az adott rajz nem tokozás</translation>
     </message>
     <message>
         <source>Argument 2 in call to &apos;%1()&apos; must be integer</source>
@@ -10485,15 +10485,15 @@ contains %2 data, which doesn&apos;t match the filename extension!</source>
     </message>
     <message>
         <source>Pad at (%1 %2) in package %3 of library %4 has no name!</source>
-        <translation>A %4 könyvtárban lévő %3 csomag  (%1 %2) pontban lévő padjének nincs neve!</translation>
+        <translation>A %4 könyvtárban lévő %3 tokozás (%1 %2) pontban lévő padjének nincs neve!</translation>
     </message>
     <message>
         <source>Skipped pad outside of package at (%1 %2)!</source>
-        <translation>A (%1 %2) pozíciójú pad ki lett hagyva a csomagból!</translation>
+        <translation>A (%1 %2) pozíciójú pad ki lett hagyva a tokozásból!</translation>
     </message>
     <message>
         <source>Skipped smd outside of package at (%1 %2)!</source>
-        <translation>A (%1 %2) pozíciójú smd pad ki lett hagyva a csomagból!</translation>
+        <translation>A (%1 %2) pozíciójú smd pad ki lett hagyva a tokozásból!</translation>
     </message>
     <message>
         <source>%1(%2): unknown data!</source>
@@ -10526,12 +10526,12 @@ régi_név@sorszám.</translation>
     <message>
         <source>Skipping inconsistent pin connections to the same pad in device &apos;%1&apos;!
 Please use the CONNECT command to fix this!</source>
-        <translation>A %1 eszközben lévő hiányos PIN-PAD öszszeköttetések ki lettek hagyva
+        <translation>A %1 alkatrészben lévő hiányos PIN-PAD öszszeköttetések ki lettek hagyva
 Használd a CONNECT ( összekötés ) parancsot a probléma orvosolására!</translation>
     </message>
     <message>
         <source>Skipping inconsistent primitive #%1 in device &apos;%2&apos; (devices can contain only gates)!</source>
-        <translation>Inkonzisztens primitív kihagyása #%1 az %2 eszközben (az eszköz csak kapukat tartalmazhat)!</translation>
+        <translation>Inkonzisztens primitív kihagyása #%1 az %2 alkatrészben (az alkatrész csak kapukat tartalmazhat)!</translation>
     </message>
     <message>
         <source>Updating from older version...</source>
@@ -10569,7 +10569,7 @@ connected to pins this can&apos;t be done automatically:
 így inkább furattal kellene őket helyettesíteni. Mivel azonban 
 ezek lábakhoz vannak csatlakoztatva, így nem lehet ezt automatikusan megtenni
 
-  Könyvtár      Eszköz       Csomag  Pad</translation>
+  Könyvtár      Eszköz       Tokozás  Pad</translation>
     </message>
     <message>
         <source>The following pads had a diameter that was smaller than their drill
@@ -10579,7 +10579,7 @@ and thus have been replaced with &apos;holes&apos;:
         <translation>A következő padek átmérője kisebb mint a furatátmérőjük,
 így furatokra lettek kicserélve.
 
-   Könyvtár   Csomag       Pad</translation>
+   Könyvtár   Tokozás       Pad</translation>
     </message>
     <message>
         <source>The following pads have a diameter that is smaller than their drill
@@ -10591,7 +10591,7 @@ connected to signals this can&apos;t be done automatically:
 ezért furatokra kellene őket cserélni. Mivel azonban vezetékekhez vannak csatlakoztatva, ezt
 nem tehetem meg automatikusan:
 
-  Könyvtár      Csomag      Pad      Elem  Szignál</translation>
+  Könyvtár      Tokozás      Pad      Elem  Szignál</translation>
     </message>
     <message>
         <source>THIS BOARD CONTAINS PADS THAT HAVE A RESTRING THAT IS SMALLER THAN
