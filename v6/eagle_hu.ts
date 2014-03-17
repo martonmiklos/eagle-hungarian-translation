@@ -1055,11 +1055,11 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Kiválaszt</translation>
+        <translation>Vezetékek kiválasztása</translation>
     </message>
     <message>
         <source>Select signals or click GO to start</source>
-        <translation>Válassz szignálokat vagy kattints a Gyerünk gombra</translation>
+        <translation>Kattints a behuzalozni kívánt légvezetékekre majd a GO gombra</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -8205,7 +8205,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>f/b annotation has been severed</source>
-        <translation>A visszavonási lehetőség megszűnt</translation>
+        <translation>A kapcsolási rajz és a nyákterv szinkronizálása megszűnt</translation>
     </message>
 </context>
 <context>
@@ -8487,7 +8487,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>F/B Annotation has been severed!</source>
-        <translation>A visszavonási lehetőség megszűnt</translation>
+        <translation>A kapcsolási rajz és a nyákterv szinkronizálása megszűnt!</translation>
     </message>
     <message>
         <source>You can&apos;t create sheet %1.</source>
