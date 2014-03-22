@@ -1849,7 +1849,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source> - board and schematic are consistent</source>
-        <translation> -a panel és kapcsolási rajz konzisztens</translation>
+        <translation> - a panel és kapcsolási rajz konzisztens</translation>
     </message>
     <message>
         <source>Checking invisibly connected pins...</source>
@@ -1901,7 +1901,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>%1%2 errors/warnings%3.</source>
-        <translation>%1%2 hiba/figyelmeztetés%3.</translation>
+        <translation>%1hiba/figyelmeztetés %2 %3.</translation>
     </message>
     <message>
         <source>No</source>
