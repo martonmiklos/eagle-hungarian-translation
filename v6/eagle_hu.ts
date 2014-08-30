@@ -576,7 +576,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Calculate shortest airwires</source>
-        <translation>Legrövidebb légvezeték kiszámítása</translation>
+        <translation>Légvezeték újraszámítása</translation>
     </message>
     <message>
         <source>Execute a script file</source>
@@ -1103,7 +1103,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>. Polygons may have fallen apart.</source>
-        <translation>. sokszögek szétválhatnak.</translation>
+        <translation>. A sokszög kitöltések lehet, hogy .módosultak.</translation>
     </message>
     <message>
         <source>%1% finished</source>
@@ -1901,7 +1901,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>%1%2 errors/warnings%3.</source>
-        <translation>%1hiba/figyelmeztetés %2 %3.</translation>
+        <translation>%1 hiba/figyelmeztetés %2 %3.</translation>
     </message>
     <message>
         <source>No</source>
@@ -2975,7 +2975,7 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source> (Polygons have not been processed!)</source>
-        <translation>(A sokszögek nem lettek feldolgozva!)</translation>
+        <translation> (A sokszögek nem lettek kitöltve!)</translation>
     </message>
     <message>
         <source> hidden: %1</source>
@@ -4562,18 +4562,18 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     <message>
         <source>parameter for option -%1 must be in the range %2...%3
 </source>
-        <translation>a -%1 opció paramétere %2 és %3 közt kell hogy legyen
+        <translation>a -%1 opció paramétere %2 és %3 közt kell, hogy legyen
 </translation>
     </message>
     <message>
         <source>parameter for option -%1 must be &lt;= %2
 </source>
-        <translation>a -%1 opció paramétének kisemmben vagy egyenlőnek kell lennie %2-től</translation>
+        <translation>a -%1 opció paraméterének kisebbmek vagy egyenlőnek kell lennie mint %2</translation>
     </message>
     <message>
         <source>parameter for option -%1 must be &gt;= %2
 </source>
-        <translation>Parameter für Option -%1 muss &gt;= %2 sein
+        <translation>A%1 paraméterének nagyobbnak vagy egyenlőnek kell lennie mint %2
 </translation>
     </message>
 </context>
@@ -7092,7 +7092,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Please read the following License Agreement. Press the PAGE DOWN key to see the rest of the agreement.</source>
-        <translation>Kérlek olvasd el a Licenszet. Használd a PAGE DOWN gombot a görgetéshez.</translation>
+        <translation>Kérlek olvasd el a Licenszet. Használhatod a PAGE DOWN gombot a görgetéshez.</translation>
     </message>
     <message>
         <source>To install to a different directory, click &quot;Browse&quot; and select another directory.</source>
@@ -7823,7 +7823,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Parameters</source>
-        <translation>Parameter</translation>
+        <translation>Rács</translation>
     </message>
     <message>
         <source>Swaplevel</source>
@@ -8189,23 +8189,23 @@ Felülírod?</translation>
     </message>
     <message>
         <source>f/b annotation is not available</source>
-        <translation>visszavonás a továbbiakban nem lehetséges</translation>
+        <translation>a kapcsolási rajz és nyákterv szinkronizációja nem elérhető</translation>
     </message>
     <message>
         <source>f/b annotation is active</source>
-        <translation>visszavonás működik</translation>
+        <translation>a kapcsolási rajz és nyákterv szinkronizációja aktív</translation>
     </message>
     <message>
         <source>f/b annotation is not possible</source>
-        <translation>visszavonás nem lehetséges</translation>
+        <translation>a kapcsolási rajz és nyákterv szinkronizációja nem lehetséges</translation>
     </message>
     <message>
         <source>f/b annotation is not active</source>
-        <translation>visszavonás nem aktív</translation>
+        <translation>a kapcsolási rajz és nyákterv szinkronizációja nem aktív</translation>
     </message>
     <message>
         <source>f/b annotation has been severed</source>
-        <translation>A kapcsolási rajz és a nyákterv szinkronizálása megszűnt</translation>
+        <translation>a kapcsolási rajz és a nyákterv szinkronban tartása megszakadt</translation>
     </message>
 </context>
 <context>
@@ -8256,7 +8256,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Can&apos;t find &apos;%1&apos;</source>
-        <translation>Nem talált &apos;%1&apos;</translation>
+        <translation>&apos;%1&apos; nem található</translation>
     </message>
     <message>
         <source>Boards</source>
@@ -8487,7 +8487,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>F/B Annotation has been severed!</source>
-        <translation>A kapcsolási rajz és a nyákterv szinkronizálása megszűnt!</translation>
+        <translation>A kapcsolási rajz és a nyákterv szinkronban tartása megszakadt!</translation>
     </message>
     <message>
         <source>You can&apos;t create sheet %1.</source>
@@ -8768,7 +8768,7 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     </message>
     <message>
         <source>Layout</source>
-        <translation>Panelszerkesztő</translation>
+        <translation>Nyáktervező</translation>
     </message>
     <message>
         <source>&amp;Copy to Library</source>
@@ -9040,7 +9040,7 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>Parameter toolbar</source>
-        <translation>Parameter eszközök</translation>
+        <translation>Rács eszköztár</translation>
     </message>
     <message>
         <source>&amp;Design Rules</source>
@@ -9048,11 +9048,11 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Könyvtár</translation>
+        <translation>Könyvtárak</translation>
     </message>
     <message>
         <source>Can&apos;t chmod &apos;%1&apos;</source>
-        <translation>Nem tudom a  jogosultságot átállítani ezen %1</translation>
+        <translation>Nem tudom a jogosultságokat átállítani ezen &apos;%1&apos;</translation>
     </message>
     <message>
         <source>by &amp;name</source>
@@ -9799,7 +9799,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Format specifier/argument type mismatch</source>
-        <translation>Formátum meghatározó/argumentum típusa eltér</translation>
+        <translation>A formátum meghatározó és az átadott argumentum típusa eltér</translation>
     </message>
     <message>
         <source>Can&apos;t convert argument %1 in call to &apos;%2()&apos;</source>
@@ -10011,7 +10011,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Use of &apos;%1&apos; is only possible with an index</source>
-        <translation>%1 használata csal indexekkel együtt lehetséges</translation>
+        <translation>%1 használata csak indexelve lehetséges</translation>
     </message>
     <message>
         <source>Negative array index used</source>
@@ -10186,7 +10186,7 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>Reference to uninitialized object variable</source>
-        <translation>Referencia egy nem inicializált objektumra</translation>
+        <translation>Hivatkozás nem inicializált objektumra vagy változóra</translation>
     </message>
     <message>
         <source>Too many nested loops.</source>
@@ -10308,11 +10308,11 @@ Elmentsük?</translation>
     <name>ul_scan.l</name>
     <message>
         <source>error in character constant</source>
-        <translation>Fehler in &apos;character&apos;-Konstante</translation>
+        <translation>hiba a karakter konstansnál</translation>
     </message>
     <message>
         <source>Missing closing &quot; in include statement</source>
-        <translation>Hiányzó idézőjel az include sorban</translation>
+        <translation>Hiányzó záró idézőjel az include sorban</translation>
     </message>
     <message>
         <source>error in constant</source>
@@ -10320,15 +10320,15 @@ Elmentsük?</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>Nicht abgeschlossener String</translation>
+        <translation>lezáratlan string</translation>
     </message>
     <message>
         <source>unknown character &apos;%1&apos;</source>
-        <translation>ismeretlen karakter: %1</translation>
+        <translation>ismeretlen karakter: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unable to open the include file &apos;%1&apos;</source>
-        <translation>Nem lehet az includolt fájlt megnyitni %1</translation>
+        <translation>Nem lehet az includolt fájlt megnyitni &apos;%1&apos;</translation>
     </message>
     <message>
         <source>end of file in comment</source>
