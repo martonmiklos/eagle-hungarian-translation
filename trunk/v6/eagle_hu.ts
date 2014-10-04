@@ -448,7 +448,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Define the pin/pad connections</source>
-        <translation>Lábak és lenyomatok összekötése</translation>
+        <translation>Lábak és pad-ek összekötése</translation>
     </message>
     <message>
         <source>Design Rule Check</source>
@@ -468,7 +468,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Draw a pad</source>
-        <translation>Láblenyomat rajzolása</translation>
+        <translation>Pad rajzolása</translation>
     </message>
     <message>
         <source>Draw a bus</source>
@@ -500,7 +500,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Draw a surface mount pad</source>
-        <translation>Felületszerelt láblenyomat rajzolása</translation>
+        <translation>Felületszerelt pad rajzolása</translation>
     </message>
     <message>
         <source>Get help</source>
@@ -685,7 +685,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Device %1 has no package!</source>
-        <translation>A(z) %1 alkatrésznek nincs lenyomata!</translation>
+        <translation>A(z) %1 alkatrésznek nincs tokozása!</translation>
     </message>
     <message>
         <source>Can&apos;t find symbol %1</source>
@@ -701,7 +701,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Package not found: </source>
-        <translation>Lenyomat nem található:</translation>
+        <translation>Tokozás nem található:</translation>
     </message>
     <message>
         <source>You can&apos;t add parts to this sheet.</source>
@@ -840,7 +840,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Use the PACKAGE command to select a package variant first!</source>
-        <translation>Használd a PACKAGE parancsot  a lenyomatváltozat kiválasztásához!</translation>
+        <translation>Használd a PACKAGE parancsot  a tokozásváltozat kiválasztásához!</translation>
     </message>
     <message>
         <source>Attribute name &apos;%1&apos; is already used in the board!</source>
@@ -1168,7 +1168,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Invalid pad shape: %1</source>
-        <translation>Érvénytelen láblenyomat alak: %1</translation>
+        <translation>Érvénytelen pad-alak: %1</translation>
     </message>
     <message>
         <source>Left-click on object to change %1</source>
@@ -1659,7 +1659,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&lt;hr&gt;&lt;b&gt;Minimum Distance&lt;/b&gt; between objects in signal layers (pads, smds and any copper connected to them) and the board dimensions, and between drill holes.&lt;p&gt;Setting the value for the &lt;b&gt;Copper/Dimension&lt;/b&gt; check to 0 disables that check.</source>
-        <translation>&lt;hr&gt;&lt;b&gt;Minimális távolság&lt;/b&gt;&lt;br&gt; az objektumok (padek, smd lenyomatok, bármilyen rézfólián lévő minták) és a nyák széle illetve a furatok között&lt;p&gt;Állítsd a  &lt;b&gt;Rézfólia - panelhatár &lt;/b&gt;  értéket 0-ra ha ki akarod hagyni ezt az ellenőrzést.</translation>
+        <translation>&lt;hr&gt;&lt;b&gt;Minimális távolság&lt;/b&gt;&lt;br&gt; az objektumok (padek, smd pad, bármilyen rézfólián lévő objektum) és a nyák széle illetve a furatok között&lt;p&gt;Állítsd a &lt;b&gt;Rézfólia - panelhatár &lt;/b&gt;  értéket 0-ra ha ki akarod hagyni ezt az ellenőrzést.</translation>
     </message>
     <message>
         <source>Check restrict</source>
@@ -2564,7 +2564,7 @@ mind a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>&lt;font color=red&gt;&lt;b&gt;This package doesn&apos;t have enough pads for %1!&lt;/b&gt;&lt;/font&gt;&lt;p&gt;</source>
-        <translation>&lt;font color=red&gt;&lt;b&gt;A lenyomatnak nincs elég padje a %1-hez!&lt;/b&gt;&lt;/font&gt;&lt;p&gt;</translation>
+        <translation>&lt;font color=red&gt;&lt;b&gt;A tokozásnak nincs elég padje a %1-hez!&lt;/b&gt;&lt;/font&gt;&lt;p&gt;</translation>
     </message>
     <message>
         <source>Package variant %1 already defined!</source>
@@ -7567,7 +7567,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Edit Package</source>
-        <translation>Lenyomat szerkesztése</translation>
+        <translation>Tokozás szerkesztése</translation>
     </message>
     <message>
         <source>CAM Processor</source>
