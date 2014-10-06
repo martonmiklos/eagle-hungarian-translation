@@ -160,7 +160,7 @@ nincs routolási réteg definiálva!</translation>
     </message>
     <message>
         <source>Evaluate length</source>
-        <translation type="unfinished"></translation>
+        <translation>Hossz számítás</translation>
     </message>
 </context>
 <context>
@@ -643,23 +643,23 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Edit description</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírás szerkesztése</translation>
     </message>
     <message>
         <source>Draw a dimension</source>
-        <translation type="unfinished"></translation>
+        <translation>Keret rajzolása</translation>
     </message>
     <message>
         <source>Show/hide/edit layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétegek megjelenítése/elrejtése/szerkesztése</translation>
     </message>
     <message>
         <source>Edit device, package or symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Tokozás, alkatrész és lenyomat szerkesztése </translation>
     </message>
     <message>
         <source>Show/edit object properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulajdonságok megjelenítése/szerkesztése</translation>
     </message>
     <message>
         <source>Create a module and add a module instance</source>
@@ -2378,16 +2378,17 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Grid size too small: %1.</source>
-        <translation type="unfinished">A %1. rácsméret túl kicsi</translation>
+        <translation>A %1. rácsméret túl kicsi.</translation>
     </message>
     <message>
         <source>Alternate grid size too small: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>A másodlagos rácsméret túl kicsi: %1.</translation>
     </message>
     <message>
         <source>
 For smallest possible value please use option &apos;Finest&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+A lehető legkisebb rács beállításához kattints a &apos;Legsűrűbb&apos; gombra.</translation>
     </message>
 </context>
 <context>
@@ -2629,11 +2630,11 @@ For smallest possible value please use option &apos;Finest&apos;.</source>
     <name>d_module.c</name>
     <message>
         <source>&amp;New:</source>
-        <translation type="unfinished">&amp;Új:</translation>
+        <translation>&amp;Új:</translation>
     </message>
     <message>
         <source>&amp;Prefix:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Előtag:</translation>
     </message>
     <message>
         <source>You can&apos;t add to this sheet.</source>
@@ -2682,7 +2683,7 @@ This would lead to a cyclic dependency!</source>
     </message>
     <message>
         <source>Invalid parameter: %1</source>
-        <translation type="unfinished">Érvénytelen paraméter: %1</translation>
+        <translation>Érvénytelen paraméter: %1</translation>
     </message>
 </context>
 <context>
