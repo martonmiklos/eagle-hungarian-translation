@@ -3952,7 +3952,7 @@ Valóban szeretnéd folytatni?</translation>
     </message>
     <message>
         <source>Symbols</source>
-        <translation>Szimbólum</translation>
+        <translation>Furat szimbólum</translation>
     </message>
     <message>
         <source>White background</source>
@@ -6198,7 +6198,7 @@ Használd az ERC parancsot, hogy megtudd mi ennek az oka.</translation>
     <name>o_segmen.c</name>
     <message>
         <source>tag &apos;%1&apos; is only valid for net segments.</source>
-        <translation>a &apos;%1&apos; tag csak net szegmensekre érvényes.</translation>
+        <translation>a(z) &apos;%1&apos; tag csak net szegmensekre érvényes.</translation>
     </message>
 </context>
 <context>
@@ -8354,7 +8354,7 @@ Futtasd a telepítőt rendszergazdaként vagy vedd fel a kapcsolatot a rendszerg
     </message>
     <message>
         <source>Update &amp;all</source>
-        <translation>Frissítés &amp;minden használatban lévő könyvtárból</translation>
+        <translation>&amp;Minden használt könyvtár frissítése</translation>
     </message>
     <message>
         <source>Select font</source>
@@ -8370,7 +8370,7 @@ Futtasd a telepítőt rendszergazdaként vagy vedd fel a kapcsolatot a rendszerg
     </message>
     <message>
         <source>U&amp;pdate...</source>
-        <translation>Frissítendő &amp;könyvtár kiválasztása...</translation>
+        <translation>&amp;Egy könyvtár frissítése...</translation>
     </message>
     <message>
         <source>Addlevel</source>
