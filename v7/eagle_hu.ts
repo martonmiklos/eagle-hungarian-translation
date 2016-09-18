@@ -1688,7 +1688,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     </message>
     <message>
         <source>Delete Signals is only possible in a board!</source>
-        <translation>Az összekötések törlése csak a nyákszerkezsztőben lehetséges!</translation>
+        <translation>Az összekötések törlése csak a nyáktervezőben lehetséges!</translation>
     </message>
 </context>
 <context>
@@ -4483,7 +4483,7 @@ A hierarhikus struktúrában lévő alkatrészeket a kapcsolási rajzban lehet c
     </message>
     <message>
         <source>Really delete variant &apos;%1&apos;?</source>
-        <translation>Valóban töröljük a &apos;%1&apos; változatot</translation>
+        <translation>Valóban töröljük a(z) &apos;%1&apos; változatot?</translation>
     </message>
     <message>
         <source>Please select a variant to delete!</source>
@@ -4903,7 +4903,7 @@ Kérlek tedd ezt a kapcsolásirajz-szerkesztőben!</translation>
     </message>
     <message>
         <source>The drawing files are still in the older EAGLE format. When saving, the files will be overwritten with the new EAGLE XML format and will no longer be usable in versions before EAGLE 6.0. Save?</source>
-        <translation>Ezek a munkafájlok még mindig a régi (bináris) EAGLE formátumúak. Ha elmented őket akkor az új XML formátumba lesznek mentve, amiből nincs mód visszamenteni binárisba, hogy használni tudd 6.0 előtti EAGLE verziókkal.
+        <translation>Ezek a fájlok még mindig a régi (bináris) EAGLE formátumúak. Ha elmented őket akkor az új XML formátumba lesznek mentve, amiket nem lehet visszamenteni binárisba, hogy használni tudd 6.0 előtti EAGLE verziókkal.
 Biztosan mentsük?</translation>
     </message>
     <message>
@@ -7031,7 +7031,7 @@ Rendben van ez így?</translation>
     <name>print.c</name>
     <message>
         <source>&amp;All</source>
-        <translation>&amp;Mindet</translation>
+        <translation>&amp;Minden oldal</translation>
     </message>
     <message>
         <source>done</source>
@@ -7039,7 +7039,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>T&amp;his</source>
-        <translation>E&amp;z</translation>
+        <translation>&amp;Jelenlegi oldal</translation>
     </message>
     <message>
         <source>Print</source>
@@ -7055,7 +7055,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>S&amp;cale factor:</source>
-        <translation>Méreta&amp;rány:</translation>
+        <translation>Fix méreta&amp;rány:</translation>
     </message>
     <message>
         <source>Center right</source>
@@ -7071,7 +7071,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>  &amp;to  </source>
-        <translation>  &amp;tól  </translation>
+        <translation>E&amp;ddig:</translation>
     </message>
     <message>
         <source>Top right</source>
@@ -7187,7 +7187,7 @@ Elfogadod ezeket a nagyobb értékeket?</translation>
     </message>
     <message>
         <source>Page &amp;limit:</source>
-        <translation>Ennyi o&amp;ldalon kell elférnie:</translation>
+        <translation>Férjen el ennyi o&amp;ldalon:</translation>
     </message>
     <message>
         <source>&amp;From  </source>
@@ -9684,7 +9684,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&amp;Pads</source>
-        <translation>&amp;Furatszerelkt</translation>
+        <translation>&amp;Furatszerelt</translation>
     </message>
     <message>
         <source>Pre&amp;view</source>
@@ -9869,7 +9869,7 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     </message>
     <message>
         <source>Delete &apos;%1&apos;?</source>
-        <translation>Törli &apos;%1&apos; ?</translation>
+        <translation>Valóban töröljük ezt: &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;asily &lt;b&gt;A&lt;/b&gt;pplicable &lt;b&gt;G&lt;/b&gt;raphical &lt;b&gt;L&lt;/b&gt;ayout &lt;b&gt;E&lt;/b&gt;ditor&lt;br&gt;&lt;br&gt;Version %1 for %2&lt;br&gt;&lt;br&gt;</source>
