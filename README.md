@@ -5,4 +5,4 @@ Ha használni szeretnéd a fordítást, akkor az EAGLE verziódnak megfelelő ma
 
 Ha nem tetszik a fordítás csak töröld az eagle_hu.qm és qt_hu.qm fájlokat a bin mappából. 
 
-Amennyiben hibát találsz a fordításban, az Issues menüben bejelentheted. Ha van Qt Linguistod, és ki tudod vele javítani a ts fájt, akkor forkold bátran és küldj PR-t! 
+Amennyiben hibát találsz a fordításban, az [Issues](https://github.com/martonmiklos/eagle-hungarian-translation/issues) menüben bejelentheted. Ha van Qt Linguistod, és ki tudod vele javítani a ts fájt, akkor forkold bátran és küldj PR-t! 
