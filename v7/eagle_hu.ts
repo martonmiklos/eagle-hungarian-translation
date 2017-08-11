@@ -106,7 +106,7 @@ nincs routolási réteg definiálva!</translation>
     </message>
     <message>
         <source>Job File &apos;%1&apos; cannot be used with this executable of EAGLE due to incompatible integer size (32&lt;-&gt;64).</source>
-        <translation>A(z) &apos;%1&apos; feladatfájl nem kompatibilis az EAGLE verzióval mert az különböző architektúrájú (32 / 64 bites)</translation>
+        <translation>A(z) &apos;%1&apos; feladatfájl nem kompatibilis az EAGLE verzióval mert az különböző architektúrájú (32 / 64 bit).</translation>
     </message>
 </context>
 <context>
@@ -749,7 +749,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>The Add command can only be used in a schematic, board or device set!</source>
-        <translation>A hozzáadás parancs csak a sémában a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
+        <translation>A hozzáadás parancs csak a kapcsolási rajzban a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
     </message>
     <message>
         <source>Device %1 %2!</source>
@@ -922,7 +922,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; is defined in the schematic and can&apos;t be deleted here.</source>
-        <translation>%1 tulajdonság a sémában lett megadva, így itt nem törölhető.</translation>
+        <translation>%1 tulajdonság a kapcsolási rajzban lett megadva, így itt nem törölhető.</translation>
     </message>
     <message>
         <source>Reserved attribute name: &apos;%1&apos;</source>
@@ -1276,14 +1276,14 @@ Do you wish to continue?</source>
     </message>
     <message>
         <source>The Board command can only be used in a schematic!</source>
-        <translation>A Board parancs csak a sémában használható!</translation>
+        <translation>A Board parancs csak a kapcsolási rajzban használható!</translation>
     </message>
 </context>
 <context>
     <name>d_bus.c</name>
     <message>
         <source>The Bus command can only be used in a schematic!</source>
-        <translation>A Bus parancs csak a sémában használható!</translation>
+        <translation>A Bus parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Left-click to draw bus wire (double-click ends bus)</source>
@@ -1392,7 +1392,7 @@ Do you wish to continue?</source>
         <source>The element &apos;%1&apos; has no corresponding part in the schematic!
 
 Use the REPLACE command instead.</source>
-        <translation>%1 elemnek nincs megfelelő alkatrésze a sémában
+        <translation>%1 elemnek nincs megfelelő alkatrésze a kapcsolási rajzban
 Használd a REPLACE (kicserél parancsot) helyett.</translation>
     </message>
     <message>
@@ -1582,7 +1582,7 @@ vezetékosztályok közti távtartás-értékek elvesznek.</translation>
     </message>
     <message>
         <source>The Class command can only be used in a schematic or board!</source>
-        <translation>A kijelölés (CLASS) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A kijelölés (CLASS) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t use unnamed net class %1</source>
@@ -1772,7 +1772,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     <name>d_dimension.c</name>
     <message>
         <source>The Dimension command can&apos;t be used in a device set!</source>
-        <translation>A Dimension parancs nem használható az eszközkészletben+</translation>
+        <translation>A Dimension parancs nem használható az eszközkészletben!</translation>
     </message>
     <message>
         <source>Left-click to start dimension</source>
@@ -2065,12 +2065,13 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>Limits of Make Pro licence have been adjusted to fit in board.</source>
-        <translation type="unfinished">A Make Pro licensz </translation>
+        <translation>A Make Pro licensz méretkorlátozásai be lettek állítva a panel méreteihez. </translation>
     </message>
     <message>
         <source>Limit width of Make Pro licence has been extended to board width of %1.
 Limit height is not sufficient to fit in board height of %2!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Make Pro licensz szélességkorlátozása ki lett nyújtva a panel szélességéhez (%1).
+A Make Pro licensz magasságkorlátozása ki lett nyújtva a panel magassságához (%2)!</translation>
     </message>
 </context>
 <context>
@@ -2113,7 +2114,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source>The Erc command can only be used with a schematic!</source>
-        <translation>Az ERC parancs csak a sémában használható!</translation>
+        <translation>Az ERC parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Board and schematic are not consistent!
@@ -2220,7 +2221,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Errors command can only be used in a board or a schematic!</source>
-        <translation>A hibák (ERRORS) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A hibák (ERRORS) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Consistency errors (%1)</source>
@@ -2323,7 +2324,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a schematic!</source>
-        <translation>Ez az exportálási opció csak a sémában érhető el!</translation>
+        <translation>Ez az exportálási opció csak a kapcsolási rajzban érhető el!</translation>
     </message>
     <message>
         <source>Invalid option: %1</source>
@@ -2335,7 +2336,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>This Export option can only be used in a board or schematic!</source>
-        <translation>Ez az exportálási opció csak a sémában vagy a nyákszerkesztőben érhető el!</translation>
+        <translation>Ez az exportálási opció csak a kapcsolási rajzban vagy a nyákszerkesztőben érhető el!</translation>
     </message>
 </context>
 <context>
@@ -2373,7 +2374,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>The Gateswap command can only be used in a schematic!</source>
-        <translation>A kapucsere (GATESWAP) parancs csak a sémában használható!</translation>
+        <translation>A kapucsere (GATESWAP) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Can&apos;t swap gate %1</source>
@@ -2385,7 +2386,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Can&apos;t swap gate %1%2 and %3%4</source>
-        <translation>A %1 %2 kapu nem cserélhető erre:%3%4</translation>
+        <translation>A %1%2 kapu nem cserélhető erre:%3%4</translation>
     </message>
     <message>
         <source>Can&apos;t swap gate &apos;%1&apos; because pin &apos;%2&apos; is connected to several pads!</source>
@@ -2493,7 +2494,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Left-click&amp;drag to define group (or left-click to start defining a group polygon)</source>
-        <translation>Vonszolj lenyomott bal gombbal téglalap terület kijelöléséhez (vagy kattintgass bal gombbal sokszög alakú kijelöléséhez)</translation>
+        <translation>Vonszolj lenyomott &amp;bal gombbal téglalap terület kijelöléséhez (vagy kattintgass bal gombbal sokszög alakú kijelöléséhez)</translation>
     </message>
     <message>
         <source>Left-click to define group polygon edges (right-click closes polygon)</source>
@@ -2557,7 +2558,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>The Invoke command can only be used in a schematic!</source>
-        <translation>A felhasznál (INVOKE) parancs csak a sémában használható!</translation>
+        <translation>A felhasznál (INVOKE) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Unknown gate: %1</source>
@@ -2584,7 +2585,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>The Junction command can only be used in a schematic!</source>
-        <translation>A csomópont (JUNCTION) parancs csak a sémában használható!</translation>
+        <translation>A csomópont (JUNCTION) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
 </context>
 <context>
@@ -2599,7 +2600,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>The Label command can only be used in a schematic!</source>
-        <translation>A címke (LABEL) parancs csak a sémában használható!</translation>
+        <translation>A címke (LABEL) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Left-click to select net or bus</source>
@@ -2765,7 +2766,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     <message>
         <source>Can&apos;t create module instance of %1 in current module %2.
 This would lead to a cyclic dependency!</source>
-        <translation>Nem lehet a %1-ből példányt létrehozni a jelenlegi modulban,
+        <translation>Nem lehet a %1-ből példányt létrehozni a jelenlegi modulban (%2),
 mert az körkörös függéshez vezetne!</translation>
     </message>
     <message>
@@ -2901,7 +2902,7 @@ Nets in hierarchical structures have to be changed in the schematic!</source>
     <name>d_net.c</name>
     <message>
         <source>The Net command can only be used in a schematic!</source>
-        <translation>A vezeték (Net) parancs csak a sémában használható!</translation>
+        <translation>A vezeték (Net) parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>%1 is not member of %2</source>
@@ -2952,11 +2953,11 @@ Nets in hierarchical structures have to be changed in the schematic!</source>
     </message>
     <message>
         <source>No object to optimize: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs optimalizálandó objektum: %1</translation>
     </message>
     <message>
         <source> or click GO to optimize all</source>
-        <translation type="unfinished"></translation>
+        <translation>vagy kattints a Gyerünk (GO) gombra minden optimalizálásához</translation>
     </message>
 </context>
 <context>
@@ -3226,11 +3227,11 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
     </message>
     <message>
         <source>Net from a bus</source>
-        <translation type="unfinished"></translation>
+        <translation>Buszhoz tartozó net</translation>
     </message>
     <message>
         <source>Net has unconnected power pin(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>A nethez van(nak) nem bekötött tápláb(ak) csatlakoztatva</translation>
     </message>
     <message>
         <source>The schematic will be imported into current module &apos;%1&apos; without the board.
@@ -3273,7 +3274,7 @@ Importing both is only possible on schematic main level.</source>
     <name>d_pinswa.c</name>
     <message>
         <source>The Pinswap command can only be used in a board or schematic!</source>
-        <translation>A lábcsre (PINSWAP) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A lábcsre (PINSWAP) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Pin %1 has SwapLevel %2 and therefore can&apos;t be swapped!</source>
@@ -3317,7 +3318,7 @@ Importing both is only possible on schematic main level.</source>
     </message>
     <message>
         <source>Pad %1 has no corresponding pin used in the schematic!</source>
-        <translation>A %1 padnek nincs megfelelő párja a sémában!</translation>
+        <translation>A %1 padnek nincs megfelelő párja a kapcsolási rajzban!</translation>
     </message>
     <message>
         <source>Pin %1 (Pad %2) is connected to several pads and therefore can&apos;t be swapped!</source>
@@ -3375,7 +3376,7 @@ Importing both is only possible on schematic main level.</source>
     </message>
     <message>
         <source>Left-click (or type name) to select module instance</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal egérgombbal (vagy írd be a nevét) a kiválasztani kívánt modul példánynak</translation>
     </message>
     <message>
         <source>You can&apos;t add to this sheet.</source>
@@ -3383,7 +3384,7 @@ Importing both is only possible on schematic main level.</source>
     </message>
     <message>
         <source>The Port command can only be used in a schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A port parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>In the interactive mode a module instance has to be selected first!</source>
@@ -3536,7 +3537,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Rectangle command can&apos;t be used in a device set!</source>
-        <translation>A Rectangle parancs nem használható az eszközkészletben+</translation>
+        <translation>A Rectangle parancs nem használható az alkatrész szerkesztőben!</translation>
     </message>
 </context>
 <context>
@@ -3671,7 +3672,7 @@ Folytatod?</translation>
     </message>
     <message>
         <source>The Replace command can only be used in a schematic or a board!</source>
-        <translation>A kicserélés (REPLACE) parancs csak a sémában illetve a nyáktervezőben használható!</translation>
+        <translation>A kicserélés (REPLACE) parancs csak a kapcsolási rajzban illetve a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Can&apos;t replace %1 with %2. Contacts do not match by their %3.</source>
@@ -4020,7 +4021,7 @@ Valóban szeretnéd folytatni?</translation>
         <source>SET VECTOR_FONT ON/OFF can only be used
 in a board or schematic!</source>
         <translation>A SET VECTOR_FONT ON/OFF parancs
-csak a sémában és a nyáktervezőben használható!</translation>
+csak a kapcsolási rajzban és a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Invalid fill style: %1</source>
@@ -4166,7 +4167,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Display &amp;signal names</source>
-        <translation>Netnevek megjelenítése a vezetősávokon</translation>
+        <translation>Netnevek &amp;megjelenítése a vezetősávokon</translation>
     </message>
     <message>
         <source>Display via lengths</source>
@@ -4393,7 +4394,7 @@ a &apos;%2 ..%3&apos; tartományban</translation>
     <name>d_update.c</name>
     <message>
         <source>&apos;Update +/-@&apos; can only be used in a board or schematic!</source>
-        <translation>A frissítés +/-@ csak a nyáktervezőben és a sémában használható!</translation>
+        <translation>A frissítés +/-@ csak a nyáktervezőben és a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>finished</source>
@@ -4549,7 +4550,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>The Value command can only be used in a board, schematic or device!</source>
-        <translation>Az érték (VALUE) parancs csak a sémában a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
+        <translation>Az érték (VALUE) parancs csak a kapcsolási rajzban a nyáktervezőben vagy az alkatrésztervezőben használható!</translation>
     </message>
     <message>
         <source>Unknown part: %1</source>
@@ -5199,7 +5200,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Part %1 not found in schematic</source>
-        <translation>%1 alkatrész nem található meg a sémában</translation>
+        <translation>%1 alkatrész nem található meg a kapcsolási rajzban</translation>
     </message>
     <message>
         <source>NC pin %1 %2 connected to %3</source>
@@ -5235,7 +5236,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Attribute %1 of part %2 has different value in schematic and board (%3 / %4)</source>
-        <translation>A %2 alkatrész %1 attribútumának eltérő értéke van a sémában és a nyákterven (%3/%4)</translation>
+        <translation>A %2 alkatrész %1 attribútumának eltérő értéke van a kapcsolási rajzban és a nyákterven (%3/%4)</translation>
     </message>
     <message>
         <source>Part %1 not found in board</source>
@@ -5247,7 +5248,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Net class %1 has different %2 in schematic and board (%3 / %4)</source>
-        <translation>A %1 vezetékosztály %2-e különbözik a nyákban (%3 / %4) és a sémában </translation>
+        <translation>A %1 vezetékosztály %2-e különbözik a nyákban (%3 / %4) és a kapcsolási rajzban </translation>
     </message>
     <message>
         <source>Pin %1 %2 connected to %3 without any net wire, junction or other pin</source>
@@ -5279,7 +5280,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Net %1 has different class in schematic and board (%2 / %3)</source>
-        <translation>A %1 vezeték más osztályba esik a sémában és a nyáktervben (%2 / %3)</translation>
+        <translation>A %1 vezeték más osztályba esik a kapcsolási rajzban és a nyáktervben (%2 / %3)</translation>
     </message>
     <message>
         <source>Only INPUT pins on net %1</source>
@@ -5295,7 +5296,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Part %1 has different values in schematic and board (%2 / %3)</source>
-        <translation>A %1 alkatrésznek eltérő értéke van a sémában és a nyáktervben (%2 / %3) KÉSZ van:)</translation>
+        <translation>A %1 alkatrésznek eltérő értéke van a kapcsolási rajzban és a nyáktervben (%2 / %3) KÉSZ van:)</translation>
     </message>
     <message>
         <source>OUTPUT and OC pins mixed on net %1 (%2)</source>
@@ -6494,7 +6495,7 @@ Cancel to cancel deleting the group.</source>
         <source>Can&apos;t backannotate this operation.
 Please do this in the schematic!</source>
         <translation>Ezt a parancsot nem tudom szinkronban végezni.
-Kérlek a sémában tedd ezt!</translation>
+Kérlek a kapcsolási rajzban tedd ezt!</translation>
     </message>
     <message>
         <source>Can&apos;t set via to layer &apos;%1&apos; at (%2 %3)</source>
@@ -8238,7 +8239,8 @@ válaszd a &quot;30 napos próbaverzió&quot; opciót.</translation>
     <message>
         <source>You do not have sufficient rights for the installation.
 Please run it with administrator rights or contact an administrator!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs kellő jogosultságod a telepítés elvégzéséhez.
+Futtasd a telepítőt adminisztrátor fiókkal, vagy vedd fel a kapcsolatot a rendszergazdával!</translation>
     </message>
 </context>
 <context>
@@ -9920,11 +9922,11 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>F/B Annotation has been severed!</source>
-        <translation>A visszavonási lehetőség megszűnt</translation>
+        <translation>A kapcsolási rajz - nyákterv szinkron megszakadt!</translation>
     </message>
     <message>
         <source>You can&apos;t create sheet %1.</source>
-        <translation>Nem hozhatod létre a %1 lapot</translation>
+        <translation>A(z) %1 lap nem hozható létre.</translation>
     </message>
     <message>
         <source>Description of %1</source>
@@ -10625,7 +10627,7 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>Execute in &amp;Schematic</source>
-        <translation>Futtatás a &amp;sémában</translation>
+        <translation>Futtatás a &amp;kapcsolási rajzban</translation>
     </message>
     <message>
         <source>&amp;Add to Board</source>
@@ -11165,7 +11167,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Find &amp; Replace</source>
-        <translation>Keresés és &amp;csere</translation>
+        <translation>Keresés és csere</translation>
     </message>
     <message>
         <source>&amp;Replace</source>
@@ -12307,10 +12309,10 @@ This is probably a result of updating a board file from
 version 3.5 or earlier (where these parameters have been
 set to 0) and not adjusting the Design Rules as recommended.
 </source>
-        <translation>A &apos;%1&apos; furatarány paraméterei az ezen fájlhoz tartozó
-Tervezési szabályban 0-ra vannak állítva, ami segítségével használhatatlan nyákot is
-elő lehet állítani. Ez lehet annak is a következménye, hogy a nyákterv 3.5 vagy azelőtti verziókból 
-lett importálva. A biztonság kedvéért ellenőrízd a DRC beállításait!</translation>
+        <translation>A fájlhoz tartozó &apos;%1&apos; furatarány paramétere a Tervezési szabályban 0-ra van állítva, ami miatt akár használhatatlan nyákot is
+elő lehet állítani. 
+Ez adódhat abból is, hogy a nyákterv 3.5 vagy régebbi verziókból 
+lett importálva. A biztonság kedvéért ellenőrízd a DRC beállításait.</translation>
     </message>
     <message>
         <source>The restring parameters for %1 have been set to their default values.
