@@ -790,7 +790,8 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     <message>
         <source>Can&apos;t backannotate this operation.
 Please update or replace the schematic&apos;s parts that refer to package %1 first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem lehet a változtatást visszavezetni a kapcsolási rajzba.
+Frissítsd vagy cseréld ki a kapcsolási rajzban az összes alkatrészt ami a %1 tokozást használja.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; leads to a name conflict with &apos;%2&apos; in main schematic due to module instance &apos;%3&apos;!</source>
@@ -1086,7 +1087,8 @@ Felülírjuk?</translation>
     <message>
         <source>Can&apos;t change attribute &apos;%1&apos; of element &apos;%2&apos;.
 Parts in hierarchical structures have to be changed in the schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%2&apos; alkatrész &apos;%1&apos; attribútuma nem változtatható meg.
+A hierarchikus struktúrákban lévő alkatrészeket a kapcsolási rajzban kell szerkesztened!</translation>
     </message>
 </context>
 <context>
@@ -1450,19 +1452,19 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translatio
     </message>
     <message>
         <source>extension line width</source>
-        <translation type="unfinished"></translation>
+        <translation>méret-segédvonal szélessége</translation>
     </message>
     <message>
         <source>extension line length</source>
-        <translation type="unfinished"></translation>
+        <translation>méret-segédvonal hossza</translation>
     </message>
     <message>
         <source>extension line offset</source>
-        <translation type="unfinished"></translation>
+        <translation>méret-segédvonal offszete</translation>
     </message>
     <message>
         <source>Change of package or technology is only possible in the default assembly variant!</source>
-        <translation type="unfinished"></translation>
+        <translation>A tokozás vagy alkatrésztípus csak az alapértelmezett beültetési verzióban változtatható meg!</translation>
     </message>
     <message>
         <source>New Line Distance:</source>
@@ -1474,23 +1476,27 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translatio
     </message>
     <message>
         <source>Parameter &apos;%1&apos; is only valid in %2 Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; paraméter csak a %2 szerkesztőben használható</translation>
     </message>
     <message>
         <source>This operation is only possible in a board without active f/b annotation!
 
 The VARIANT command has to be used in the schematic instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a művelet csak akkor végezhető el ha a kapcsolási rajz és a nyákterv szinkronban van!
+
+A VARIANT parancs a kapcsolási rajzban használandó.</translation>
     </message>
     <message>
         <source>The group contains hierarchical elements.
 CHANGE %1 has to be done for the corresponding parts in schematic</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A csoport hierarchikus elemeket tartalmaz.
+A CHANGE %1 parancs a kapcsolási rajzban használandó </translation>
     </message>
     <message>
         <source>CHANGE %1 is not possible for element %2. 
 Parts in hierarchical structures have to be changed in the schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A CHANGE %1 parancs nem hajtható végre a %2 alkatrészen.
+A hierarchikus struktúrákban lévő alkatrészek csak a kapcsolási rajzban módosíthatók!</translation>
     </message>
     <message>
         <source>Invalid populate: %1</source>
@@ -1712,7 +1718,8 @@ Kérlek adj meg másik nevet</translation>
     <message>
         <source>Ambiguous library object name &apos;%1&apos;.
 Please use extension &apos;.dev&apos;, &apos;.pac&apos; or &apos;.sym&apos; to specify which one to use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az %1 könyvtárelem neve nem érvénytelen.
+A &apos;.dev&apos;, &apos;.pac&apos; és az &apos;.sym&apos; kiterjesztések érvényesek.</translation>
     </message>
 </context>
 <context>
@@ -1967,7 +1974,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Left-click&amp;drag to define area to be checked</source>
-        <translation>&amp;Vonszolj bal gombbal az ellenőrízni kívánt terület kijelöléséhez</translation>
+        <translation>Vonszolj lenyomott bal gombbal az ellenőrízni kívánt terület kijelöléséhez</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -2050,15 +2057,15 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>Your EAGLE license does not contain the Layout Editor module!</source>
-        <translation type="unfinished"></translation>
+        <translation>Az EAGLE licenszed nem tartalmazza a nyáktervező modult!</translation>
     </message>
     <message>
         <source>Your EAGLE license does not contain the Schematic Editor module!</source>
-        <translation type="unfinished"></translation>
+        <translation>Az EAGLE licenszed nem tartalmazza a kapcsolásirajz modult!</translation>
     </message>
     <message>
         <source>Limits of Make Pro licence have been adjusted to fit in board.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A Make Pro licensz </translation>
     </message>
     <message>
         <source>Limit width of Make Pro licence has been extended to board width of %1.
@@ -2486,7 +2493,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Left-click&amp;drag to define group (or left-click to start defining a group polygon)</source>
-        <translation>&amp;Vonszolj bal gombbal téglalap terület kijelöléséhez (vagy kattintgass bal gombbakl sokszög kijelöléséhez)</translation>
+        <translation>Vonszolj lenyomott bal gombbal téglalap terület kijelöléséhez (vagy kattintgass bal gombbal sokszög alakú kijelöléséhez)</translation>
     </message>
     <message>
         <source>Left-click to define group polygon edges (right-click closes polygon)</source>
@@ -2729,7 +2736,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>The Module command can only be used in a schematic!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Module parancs csak a kapcsolási rajzban használható!</translation>
     </message>
     <message>
         <source>Module name missing!</source>
@@ -2737,7 +2744,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>There is no assembly variant &apos;%1&apos; in module &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;%2&apos; modulban nincs definiálva a &apos;%1&apos; beültetési verzió.</translation>
     </message>
     <message>
         <source>module name</source>
@@ -2745,7 +2752,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Can&apos;t create module because of sheet limitation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Modul nem hozható létre a lapszámkorlátozás miatt.</translation>
     </message>
     <message>
         <source>prefix</source>
@@ -2753,16 +2760,17 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Create new module &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Valóban létrehozzuk a(z) &apos;%1&apos; modult?</translation>
     </message>
     <message>
         <source>Can&apos;t create module instance of %1 in current module %2.
 This would lead to a cyclic dependency!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem lehet a %1-ből példányt létrehozni a jelenlegi modulban,
+mert az körkörös függéshez vezetne!</translation>
     </message>
     <message>
         <source>Left-click to place instance of module &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal modulpéldány hozzáadásához &apos;%1&apos;</translation>
     </message>
     <message>
         <source>module instance name</source>
@@ -2770,7 +2778,7 @@ This would lead to a cyclic dependency!</source>
     </message>
     <message>
         <source>Name &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; név már létezik!</translation>
     </message>
     <message>
         <source>Invalid parameter: %1</source>
@@ -2878,7 +2886,7 @@ Nets in hierarchical structures have to be changed in the schematic!</source>
     </message>
     <message>
         <source>Name &apos;%1&apos; already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; név már létezik</translation>
     </message>
     <message>
         <source> in board</source>
@@ -4834,11 +4842,11 @@ történő használatához</translation>
     </message>
     <message>
         <source>&lt;li&gt;The minimum Restring parameter for pads on the Bottom layer is larger than the maximum</source>
-        <translation>&lt;li&gt;Az padek minimális mérethatára az alsó rétegen nagyobb mint a megengedett legnagyobb</translation>
+        <translation>&lt;li&gt;Az padek minimális maradékgyűrűje az alsó rétegen nagyobb mint a maximum</translation>
     </message>
     <message>
         <source>&lt;li&gt;The minimum Restring parameter for micro vias on the outer layers is larger than the maximum</source>
-        <translation>&lt;li&gt;Az mikroátkötések minimális mérethatára a külső rétegeken nagyobb mint a maximum</translation>
+        <translation>&lt;li&gt;Az microviak minimális maradékgyűrűje a külső rétegeken nagyobb mint a maximum</translation>
     </message>
     <message>
         <source>&lt;li&gt;The Size parameter for minimum micro via is zero</source>
@@ -9673,7 +9681,7 @@ Otherwise you can fix the current board and end the job.</source>
     </message>
     <message>
         <source>Can&apos;t find &apos;%1&apos;</source>
-        <translation>Nem talált &apos;%1&apos;</translation>
+        <translation>&apos;%1&apos; nem található</translation>
     </message>
     <message>
         <source>Boards</source>
@@ -9825,7 +9833,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>Shift+Enter to add a new line</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+Enterrel tudsz új sort beszúrni</translation>
     </message>
     <message>
         <source>Language</source>
@@ -9876,7 +9884,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>%1: nothing to edit!</source>
-        <translation>%1: Nem javítható!</translation>
+        <translation>%1: nincs mit szerkeszteni!</translation>
     </message>
     <message>
         <source>%1: can&apos;t execute while command is running in other window!</source>
@@ -12059,7 +12067,7 @@ ha a kapcsolási rajz is meg van nyitva!</translation>
     <name>ul_scan.l</name>
     <message>
         <source>error in character constant</source>
-        <translation>Fehler in &apos;character&apos;-Konstante</translation>
+        <translation>hibás karakter konstans</translation>
     </message>
     <message>
         <source>Missing closing &quot; in include statement</source>
