@@ -117,7 +117,7 @@ nincs routolási réteg definiálva!</translation>
     <name>arstore.c</name>
     <message>
         <source>Job File &apos;%1&apos; cannot be used on this machine due to incompatible byte order.</source>
-        <translation>A(z) %1 feladatfájl nem használható ezene agépen az inkompatibilis bájtsorrend miatt (Kicsi-nagy endian). </translation>
+        <translation>A(z) %1 feladatfájl nem használható ezen a gépen az inkompatibilis bájtsorrend miatt (Kicsi-nagy endian). </translation>
     </message>
     <message>
         <source>Invalid Job File: %1</source>
@@ -132,7 +132,7 @@ nincs routolási réteg definiálva!</translation>
     <name>arvoronoi.c</name>
     <message>
         <source>Merging polygons. Layer</source>
-        <translation>Sokszögek összevonésa. Réteg</translation>
+        <translation>Sokszögek összevonása. Réteg</translation>
     </message>
     <message>
         <source>PostProcess. Layer</source>
@@ -140,7 +140,7 @@ nincs routolási réteg definiálva!</translation>
     </message>
     <message>
         <source>Process contacts. Layer</source>
-        <translation>Összekötésel feldolgozása. Réteg</translation>
+        <translation>Összekötések feldolgozása. Réteg</translation>
     </message>
     <message>
         <source>Calculating capacity. Layer</source>
@@ -352,7 +352,7 @@ A helyes formula: Busznév[0..n]!</translation>
     </message>
     <message>
         <source>Update library objects</source>
-        <translation>A könyvtárban találhható alkatrészek frissítése</translation>
+        <translation>A könyvtárban található alkatrészek frissítése</translation>
     </message>
     <message>
         <source>Run a User Language Program</source>
@@ -388,7 +388,7 @@ A helyes formula: Busznév[0..n]!</translation>
     </message>
     <message>
         <source>Draw a hole</source>
-        <translation>Lyuk</translation>
+        <translation>Furat</translation>
     </message>
     <message>
         <source>Undo previous operations</source>
@@ -418,7 +418,7 @@ A helyes formula: Busznév[0..n]!</translation>
         <source>Coordinates %1 are out of range!
 
 Maximum allowed range is +/-%2 %3</source>
-        <translation>A %1 koordináták kívül esnek a megengedett tartományon
+        <translation>A %1 koordináták kívül esnek a megengedett tartományon.
 A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
@@ -579,7 +579,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>The %1 command can only be used in the default assembly variant!</source>
-        <translation>A %1 parancs csak az alap beültetési verzióban használható!</translation>
+        <translation>A(z) %1 parancs csak az alap beültetési verziót kiválasztva használható!</translation>
     </message>
     <message>
         <source>Some objects extend outside the allowed board area.</source>
@@ -603,7 +603,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Show/edit object properties</source>
-        <translation>Objektum tulajdonságainak megtekintése/szereksztése</translation>
+        <translation>Objektum tulajdonságainak megtekintése/szerkesztése</translation>
     </message>
     <message>
         <source>Swap equivalent pins/pads</source>
@@ -635,19 +635,19 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Align objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Objektumok igazítása</translation>
     </message>
     <message>
         <source>Slice lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonalak megtörése</translation>
     </message>
     <message>
         <source>Synchronise a board with a Fusion PCB</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyákterv szinkronizálása a Fusion PCB-vel</translation>
     </message>
     <message>
         <source>Open library manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Könyvtárkezelő megnyitása</translation>
     </message>
 </context>
 <context>
@@ -680,7 +680,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source>Left-click to place &apos;%1&apos;</source>
-        <translation>Kattints bal gombbal a %1 letételéhezz</translation>
+        <translation>Kattints bal gombbal a %1 letételéhez</translation>
     </message>
     <message>
         <source>element name</source>
@@ -736,7 +736,7 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
     </message>
     <message>
         <source> (w/ 3d package: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation> (3D tokozás: %1)</translation>
     </message>
     <message>
         <source>Can&apos;t backannotate this operation.
@@ -745,30 +745,30 @@ Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.<
     </message>
     <message>
         <source>package </source>
-        <translation type="unfinished"></translation>
+        <translation>tokozás</translation>
     </message>
     <message>
         <source> and </source>
-        <translation type="unfinished"> és </translation>
+        <translation> és </translation>
     </message>
     <message>
         <source>3d package </source>
-        <translation type="unfinished"></translation>
+        <translation>3D tokozás </translation>
     </message>
 </context>
 <context>
     <name>d_align.c</name>
     <message>
         <source>Aligning %d objects</source>
-        <translation type="unfinished"></translation>
+        <translation>%d objektum igazítása</translation>
     </message>
     <message>
         <source>Aligned Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Balra zárás</translation>
     </message>
     <message>
         <source>Distributed Horizonatally</source>
-        <translation type="unfinished"></translation>
+        <translation>Elosztás vízszintesen</translation>
     </message>
     <message>
         <source>Distribute Horizonatally Not Available</source>
@@ -776,43 +776,43 @@ Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.<
     </message>
     <message>
         <source>Aligned Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobbra zárt</translation>
     </message>
     <message>
         <source>Aligned Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Felülre zárt</translation>
     </message>
     <message>
         <source>Distribute Vertically</source>
-        <translation type="unfinished"></translation>
+        <translation>Elosztás függőlegesen</translation>
     </message>
     <message>
         <source>Distribute Vertically Not Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőleges elosztás nem elérhető</translation>
     </message>
     <message>
         <source>Aligned Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Alulra zárt</translation>
     </message>
     <message>
         <source>Aligned Centers X</source>
-        <translation type="unfinished"></translation>
+        <translation>Vízszintesen középre</translation>
     </message>
     <message>
         <source>Aligned Centers Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Függőlegesen középre</translation>
     </message>
     <message>
         <source>Aligned to Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Rácsra illesztés</translation>
     </message>
     <message>
         <source>Unexpected Align Mode!</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen igazítási mód!</translation>
     </message>
     <message>
         <source>Some objects extend outside the allowed board area.</source>
-        <translation type="unfinished">Néhány objektum túlnyúlik a megengedett területen.</translation>
+        <translation>Néhány objektum túlnyúlik a megengedett területen.</translation>
     </message>
 </context>
 <context>
@@ -927,7 +927,7 @@ Felülírod a jelenlegi hozzárendelést?</translation>
     </message>
     <message>
         <source>Delete attribute &apos;%1&apos;?</source>
-        <translation>Valóban törlni szeretnéd a %1 tulajdonságot?</translation>
+        <translation>Valóban törölni szeretnéd a %1 tulajdonságot?</translation>
     </message>
     <message>
         <source>Value</source>
@@ -1031,7 +1031,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Change attribute</source>
-        <translation>Tulajdonság megváltoztatása</translation>
+        <translation>Attribútum adatai</translation>
     </message>
     <message>
         <source>Missing attribute value</source>
@@ -1056,7 +1056,7 @@ A hierarchikus struktúrákban lévő alkatrészeket a kapcsolási rajzban kell 
     </message>
     <message>
         <source>Load</source>
-        <translation>Betltés</translation>
+        <translation>Betöltés</translation>
     </message>
     <message>
         <source>Costs</source>
@@ -1092,7 +1092,7 @@ A hierarchikus struktúrákban lévő alkatrészeket a kapcsolási rajzban kell 
     </message>
     <message>
         <source>The Autorouter can only be used in a board!</source>
-        <translation>Az automata hutzalozó csak a nyáktervezőben használható!</translation>
+        <translation>Az automata huzalozó csak a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Layer Costs</source>
@@ -1104,11 +1104,11 @@ A hierarchikus struktúrákban lévő alkatrészeket a kapcsolási rajzban kell 
     </message>
     <message>
         <source>Select</source>
-        <translation>Kiválaszt</translation>
+        <translation>Routolandó netek kiválasztása</translation>
     </message>
     <message>
         <source>Select signals or click GO to start</source>
-        <translation>Válassz szignálokat vagy kattints a Gyerünk gombra</translation>
+        <translation>Válassz neteket majd kattints a GO (Gyerünk) gombra</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -1224,35 +1224,35 @@ Folytassuk?</translation>
     </message>
     <message>
         <source>Bga(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>BGA-k</translation>
     </message>
     <message>
         <source>Warning: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Figyelmeztetés: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Net</translation>
     </message>
     <message>
         <source>#</source>
-        <translation type="unfinished"></translation>
+        <translation>#</translation>
     </message>
     <message>
         <source>Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétegek</translation>
     </message>
     <message>
         <source>Micro vias enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Micro viak engedélyezve</translation>
     </message>
     <message>
         <source>Wrong BGA attribute for element: %1 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 %2 alkatrész BGA attribútuma hibás.</translation>
     </message>
     <message>
         <source>The autorouter is not available while editing a designblock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az autorouter nem használható a tervezési blokk szerkesztése közben.</translation>
     </message>
 </context>
 <context>
@@ -1387,7 +1387,7 @@ Használd a REPLACE (kicserél parancsot) helyett.</translation>
 
 Use the REPLACE command instead if you don&apos;t have a schematic.</source>
         <translation>Ez a művelet csak aktív F/B jegyzet esetén végrehajtható
-Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translation>
+Használd a REPLACE (kicserél) parancsot helyette ha nincs kapcsolási rajzod.</translation>
     </message>
     <message>
         <source>Change %1 of %2</source>
@@ -1622,7 +1622,7 @@ mivel ezt csak alacsonyabb számú osztályokhoz képest lehet megadni.</transla
     <name>d_copy.c</name>
     <message>
         <source> (Ctrl+right-click to copy group)</source>
-        <translation> (Kattints jobb egérgombbal a Ctrl lenyomáősa mellett a csoport másolásához)</translation>
+        <translation> (Kattints jobb egérgombbal a Ctrl lenyomása mellett a csoport másolásához)</translation>
     </message>
     <message>
         <source>Unexpected parameter: %1</source>
@@ -1725,7 +1725,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     </message>
     <message>
         <source> (Ctrl+right-click to delete group)</source>
-        <translation> (Ctrl + jobb egérgombbal tudsz kijelölést törölnit)</translation>
+        <translation> (Ctrl + jobb egérgombbal tudsz kijelölést törölni)</translation>
     </message>
     <message>
         <source>Left-click to select object to delete</source>
@@ -1737,7 +1737,7 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     </message>
     <message>
         <source>Delete Signals is only possible in a board!</source>
-        <translation>Az összekötések törlése csak a nyákszerkezsztőben lehetséges!</translation>
+        <translation>Az összekötések törlése csak a nyáktervezőben lehetséges!</translation>
     </message>
 </context>
 <context>
@@ -1774,11 +1774,11 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
     <name>d_displa.c</name>
     <message>
         <source>&amp;Name</source>
-        <translation>&amp;Új</translation>
+        <translation>Réteg &amp;neve</translation>
     </message>
     <message>
         <source>N&amp;umber</source>
-        <translation>S&amp;zám</translation>
+        <translation>Inde&amp;x</translation>
     </message>
     <message>
         <source>&amp;Color</source>
@@ -1802,7 +1802,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Change layer properties</source>
-        <translation>Rétegtulajdonság megváltoztatása</translation>
+        <translation>Réteg tulajdonságai</translation>
     </message>
     <message>
         <source>Unknown layer: %1</source>
@@ -1818,7 +1818,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&amp;Displayed</source>
-        <translation>&amp;Látható</translation>
+        <translation>&amp;Megjelenítve</translation>
     </message>
     <message>
         <source>Unavailable layer: %1</source>
@@ -1830,51 +1830,51 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;+</translation>
     </message>
     <message>
         <source> &amp;– </source>
-        <translation type="unfinished"></translation>
+        <translation> &amp;– </translation>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Összes kijelölése</translation>
     </message>
     <message>
         <source>Select &amp;None</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Egyiket sem</translation>
     </message>
     <message>
         <source>Layer Presets</source>
-        <translation type="unfinished"></translation>
+        <translation>Mentett rétegbeállítások</translation>
     </message>
     <message>
         <source>Add N&amp;ew</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Új</translation>
     </message>
     <message>
         <source>New Layer Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Új rétegbeállítás</translation>
     </message>
     <message>
         <source>Name for new layer set</source>
-        <translation type="unfinished"></translation>
+        <translation>Rétegbeállítás neve</translation>
     </message>
     <message>
         <source>Alias name &apos;%1&apos; already exists!</source>
-        <translation type="unfinished">%1 álnév  már létezik!</translation>
+        <translation>%1 alias már létezik!</translation>
     </message>
     <message>
         <source>Please edit or remove preset layer groups in eagle.scr</source>
-        <translation type="unfinished"></translation>
+        <translation>Kérlek szerkeszd vagy távolítsd el a régetcsoportokat az eagle.scr fájlban</translation>
     </message>
     <message>
         <source>Name for current layer selection:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelenleg kiválasztott rétegcsoport neve:</translation>
     </message>
     <message>
         <source>Layer preset name &apos;%1&apos; already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) &apos;%1&apos; nevű rétegbeállítás már létezik!</translation>
     </message>
 </context>
 <context>
@@ -1885,7 +1885,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation>Betltés</translation>
+        <translation>Betöltés</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -1957,7 +1957,7 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
     </message>
     <message>
         <source>&lt;hr&gt;&lt;b&gt;Restrings&lt;/b&gt; for pads and vias are defined in percent of the drill diameter (limited by &lt;b&gt;Min&lt;/b&gt; and &lt;b&gt;Max&lt;/b&gt;). If the diameter of an actual pad or via would result in a larger restring, that value will be used in the outer layers.&lt;p&gt;If the &lt;b&gt;Diameter&lt;/b&gt; option is checked the actual pad or via diameter will be taken into account in the inner layers, too.&lt;p&gt;&lt;b&gt;Micro Vias&lt;/b&gt; are &lt;i&gt;blind&lt;/i&gt; vias that are exactly one layer deep and have a drill diameter that is smaller than the &lt;b&gt;Minimum Drill&lt;/b&gt; value defined under &lt;i&gt;Sizes&lt;/i&gt; (which may be overwritten by a larger &lt;b&gt;Drill&lt;/b&gt; value in the &lt;i&gt;Net classes&lt;/i&gt;).</source>
-        <translation>&lt;hr&gt;&lt;b&gt;Mérethetárok&lt;/b&gt;&lt;br&gt;az átkötések és a padek részére afuratátmérő százalékos arányával adhatók meg mind &lt;b&gt;minimálisan&lt;/b&gt; mind &lt;b&gt;maximálisan&lt;/b&gt;. Ha egy pad vagy átkötés átmérője nagyobb méretet eredményez, akkor az az érték lesz használva. &lt;p&gt;Ha az &lt;b&gt;átmérő&lt;/b&gt; be van jelölve, akkor az arra beállított értékek is figyelembe lesznek véve. &lt;p&gt;A &lt;b&gt;mikro átkötések&lt;/b&gt; olyan átkötések melyek pontosan egy rétegnyi mélységűek, és a furatátmérőjük kisebb mint a &lt;i&gt;méreteknél&lt;i&gt; megadott &lt;b&gt;minimális furat&lt;/b&gt;  (ezt felülírhatja a összekötésosztályoknál esetlegesen beállított nagyobb  &lt;b&gt;furat&lt;/b&gt;).</translation>
+        <translation>&lt;hr&gt;&lt;b&gt;Mérethatárok&lt;/b&gt;&lt;br&gt;az átkötések és a padek részére a furatátmérő százalékos arányával adhatók meg mind &lt;b&gt;minimálisan&lt;/b&gt; mind &lt;b&gt;maximálisan&lt;/b&gt;. Ha egy pad vagy átkötés átmérője nagyobb méretet eredményez, akkor az az érték lesz használva. &lt;p&gt;Ha az &lt;b&gt;átmérő&lt;/b&gt; be van jelölve, akkor az arra beállított értékek is figyelembe lesznek véve. &lt;p&gt;A &lt;b&gt;mikro átkötések&lt;/b&gt; olyan átkötések melyek pontosan egy rétegnyi mélységűek, és a furatátmérőjük kisebb mint a &lt;i&gt;méreteknél&lt;i&gt; megadott &lt;b&gt;minimális furat&lt;/b&gt;  (ezt felülírhatja a összekötésosztályoknál esetlegesen beállított nagyobb  &lt;b&gt;furat&lt;/b&gt;).</translation>
     </message>
     <message>
         <source>Error in layer setup: </source>
@@ -2011,7 +2011,7 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>Gap factor for meanders in differential pairs</source>
-        <translation>Differenciális érpárok meandereinek rés fakora</translation>
+        <translation>Differenciális érpárok meandereinek rés faktora</translation>
     </message>
     <message>
         <source>&lt;hr&gt;The &lt;b&gt;Grid&lt;/b&gt; check verifies that all pads, smds, vias and wires in signal layers are on the current grid.&lt;p&gt;The &lt;b&gt;Angle&lt;/b&gt; check reports signal wires that are not placed in multiples of 45&amp;deg;.&lt;p&gt;The &lt;b&gt;Gap factor&lt;/b&gt; is multiplied with the clearance used in the differential pair and determines the distance between the loops of the meander.</source>
@@ -2025,7 +2025,7 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>&lt;hr&gt;Layers are combined through either &lt;i&gt;core&lt;/i&gt; or &lt;i&gt;prepreg&lt;/i&gt; material. &lt;b&gt;a*b&lt;/b&gt; combines layers &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt; with a &lt;i&gt;core&lt;/i&gt;, while &lt;b&gt;a+b&lt;/b&gt; does the same with &lt;i&gt;prepreg&lt;/i&gt;.&lt;br&gt;&lt;b&gt;Buried&lt;/b&gt; and &lt;b&gt;through&lt;/b&gt; vias are defined by writing &lt;tt&gt;&lt;b&gt;(...)&lt;/b&gt;&lt;/tt&gt;.&lt;br&gt;&lt;b&gt;Blind&lt;/b&gt; vias are defined by writing &lt;tt&gt;&lt;b&gt;[t:...:b]&lt;/b&gt;&lt;/tt&gt;, which defines a blind via from top to layer &lt;i&gt;t&lt;/i&gt; and from bottom to layer &lt;i&gt;b&lt;/i&gt;.&lt;br&gt;&lt;b&gt;Example:&lt;/b&gt; &lt;tt&gt;[2:(1+(2*3)+(14*15)+16):15]&lt;/tt&gt; is a multilayer setup with two cores, combining layers 2/3 and 14/15, respectively, with buried vias going through both cores. The cores are combined through a prepreg and buried vias are produced through the resulting stack. Finally layers 1 and 16 are added, with blind vias going from layer 1 to 2 and layer 15 to 16.</source>
-        <translation>&lt;hr&gt;A nyáklemezek rézrétegei közé &lt;i&gt;core&lt;/i&gt; vagy &lt;i&gt;prepreg&lt;/i&gt; rétegeket préselnek. A rétegfelépítést leíró képletek a következő módon épülnek fel: &lt;b&gt;a*b&lt;/b&gt; olyan elrendezést jelent ahol &lt;i&gt;a&lt;/i&gt; és &lt;i&gt;b&lt;/i&gt; a rétegek indexei a * jel pedig azt mutatja, hogy a kettő közt core réteg van. Az &lt;b&gt;a+b&lt;/b&gt; képlet pedig azt jelenti, hogy az &lt;i&gt;a&lt;/i&gt; és &lt;i&gt;b&lt;/i&gt; réteg közt &lt;i&gt;prepreg&lt;/i&gt; réteg van.&lt;br&gt;A &lt;b&gt;temetett viakat&lt;/b&gt; &lt;tt&gt;&lt;b&gt;(...)&lt;/b&gt;&lt;/tt&gt; módon jelöljük.&lt;br&gt;&lt;b&gt;A &lt;b&gt;vakfuratokat&lt;/b&gt; pedig a &lt;tt&gt;&lt;b&gt;[t:...:b]&lt;/b&gt;&lt;/tt&gt; módon jelölhetjük. &lt;br&gt;&lt;b&gt;Példák:&lt;/b&gt; &lt;tt&gt;[2:(1+(2*3)+(14*15)+16):15]&lt;/tt&gt; egy olyan rétegfelépítés ahol a 2-es és 3-as illetve 14-es és 15-ös rétegek közt core réteg van és mindkét core rétegen mennek át temetett furatok. A két belős rézréteg közt pedig prepreg réteg van amin mehetnek át temetett via-k. A két külső rézréteg (1-es és 16-os) prepreg rétegre van préselve amin keresztül vakfuratok mennek a belső rétegekre.  </translation>
+        <translation>&lt;hr&gt;A nyáklemezek rézrétegei közé &lt;i&gt;core&lt;/i&gt; vagy &lt;i&gt;prepreg&lt;/i&gt; rétegeket préselnek. A rétegfelépítést leíró képletek a következő módon épülnek fel: &lt;b&gt;a*b&lt;/b&gt; olyan elrendezést jelent ahol &lt;i&gt;a&lt;/i&gt; és &lt;i&gt;b&lt;/i&gt; a rétegek indexei a * jel pedig azt mutatja, hogy a kettő közt core réteg van. Az &lt;b&gt;a+b&lt;/b&gt; képlet pedig azt jelenti, hogy az &lt;i&gt;a&lt;/i&gt; és &lt;i&gt;b&lt;/i&gt; réteg közt &lt;i&gt;prepreg&lt;/i&gt; réteg van.&lt;br&gt;A &lt;b&gt;temetett viakat&lt;/b&gt; &lt;tt&gt;&lt;b&gt;(...)&lt;/b&gt;&lt;/tt&gt; módon jelöljük.&lt;br&gt;&lt;b&gt;A &lt;b&gt;vakfuratokat&lt;/b&gt; pedig a &lt;tt&gt;&lt;b&gt;[t:...:b]&lt;/b&gt;&lt;/tt&gt; módon jelölhetjük. &lt;br&gt;&lt;b&gt;Példák:&lt;/b&gt; &lt;tt&gt;[2:(1+(2*3)+(14*15)+16):15]&lt;/tt&gt; egy olyan rétegfelépítés ahol a 2-es és 3-as illetve 14-es és 15-ös rétegek közt core réteg van és mindkét core rétegen mennek át temetett furatok. A két belső rézréteg közt pedig prepreg réteg van amin mehetnek át temetett via-k. A két külső rézréteg (1-es és 16-os) prepreg rétegre van préselve amin keresztül vakfuratok mennek a belső rétegekre.  </translation>
     </message>
     <message>
         <source>&lt;hr&gt;&lt;b&gt;Minimum Sizes&lt;/b&gt; of objects in signal layers and of drill holes.&lt;p&gt;&lt;b&gt;Minimum Width&lt;/b&gt; and &lt;b&gt;Minimum Drill&lt;/b&gt; may be overwritten by larger values in the &lt;i&gt;Net classes&lt;/i&gt; for specific signals.&lt;p&gt;&lt;b&gt;Min. Micro Via&lt;/b&gt; applies to &lt;i&gt;blind&lt;/i&gt; vias that are exactly one layer deep. Typical values are in the range 50..100 micron. The value has to be smaller than &lt;b&gt;Minimum Drill&lt;/b&gt;; otherwise (e.g. with the default value of 9.99mm) there are no micro vias defined.&lt;p&gt;&lt;b&gt;Min. Blind Via Ratio&lt;/b&gt; defines the minimum drill diameter &lt;i&gt;d&lt;/i&gt; a blind via must have if it goes through a layer of thickness &lt;i&gt;t&lt;/i&gt;. Board manufacturers usually give this &quot;aspect ratio&quot; in the form &lt;b&gt;&lt;tt&gt;1:0.5&lt;/tt&gt;&lt;/b&gt;, where &lt;tt&gt;0.5&lt;/tt&gt; would be the value that has to be entered here.</source>
@@ -2064,27 +2064,27 @@ elérhető ebben a %2 verzióban!</translation>
     </message>
     <message>
         <source>Import Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Eszköz importálása</translation>
     </message>
     <message>
         <source>Import Package</source>
-        <translation type="unfinished"></translation>
+        <translation>Tokozás importálása</translation>
     </message>
     <message>
         <source>Import Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>Szimbólum importálása</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importálás</translation>
     </message>
     <message>
         <source>&amp;New </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Új</translation>
     </message>
     <message>
         <source> Name:</source>
-        <translation type="unfinished"></translation>
+        <translation> Név:</translation>
     </message>
 </context>
 <context>
@@ -2119,7 +2119,7 @@ Mindenképpen megpróbáljam összhanga hozni őket (ez a te saját felelősség
     </message>
     <message>
         <source> - board and schematic are consistent</source>
-        <translation> -a panel és kapcsolási rajz konzisztens</translation>
+        <translation> - a panel és kapcsolási rajz konzisztens</translation>
     </message>
     <message>
         <source>Checking invisibly connected pins...</source>
@@ -2143,7 +2143,7 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Checking implicit net connectivity...</source>
-        <translation>Implicit vezetékösszekötések ellenőrzése...</translation>
+        <translation>Implicit összekötések ellenőrzése...</translation>
     </message>
     <message>
         <source>Checking nets from busses...</source>
@@ -2330,11 +2330,11 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
     </message>
     <message>
         <source>Airwires (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 légvezeték</translation>
     </message>
     <message>
         <source>Do you really want to approve all airwires?</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan figyelmen kívül hagyjuk a légvezetékeket?</translation>
     </message>
 </context>
 <context>
@@ -2539,7 +2539,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Ctrl right-click to finish selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl + jobb egérgombbal fejezheted be a kijelölést</translation>
     </message>
 </context>
 <context>
@@ -2568,7 +2568,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>No design block loaded!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs tervezési blokk betöltve!</translation>
     </message>
 </context>
 <context>
@@ -2579,7 +2579,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     </message>
     <message>
         <source>Part has only 1 gate: %1</source>
-        <translation>Az alkatrészenk csak 1 kapuja van: %1</translation>
+        <translation>Az alkatrésznek csak 1 kapuja van: %1</translation>
     </message>
     <message>
         <source>Left-click to place gate &apos;%1&apos; (%2)</source>
@@ -2695,7 +2695,7 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     <name>d_lock.c</name>
     <message>
         <source>Left-click to select part to lock</source>
-        <translation>Kattints bal gombbal az adott alkatrészen a poziciójának rögzítéséhez</translation>
+        <translation>Kattints bal gombbal az adott alkatrészen a pozíciójának rögzítéséhez</translation>
     </message>
     <message>
         <source> (Ctrl+right-click to lock group)</source>
@@ -2759,14 +2759,14 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     <name>d_mfg.c</name>
     <message>
         <source>The Manufacturing command can only be used in a board!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Manufacturing parancs csak a nyáktervezőben használható!</translation>
     </message>
 </context>
 <context>
     <name>d_miter.c</name>
     <message>
         <source>Left-click on a wire joint to miter (or in the middle of a wire to re-miter)</source>
-        <translation>Kattints bal egérgombbal a vezetéksarora vagy a lekerekítés közepén a módosításához</translation>
+        <translation>Kattints bal egérgombbal a vezetéktörésre vagy a lekerekítés közepén a módosításához</translation>
     </message>
     <message>
         <source>The Miter command can&apos;t be used in a device set!</source>
@@ -3092,7 +3092,7 @@ mind a(z) (%2) lábához</translation>
     </message>
     <message>
         <source>Error loading library.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba a könyvtár betöltése során.</translation>
     </message>
 </context>
 <context>
@@ -3287,35 +3287,35 @@ nem konzisztensek, ezért nem  illeszthetőek be!</translation>
     </message>
     <message>
         <source>Clear search text</source>
-        <translation type="unfinished">Keresőmező törlése</translation>
+        <translation>Keresőmező törlése</translation>
     </message>
     <message>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Keresés</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Leírás</translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Attribútumok</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation type="unfinished">Attribútum</translation>
+        <translation>Attribútum</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Érték</translation>
+        <translation>Érték</translation>
     </message>
     <message>
         <source>&lt;b&gt;Sorry, no match!&lt;/b&gt;&lt;p&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Sajnos nincs találat!&lt;/b&gt;&lt;p&gt;</translation>
+        <translation>&lt;b&gt;Sajnos nincs találat!&lt;/b&gt;&lt;p&gt;</translation>
     </message>
     <message>
         <source>No design block selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs tervezési blokk kiválasztva.</translation>
     </message>
     <message>
         <source>There is no drawing to paste to the current drawing.</source>
@@ -3600,7 +3600,7 @@ Please contact Autodesk.</source>
     </message>
     <message>
         <source> (Polygons have not been processed!)</source>
-        <translation>(A sokszögek nem lettek feldolgozva!)</translation>
+        <translation> (A sokszögek nem lettek feldolgozva!)</translation>
     </message>
     <message>
         <source> hidden: %1</source>
@@ -3796,24 +3796,25 @@ A hierarchikus struktúrában lévő alkatrészeket a kapcsolási rajzban lehet 
     </message>
     <message>
         <source> (w/ 3d package: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation> (%1 3D tokozással)</translation>
     </message>
     <message>
         <source>Can&apos;t backannotate this operation.
 Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem tudom a változtatást a kapcsolási rajzba visszavezetni.
+Módosítsd, vagy cseréld le azokat az alkatrészeket a kapcsolási rajzban amik hivatkoznak erre: %1%2%3.</translation>
     </message>
     <message>
         <source>package </source>
-        <translation type="unfinished"></translation>
+        <translation>tokozás</translation>
     </message>
     <message>
         <source> and </source>
-        <translation type="unfinished"> és </translation>
+        <translation> és </translation>
     </message>
     <message>
         <source>3d package </source>
-        <translation type="unfinished"></translation>
+        <translation>3D tokozás</translation>
     </message>
 </context>
 <context>
@@ -3926,11 +3927,11 @@ Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.<
     </message>
     <message>
         <source>Left-click to place wire (double-click ends wire) </source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal vonal rajzolásához (duplaklikkel fejezheted be)</translation>
     </message>
     <message>
         <source> Next Layer: </source>
-        <translation type="unfinished"></translation>
+        <translation> Következő réteg: </translation>
     </message>
 </context>
 <context>
@@ -4306,7 +4307,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Display signal names on &amp;traces</source>
-        <translation type="unfinished"></translation>
+        <translation>Netnevek megjelenítése a &amp;vezetősávokon</translation>
     </message>
     <message>
         <source>Group command default on</source>
@@ -4314,7 +4315,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Missing mode!</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiányzó mód!</translation>
     </message>
     <message>
         <source>Loop Removal can only be On or Off.</source>
@@ -4322,7 +4323,7 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     </message>
     <message>
         <source>Single Layer Mode can only be On or Off.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az egyoldalas mód csak On vagy Off lehet.</translation>
     </message>
 </context>
 <context>
@@ -4371,19 +4372,19 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     <name>d_slice.c</name>
     <message>
         <source>Left-click to start defining a slice line)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal a vonaltörési egyenes indításához)</translation>
     </message>
     <message>
         <source>Left-click to define slice line.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal a vonal megtöréséhez.</translation>
     </message>
     <message>
         <source>No lines sliced!</source>
-        <translation type="unfinished"></translation>
+        <translation>Egy vonal sem lett megtörve!</translation>
     </message>
     <message>
         <source>Left-click to start defining a slice line</source>
-        <translation type="unfinished"></translation>
+        <translation>Kattints bal gombbal a vonal megtöréséhez</translation>
     </message>
 </context>
 <context>
@@ -4467,15 +4468,15 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
     <name>d_syncfusion.c</name>
     <message>
         <source>The Fusionsync command can only be used in a board!</source>
-        <translation type="unfinished"></translation>
+        <translation>A Fusionsync parancs csak a nyáktervezőben használható!</translation>
     </message>
     <message>
         <source>Fusion Sync cannot be used in offline mode.  Please log in and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Fusion Sync nem működik, csak ha be vagy jelentkezve.</translation>
     </message>
     <message>
         <source>You must be connected to the Internet to use Fusion Sync.  Please reconnect and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>A Fusion Sync aktív internetkapcsolatot igényel. Ellenőrízd az internetkapcsolatod majd próbáld újra.</translation>
     </message>
 </context>
 <context>
@@ -4667,7 +4668,7 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     </message>
     <message>
         <source>%1 has not been downloaded!</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 mé nincs letöltve!</translation>
     </message>
     <message>
         <source>Can&apos;t remove &apos;@&apos; from library %1 (%2 already exists)</source>
@@ -4803,7 +4804,7 @@ A hierarchikus struktúrában lévő alkatrészeket a kapcsolási rajzban lehet 
     </message>
     <message>
         <source>Really delete variant &apos;%1&apos;?</source>
-        <translation>Valóban töröljük a &apos;%1&apos; változatot</translation>
+        <translation>Valóban töröljük a &apos;%1&apos; változatot?</translation>
     </message>
     <message>
         <source>Please select a variant to delete!</source>
@@ -4864,8 +4865,8 @@ A hierarchikus struktúrában lévő alkatrészeket a kapcsolási rajzban lehet 
     <message>
         <source>Changing the assembly variant is only possible
 in the corresponding schematic&apos;s main sheets!</source>
-        <translation>A beültetési változatokat csak a megfelelő 
-kapcsolási rajzok fő oldalain lehet megváltoztatni!</translation>
+        <translation>Az aktív beültetési változatot csak a kapcsolási rajz 
+fő oldalain lehet kiválasztani!</translation>
     </message>
     <message>
         <source>The Variant command can only be used in schematic!</source>
@@ -5430,7 +5431,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Net class %1 has different %2 in schematic and board (%3 / %4)</source>
-        <translation>A %1 vezetékosztály %2-e különbözik a nyákban (%3 / %4) és a kapcsolási rajzban </translation>
+        <translation>A %1 vezetékosztály %2-e különböző a kapcsolási rajzban és a nyáktervben (%3 / %4)</translation>
     </message>
     <message>
         <source>Pin %1 %2 connected to %3 without any net wire, junction or other pin</source>
@@ -5478,7 +5479,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Part %1 has different values in schematic and board (%2 / %3)</source>
-        <translation>A %1 alkatrésznek eltérő értéke van a kapcsolási rajzban és a nyáktervben (%2 / %3) KÉSZ van:)</translation>
+        <translation>A(z) %1 alkatrésznek eltérő értéke van a kapcsolási rajzban és a nyáktervben (%2 / %3)</translation>
     </message>
     <message>
         <source>OUTPUT and OC pins mixed on net %1 (%2)</source>
@@ -5502,7 +5503,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Part %1 has inconsistent packages in schematic and board (%2 from %3 / %4 from %5)</source>
-        <translation>A(z) %1 alkatrésznek nem konzisztensek a tokozásai a nyáktervben (%2 ebben: %3  míg %4 ebben: %5)</translation>
+        <translation>A(z) %1 alkatrésznek nem ugyanaz a tokozása a kapcsolási rajzban és a nyáktervben (%2 ebben: %3  míg %4 ebben: %5)</translation>
     </message>
     <message>
         <source>%1 referenced by port %2 has no label</source>
@@ -5550,7 +5551,7 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     </message>
     <message>
         <source>Part %1 has inconsistent 3d packages in schematic and board (%2 from %3 / %4 from %5)</source>
-        <translation type="unfinished"></translation>
+        <translation>A(z) %1 alkatrésznek nem ugyanaz a 3D tokozása a kapcsolási rajzban és a nyáktervben (%2 ebben: %3  míg %4 ebben: %5)</translation>
     </message>
 </context>
 <context>
@@ -5994,7 +5995,7 @@ Please contact Autodesk.</source>
     <name>loginwindow.c</name>
     <message>
         <source>Sign in</source>
-        <translation type="unfinished"></translation>
+        <translation>Bejelentkezés</translation>
     </message>
 </context>
 <context>
@@ -6155,7 +6156,7 @@ Please contact Autodesk.</source>
     </message>
     <message>
         <source>Select &apos;Element: %1, %2&apos;? (left=yes, right=next, ESC=cancel)</source>
-        <translation>&apos;Kiválasztod a %1, %2&apos; elemet? (bal=igen, jobb=következő, ESC=mégsem)</translation>
+        <translation>&apos;Kiválasztod a %1, %2&apos; elemet? (bal=igen, jobb=kijelölés a következő rétegen, ESC=mégsem)</translation>
     </message>
     <message>
         <source>Resulting net &amp;class:</source>
@@ -6273,7 +6274,7 @@ A NAME parancs segítségével lehet buszokat összevonni.</translation>
     </message>
     <message>
         <source>This is not an EAGLE file.</source>
-        <translation type="unfinished">Ez a fáj nem EAGLE-el készült.</translation>
+        <translation>Ez a fáj nem EAGLE-el készült.</translation>
     </message>
     <message>
         <source>Can&apos;t load design block file:
@@ -6407,7 +6408,7 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
     <message>
         <source>Compatibility note, version %1 (%2):
 </source>
-        <translation>Kompatibilitési megjegyzés a %1 (%2) verzióhoz:
+        <translation>Kompatibilitási megjegyzés a %1 (%2) verzióhoz:
 </translation>
     </message>
     <message>
@@ -6446,7 +6447,7 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
     </message>
     <message>
         <source>File exists. Can&apos;t create a new drawing with name %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem sikerült a %1 fájlt létrehozni, a fájl már létezik</translation>
     </message>
 </context>
 <context>
@@ -6461,11 +6462,11 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
     </message>
     <message>
         <source> + Edits</source>
-        <translation type="unfinished"></translation>
+        <translation> + Módosítások</translation>
     </message>
     <message>
         <source>tag &lt;%1&gt; references undefined library &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>a(z) &lt;%1&gt; tag érvénytelen könyvtárra (&apos;%2&apos;) hivatkozik</translation>
     </message>
 </context>
 <context>
@@ -6554,7 +6555,7 @@ Please contact Autodesk.</source>
     </message>
     <message>
         <source> + Edits</source>
-        <translation type="unfinished"></translation>
+        <translation>+ Módosítások</translation>
     </message>
 </context>
 <context>
@@ -6565,7 +6566,7 @@ Please contact Autodesk.</source>
     </message>
     <message>
         <source>redefinition of library &apos;%1&apos; in tag &lt;%2&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>a &apos;%1&apos; könyvtár újra lett definiálva a &lt;%2&gt; tagban</translation>
     </message>
 </context>
 <context>
@@ -6651,7 +6652,7 @@ Használd a név (NAME) parancsot a vezetéknevek összekapcsolásához.</transl
     </message>
     <message>
         <source>tag &lt;%1&gt; references undefined library &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>a(z) &apos;%1&apos; tag érvénytelen könyvtárra (&apos;%2&apos;) hivatokozik</translation>
     </message>
 </context>
 <context>
@@ -7407,7 +7408,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>Promp&amp;t</source>
-        <translation>Meg&amp;kérdez</translation>
+        <translation>&amp;Kérdezzen</translation>
     </message>
     <message>
         <source>Open an Aperture Wheel File</source>
@@ -7483,7 +7484,7 @@ Rendben van ez így?</translation>
     </message>
     <message>
         <source>Sectio&amp;n</source>
-        <translation>&amp;Kijelölés</translation>
+        <translation>Meg&amp;nevezés</translation>
     </message>
     <message>
         <source>&amp;Device help</source>
@@ -7587,7 +7588,7 @@ Valóban folytassuk?</translation>
     </message>
     <message>
         <source>Show onl&amp;y selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Csak a k&amp;ijelöltek megjelenítése</translation>
     </message>
     <message>
         <source>It is not possible to use the CAM processor for a design block.</source>
@@ -7698,7 +7699,7 @@ Valóban folytassuk?</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opciók</translation>
+        <translation>Beállítások</translation>
     </message>
     <message>
         <source>Pap&amp;er:</source>
@@ -7885,7 +7886,7 @@ Elfogadod ezeket a nagyobb értékeket?</translation>
     <name>routetoolutils.c</name>
     <message>
         <source> at line %1</source>
-        <translation type="unfinished"></translation>
+        <translation> a %1. sorban</translation>
     </message>
 </context>
 <context>
@@ -8035,7 +8036,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Invalid align mode: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Érvénytelen ALIGN beállítás: &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -8050,23 +8051,23 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Globally defined by board</source>
-        <translation type="unfinished">Globálisan meg van határozva a nyák által</translation>
+        <translation>Globálisan meg van határozva a nyákban</translation>
     </message>
     <message>
         <source>Globally defined by schematic</source>
-        <translation type="unfinished">Globálisan meg van határozva a kapcsolásirajz által</translation>
+        <translation>Globálisan meg van határozva a kapcsolásirajzban</translation>
     </message>
     <message>
         <source>Defined by library</source>
-        <translation type="unfinished">Alkatrészkönyvtár által meghatározott</translation>
+        <translation>Alkatrészkönyvtárból meghatározott</translation>
     </message>
     <message>
         <source>Defined by part</source>
-        <translation type="unfinished">Alkatrész által meghatározott</translation>
+        <translation>Könyvtárban megadott</translation>
     </message>
     <message>
         <source>Defined by element</source>
-        <translation type="unfinished">Részegység által meghatározott</translation>
+        <translation>Alkatrészenként meghatározott</translation>
     </message>
     <message>
         <source>redefined by library (with same value)</source>
@@ -8086,31 +8087,31 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Change attribute</source>
-        <translation type="unfinished">Tulajdonság megváltoztatása</translation>
+        <translation>Attribútum adatai</translation>
     </message>
     <message>
         <source>New attribute</source>
-        <translation type="unfinished">Új tulajdonság</translation>
+        <translation>Új tulajdonság</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished">Érték</translation>
+        <translation>Érték</translation>
     </message>
     <message>
         <source>default value</source>
-        <translation type="unfinished">alapértelmezett érték</translation>
+        <translation>alapértelmezett érték</translation>
     </message>
     <message>
         <source>user defined</source>
-        <translation type="unfinished">felhasználó által meghatározott</translation>
+        <translation>felhasználó által megadott</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Láthatóság</translation>
+        <translation>Megjelenítés</translation>
     </message>
     <message>
         <source>Reserved attribute name: &apos;%1&apos;</source>
@@ -8118,11 +8119,11 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Attribute name &apos;%1&apos; is already in use!</source>
-        <translation type="unfinished">%1 tulajdonság már használatban van!</translation>
+        <translation>A &apos;%1&apos; tulajdonságnév már használatban van!</translation>
     </message>
     <message>
         <source>Attribute name &apos;%1&apos; is already used in the board!</source>
-        <translation type="unfinished">%1 tulajdonság már használatban van a nyákon!</translation>
+        <translation>A(z) &apos;%1&apos; tulajdonságnév már használatban van a nyákon!</translation>
     </message>
     <message>
         <source>The attribute &apos;%1&apos; is already defined in the board with value &apos;%2&apos;!
@@ -8134,23 +8135,23 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Attributes of %1</source>
-        <translation type="unfinished">%1 tulajdonságai</translation>
+        <translation>%1 tulajdonságai</translation>
     </message>
     <message>
         <source>Global Attributes</source>
-        <translation type="unfinished">Globális tulajdonságok</translation>
+        <translation>Globális tulajdonságok</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;Új</translation>
+        <translation>&amp;Új</translation>
     </message>
     <message>
         <source>&amp;Change</source>
-        <translation type="unfinished">&amp;Módosít</translation>
+        <translation>&amp;Módosít</translation>
     </message>
     <message>
         <source>&amp;Del</source>
-        <translation type="unfinished">&amp;Törlés</translation>
+        <translation>&amp;Törlés</translation>
     </message>
 </context>
 <context>
@@ -8369,7 +8370,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>S&amp;witch to schematic</source>
-        <translation>Váltás a s&amp;émára</translation>
+        <translation>&amp;Váltás a kapcsolásirajz-szerkesztőbe</translation>
     </message>
     <message>
         <source>Invalid alias name &apos;%1&apos;!</source>
@@ -8445,7 +8446,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>&amp;Options</source>
-        <translation>&amp;Opciók</translation>
+        <translation>&amp;Beállítások</translation>
     </message>
     <message>
         <source>Properties</source>
@@ -8525,7 +8526,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Update &amp;all</source>
-        <translation>&amp;Mindent frissít</translation>
+        <translation>&amp;Összes használt könyvtár frissítése</translation>
     </message>
     <message>
         <source>Select font</source>
@@ -8541,7 +8542,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>U&amp;pdate...</source>
-        <translation>Fr&amp;issít...</translation>
+        <translation>&amp;Kiválasztott könyvtár frissítése...</translation>
     </message>
     <message>
         <source>Addlevel</source>
@@ -8677,7 +8678,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>overwrites device name</source>
-        <translation>felülírja az eszköz nevét</translation>
+        <translation>A könyvtárból származó név felülírása</translation>
     </message>
     <message>
         <source>not applicable if Drill &gt; %1
@@ -8791,7 +8792,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>f/b annotation has been severed</source>
-        <translation>A kapcsolási rajz és a nyákterv szinkronban tartása megszűnt!</translation>
+        <translation>A kapcsolási rajz és a nyákterv szinkronban tartása megszűnt</translation>
     </message>
     <message>
         <source>Open Symbol</source>
@@ -9106,7 +9107,7 @@ Felülírjuk?</translation>
     </message>
     <message>
         <source>Select or enter width</source>
-        <translation>Válaszd ki vagy írd be a kívánt vezetősávszélességet</translation>
+        <translation>Válaszd ki vagy írd be a kívánt vezetősáv szélességet</translation>
     </message>
     <message>
         <source>Clockwise</source>
@@ -9542,55 +9543,56 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
     </message>
     <message>
         <source>Please edit or remove preset layer groups in eagle.scr</source>
-        <translation type="unfinished"></translation>
+        <translation>Az előre beállított rétegcsoportokat az eagle.scr-ben szerkesztheted</translation>
     </message>
     <message>
         <source>Open library manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Könytárszerkesztő megynitása</translation>
     </message>
     <message>
         <source>Add a design block</source>
-        <translation type="unfinished"></translation>
+        <translation>Új tervezési blokk</translation>
     </message>
     <message>
         <source>BGA Autorouter</source>
-        <translation type="unfinished"></translation>
+        <translation>BGA Autorouter</translation>
     </message>
     <message>
         <source>Save Copy for EAGLE 7.x...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mentés EAGLE 7.x formátumba...</translation>
     </message>
     <message>
         <source>Save as Design Block...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mentés tervezési blokk-ként...</translation>
     </message>
     <message>
         <source>Save Selection as Design Block...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölés mentése tervezési blokk-ként...</translation>
     </message>
     <message>
         <source>Design block properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tervezési blokk tulajdonságai...</translation>
     </message>
     <message>
         <source>Open library &amp;manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Könyvtárkezelő megnyitása</translation>
     </message>
     <message>
         <source>&amp;Open library...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Alkatrészkönyvtár megnyitása...</translation>
     </message>
     <message>
         <source>&amp;Create new version...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Új verzió létrehozása...</translation>
     </message>
     <message>
         <source>Publish a new version of this managed library</source>
-        <translation type="unfinished"></translation>
+        <translation>A kezelt könyvtár új verziójának publikálása</translation>
     </message>
     <message>
         <source>&amp;Update to latest version...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Frissítés a legfrissebb verzióra...
+</translation>
     </message>
     <message>
         <source>Update to the latest version of this managed library</source>
@@ -9622,75 +9624,75 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
     </message>
     <message>
         <source>Align To Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Rácsra igazítás</translation>
     </message>
     <message>
         <source>Align Left Edges</source>
-        <translation type="unfinished"></translation>
+        <translation>Balra zárás</translation>
     </message>
     <message>
         <source>Align Centers Horizontally</source>
-        <translation type="unfinished"></translation>
+        <translation>Középre zárás vízszintesen</translation>
     </message>
     <message>
         <source>Align Right Edges</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobbra zárt</translation>
     </message>
     <message>
         <source>Align Top Edges</source>
-        <translation type="unfinished"></translation>
+        <translation>Felülre igazított</translation>
     </message>
     <message>
         <source>Align Centers Vertically</source>
-        <translation type="unfinished"></translation>
+        <translation>Középre zárás függőlegesen</translation>
     </message>
     <message>
         <source>Align Bottom Edges</source>
-        <translation type="unfinished"></translation>
+        <translation>Alsó élhez igazítás</translation>
     </message>
     <message>
         <source>Distribute Horizontally</source>
-        <translation type="unfinished"></translation>
+        <translation>Elosztás vízszintesen</translation>
     </message>
     <message>
         <source>Distribute Vertically</source>
-        <translation type="unfinished"></translation>
+        <translation>Elosztás függőlegesen</translation>
     </message>
     <message>
         <source>Ignore Obstacles</source>
-        <translation type="unfinished"></translation>
+        <translation>Akadályok figyelmen kívül hagyása</translation>
     </message>
     <message>
         <source>Walkaround Obstacles</source>
-        <translation type="unfinished"></translation>
+        <translation>Akadályok megkerülése </translation>
     </message>
     <message>
         <source>Loop Remove off</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurok eltávolítás kikapcsolva</translation>
     </message>
     <message>
         <source>Loop Remove on</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurok eltávolítás bekapcsolva</translation>
     </message>
     <message>
         <source>Single Layer Mode Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyoldalas mód kikapcsolva</translation>
     </message>
     <message>
         <source>Single Layer Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyoldalas mód</translation>
     </message>
     <message>
         <source>Single Layer Mode On</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyoldalas mód bekapcsolva</translation>
     </message>
     <message>
         <source>Not managed</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem kezelt</translation>
     </message>
     <message>
         <source>Managed</source>
-        <translation type="unfinished"></translation>
+        <translation>Kezelt</translation>
     </message>
     <message>
         <source>Managed draft (locally modified)</source>
@@ -9701,11 +9703,11 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
     <name>u_designblock.c</name>
     <message>
         <source>Generate Design Block</source>
-        <translation type="unfinished"></translation>
+        <translation>Tervezési blokk generálása</translation>
     </message>
     <message>
         <source>Modify Design block</source>
-        <translation type="unfinished"></translation>
+        <translation>Tervezési blokk szerkesztése</translation>
     </message>
     <message>
         <source>Unable to load design block from file %1</source>
@@ -9721,7 +9723,7 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Leírás</translation>
+        <translation>Leírás</translation>
     </message>
     <message>
         <source>Description of design block</source>
@@ -9729,27 +9731,27 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
     </message>
     <message>
         <source>Sheets</source>
-        <translation type="unfinished">Lapok</translation>
+        <translation>Lapok</translation>
     </message>
     <message>
         <source>Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Oldal</translation>
     </message>
     <message>
         <source>Attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulajdonságok</translation>
     </message>
     <message>
         <source>File name:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation type="unfinished">Tallózás...</translation>
+        <translation>Tallózás...</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Szerkesztés</translation>
+        <translation>Szerkesztés</translation>
     </message>
     <message>
         <source>Select a file name for the design block</source>
@@ -9914,7 +9916,7 @@ tartomány: %2..%3</translation>
     </message>
     <message>
         <source>CAM Processor Job Files</source>
-        <translation>CAM-Prozessor-munka-fájl</translation>
+        <translation>CAM feldolgozó feladat fájlok </translation>
     </message>
     <message>
         <source>Schematics</source>
@@ -9964,18 +9966,18 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&lt;Here you will see a preview of your description.&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Itt fog megjelenni a leírás előnézete&gt;</translation>
     </message>
     <message>
         <source>&lt;Enter your html description here.&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Add meg itt a leírást HTML formátumban&gt;</translation>
     </message>
 </context>
 <context>
     <name>u_dialog.h</name>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Keresés</translation>
+        <translation>Keresés</translation>
     </message>
 </context>
 <context>
@@ -10162,7 +10164,7 @@ tartomány: %2..%3%4</translation>
     </message>
     <message>
         <source>&amp;View on Web</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Megtekintés az interneten</translation>
     </message>
     <message>
         <source>To add 3D packages to this library, you&apos;ll first need to convert it to a managed library. Then you&apos;ll be able to edit the 3D packages using our web editor.
@@ -10176,11 +10178,11 @@ Would you like to convert %1 to a managed library?</source>
     </message>
     <message>
         <source>Pull required</source>
-        <translation type="unfinished"></translation>
+        <translation>Letöltés szükséges</translation>
     </message>
     <message>
         <source>Push required</source>
-        <translation type="unfinished"></translation>
+        <translation>Feltöltés szükséges</translation>
     </message>
     <message>
         <source>No syncing required</source>
@@ -10188,7 +10190,7 @@ Would you like to convert %1 to a managed library?</source>
     </message>
     <message>
         <source>Sync status unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Szinkronizáció állapota ismeretlen</translation>
     </message>
     <message>
         <source>Your Eagle board has been succesfully pushed to Fusion 360. 
@@ -10255,7 +10257,7 @@ Stop now?</source>
     </message>
     <message>
         <source> Version %1%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzip %1%2</translation>
     </message>
     <message>
         <source>Designblock </source>
@@ -10337,7 +10339,7 @@ Stop now?</source>
     </message>
     <message>
         <source> + Edits</source>
-        <translation type="unfinished"></translation>
+        <translation> + Módosítások</translation>
     </message>
     <message>
         <source>Invalid content</source>
@@ -10349,7 +10351,7 @@ Stop now?</source>
     </message>
     <message>
         <source>Copy Urn</source>
-        <translation type="unfinished"></translation>
+        <translation>Urn másolása</translation>
     </message>
     <message>
         <source>Only show local libraries</source>
@@ -10765,17 +10767,15 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
 and all its contents!
 
 Continue?</source>
-        <translation>Ez a művelet törli a 
-
+        <translation>Ez a művelet törölni fogja a 
 %1
-
 könyvtárat, illetve annak minden tartalmát
 
 Folytassuk?</translation>
     </message>
     <message>
         <source>CAM &amp;Job</source>
-        <translation>CAM &amp;munka</translation>
+        <translation>CAM &amp;feladat</translation>
     </message>
     <message>
         <source>CAM Jobs</source>
@@ -10791,7 +10791,7 @@ Folytassuk?</translation>
     </message>
     <message>
         <source>&amp;Options</source>
-        <translation>&amp;Opciók</translation>
+        <translation>&amp;Beállítások</translation>
     </message>
     <message>
         <source>&amp;Browse...</source>
@@ -10811,7 +10811,7 @@ Folytassuk?</translation>
     </message>
     <message>
         <source>User guidance</source>
-        <translation>Tájékoztatás</translation>
+        <translation>Környezetérzékeny súgó</translation>
     </message>
     <message>
         <source>&amp;Project</source>
@@ -10915,7 +10915,7 @@ Létrehozzuk a %2 alapján?</translation>
     </message>
     <message>
         <source>&amp;Add to Schematic</source>
-        <translation>Hozz&amp;áadás a sémához</translation>
+        <translation>Hozz&amp;áadás a kapcsolási rajzhoz</translation>
     </message>
     <message>
         <source>Description of %1</source>
@@ -11336,7 +11336,7 @@ while command is running in library window!</source>
     </message>
     <message>
         <source>Icon size</source>
-        <translation>Ikon mérete</translation>
+        <translation>Ikonok mérete</translation>
     </message>
     <message>
         <source>Please exit and restart EAGLE for new icon settings to take effect.</source>
@@ -11388,7 +11388,7 @@ nem létezik!</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;asily &lt;b&gt;A&lt;/b&gt;pplicable &lt;b&gt;G&lt;/b&gt;raphical &lt;b&gt;L&lt;/b&gt;ayout &lt;b&gt;E&lt;/b&gt;ditor&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;gyszerűen &lt;b&gt;A&lt;/b&gt;lkalmazható &lt;b&gt;G&lt;/b&gt;rafikus pane&lt;b&gt;L&lt;/b&gt; t&lt;b&gt;E&lt;/b&gt;rvező&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Design &amp;Blocks</source>
@@ -11400,47 +11400,47 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Detect Board Shape</source>
-        <translation type="unfinished"></translation>
+        <translation>Panelkontúr detektálása</translation>
     </message>
     <message>
         <source>Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiterjesztésel</translation>
     </message>
     <message>
         <source>Manufacturing</source>
-        <translation type="unfinished"></translation>
+        <translation>Gyártás</translation>
     </message>
     <message>
         <source>Fusion Sync</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusion szikronizálás</translation>
     </message>
     <message>
         <source>&amp;View on web</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Megtekintés a weben</translation>
     </message>
     <message>
         <source>&amp;Add to drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>H&amp;ozzáadás a rajzhoz</translation>
     </message>
     <message>
         <source>&amp;Add to board</source>
-        <translation type="unfinished"></translation>
+        <translation>H&amp;ozzáadás a nyáktervhez</translation>
     </message>
     <message>
         <source>&amp;Add to schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozz&amp;áadás a kapcsolási rajzhoz</translation>
     </message>
     <message>
         <source>Not Urn defined</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs Urn megadva</translation>
     </message>
     <message>
         <source>Copy Urn</source>
-        <translation type="unfinished"></translation>
+        <translation>Urn másolása</translation>
     </message>
     <message>
         <source>View on &amp;Web</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Megtekintés az interneten</translation>
     </message>
     <message>
         <source>Create &amp;managed library</source>
@@ -11460,7 +11460,7 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Open library &amp;manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Könyvtárkezelő megnyitása</translation>
     </message>
     <message>
         <source>Design Blocks</source>
@@ -11468,15 +11468,15 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Licence information</source>
-        <translation type="unfinished"></translation>
+        <translation>Licensz információk</translation>
     </message>
     <message>
         <source>Go online</source>
-        <translation type="unfinished"></translation>
+        <translation>Online bejelentkezés</translation>
     </message>
     <message>
         <source>Go offline</source>
-        <translation type="unfinished"></translation>
+        <translation>Offline mód</translation>
     </message>
     <message>
         <source>&amp;Designblock</source>
@@ -11488,19 +11488,19 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Are you sure you want to sign out? Eagle will fall back to Free license.</source>
-        <translation type="unfinished"></translation>
+        <translation>Biztosan ki akarsz jelentkezni? Az EAGLE Free licenszű módba fog kapcsolni.</translation>
     </message>
     <message>
         <source>Sign out</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelentkezés</translation>
     </message>
     <message>
         <source>Sign in</source>
-        <translation type="unfinished"></translation>
+        <translation>Bejelentkezés</translation>
     </message>
     <message>
         <source>Do you want to Sign in? Click &apos;No&apos; to stay offline.</source>
-        <translation type="unfinished"></translation>
+        <translation>Szeretnél bejelentkezni? Kattints a &apos;Nem&apos;-re ha offline akarsz maradni.</translation>
     </message>
     <message>
         <source>Can&apos;t create a new schematic editor while in edit designblock mode.</source>
@@ -11511,11 +11511,11 @@ nem létezik!</translation>
     <name>u_syncfusion.c</name>
     <message>
         <source>Fusion Sync [BETA]</source>
-        <translation type="unfinished"></translation>
+        <translation>Fusion szikronizálás [BETA]</translation>
     </message>
     <message>
         <source>Edit Source...</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrás szerkesztése...</translation>
     </message>
     <message>
         <source>View on Web</source>
@@ -11547,7 +11547,7 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Bezárás</translation>
+        <translation>Bezárás</translation>
     </message>
     <message>
         <source>Cannot open on web because no hub information found. Please link your design to Fusion again.</source>
@@ -11595,7 +11595,7 @@ nem létezik!</translation>
     </message>
     <message>
         <source>OUT OF SYNC</source>
-        <translation type="unfinished"></translation>
+        <translation>NINCS SZINKRONBAN</translation>
     </message>
     <message>
         <source>UP TO DATE</source>
@@ -11647,7 +11647,7 @@ nem létezik!</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Név</translation>
+        <translation>Név</translation>
     </message>
     <message>
         <source>Currently linked to &lt;b&gt;%1&lt;/b&gt; in Fusion design &lt;b&gt;%2&lt;/b&gt;</source>
@@ -11660,7 +11660,7 @@ Please launch Fusion to create your first Hub.</source>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Betöltés...</translation>
     </message>
     <message>
         <source>This will link your Eagle board with Fusion PCB feature &lt;b&gt;%1&lt;/b&gt;</source>
@@ -11694,7 +11694,7 @@ Please try again later: %1</source>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -11702,7 +11702,7 @@ Please try again later: %1</source>
     </message>
     <message>
         <source>Edit Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Forrás szerkesztése</translation>
     </message>
     <message>
         <source>Selecting a PCB feature will link your Eagle board to an existing Fusion design.
@@ -11712,7 +11712,7 @@ Selecting a Fusion project or folder will create a new Fusion design for your PC
     </message>
     <message>
         <source>Package</source>
-        <translation type="unfinished"></translation>
+        <translation>Csomag</translation>
     </message>
     <message>
         <source>3D Package</source>
@@ -11749,7 +11749,7 @@ You may hide this window while the push is in progress.</source>
     </message>
     <message>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Elrejtés</translation>
     </message>
     <message>
         <source>This version does not have a description</source>
@@ -12027,7 +12027,7 @@ Felülírod?</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opciók</translation>
+        <translation>Beállítások</translation>
     </message>
     <message>
         <source>Printing...done.</source>
@@ -13309,7 +13309,7 @@ Kérlek ellenőrízd, hogy nem-e kell a réteget invertálni, vagy kivágni a r�
     <name>urns.c</name>
     <message>
         <source> + Edits</source>
-        <translation type="unfinished"></translation>
+        <translation> + Módosítások</translation>
     </message>
 </context>
 <context>

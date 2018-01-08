@@ -20,6 +20,25 @@
     </message>
 </context>
 <context>
+    <name>arbga.c</name>
+    <message>
+        <source>Creating connectivity graphs. Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Optimization step: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BgaRouter</source>
+        <translation>BGA Router</translation>
+    </message>
+    <message>
+        <source>Preprocessing</source>
+        <translation>Előfeldolgozás</translation>
+    </message>
+</context>
+<context>
     <name>arjob.c</name>
     <message>
         <source>Layer %1 used but not enabled!
@@ -216,105 +235,17 @@ A helyes formula: Busznév[0..n]!</translation>
     </message>
 </context>
 <context>
+    <name>cManufacturingFlyOut</name>
+    <message>
+        <source>Images (*.svg *.png *.jpg *.bmp)</source>
+        <translation>Képek (*.svg *.png *.jpg *.bmp)</translation>
+    </message>
+</context>
+<context>
     <name>calcrat.c</name>
     <message>
         <source>Can&apos;t calculate Ratsnest!</source>
         <translation>Nem tudom kiszámolni a kitöltést!</translation>
-    </message>
-</context>
-<context>
-    <name>checkforupdate.c</name>
-    <message>
-        <source>&amp;Host</source>
-        <translation>&amp;Host</translation>
-    </message>
-    <message>
-        <source>Configure Check for Update</source>
-        <translation>Frissítések ellenőrzéseinek beállítása</translation>
-    </message>
-    <message>
-        <source>&amp;daily</source>
-        <translation>&amp;naponta</translation>
-    </message>
-    <message>
-        <source>&amp;never</source>
-        <translation>&amp;soha</translation>
-    </message>
-    <message>
-        <source>Use proxy to access the Internet</source>
-        <translation>Proxy használata az internet eléréséhez</translation>
-    </message>
-    <message>
-        <source>Also check for &amp;beta versions</source>
-        <translation>Értesítsen &amp;béta verziók esetén is</translation>
-    </message>
-    <message>
-        <source>&amp;Configure</source>
-        <translation>&amp;Beállítás</translation>
-    </message>
-    <message>
-        <source>Automatically check for updates</source>
-        <translation>Frissítések automatikus keresése</translation>
-    </message>
-    <message>
-        <source>Check for Update</source>
-        <translation>Frissítések keresése</translation>
-    </message>
-    <message>
-        <source>&amp;weekly</source>
-        <translation>&amp;hetente</translation>
-    </message>
-    <message>
-        <source>&amp;Port</source>
-        <translation>&amp;Port</translation>
-    </message>
-    <message>
-        <source>EAGLE Http Request</source>
-        <translation>EAGLE Http kérés</translation>
-    </message>
-    <message>
-        <source>Error connecting to %1!</source>
-        <translation>Hiba történt a %1-hez történő csatlakozáskor!</translation>
-    </message>
-    <message>
-        <source>If you are using a proxy please click &apos;Configure&apos; and enter your proxy details.</source>
-        <translation>Ha proxyt használsz az internet eléréshez kérlek állítsd be a beállításoknál a kapcsolat részleteiet.</translation>
-    </message>
-    <message>
-        <source>Your EAGLE license expires today!</source>
-        <translation>Az EAGLE licenszed  érvényessége ma lejár!</translation>
-    </message>
-    <message>
-        <source>Your EAGLE license expires tomorrow!</source>
-        <translation>Az EAGLE licenszed érvényessége holnap lejár!</translation>
-    </message>
-    <message>
-        <source>Your EAGLE license expires in %1 days!</source>
-        <translation>Az EAGLE licenszed %1 nap múlva lejár!</translation>
-    </message>
-    <message>
-        <source>Can&apos;t connect to the CadSoft server!
-
-This is a limited time EAGLE license, which requires a connection to the CadSoft server.</source>
-        <translation>Nem tudok csatlakozni a Cadsoft szerveréhez!
-
-Ez egy korlátozott idejű EAGLE licensz, ami csatlakozást igényel a Cadsoft szerverekhez.</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a valid port number</source>
-        <translation>A(z) &apos;%1&apos; nem érvényes port</translation>
-    </message>
-    <message>
-        <source>&amp;User</source>
-        <translation>&amp;Felhasználó</translation>
-    </message>
-    <message>
-        <source>P&amp;assword</source>
-        <translation>J&amp;elszó</translation>
-    </message>
-    <message>
-        <source>&amp;Save password</source>
-        <translation>Jelszó &amp;mentése</translation>
     </message>
 </context>
 <context>
@@ -579,10 +510,6 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
         <translation>Nem elérhető réteg: %1</translation>
     </message>
     <message>
-        <source>Use a library</source>
-        <translation>Alkatrészkönyvtár használatba vétele</translation>
-    </message>
-    <message>
         <source>Alias nesting level exceeded!</source>
         <translation>Alias-Verschachtelungstiefe überschritten!</translation>
     </message>
@@ -706,6 +633,22 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
         <source>Create a port</source>
         <translation>Új port</translation>
     </message>
+    <message>
+        <source>Align objects</source>
+        <translation>Objektumok igaítása</translation>
+    </message>
+    <message>
+        <source>Slice lines</source>
+        <translation>Vonalak törése</translation>
+    </message>
+    <message>
+        <source>Synchronise a board with a Fusion PCB</source>
+        <translation>Terv szinkronizálása a FusionPCB-vel</translation>
+    </message>
+    <message>
+        <source>Open library manager</source>
+        <translation>Könyvtárkezelő megnyitása</translation>
+    </message>
 </context>
 <context>
     <name>consist.c</name>
@@ -788,14 +731,88 @@ A maximálisan megengedett tartomány: +/-%2 %3</translation>
         <translation>Ezt az alkatrészt nem lehet ehhez a laphoz hozzáadni.</translation>
     </message>
     <message>
-        <source>Can&apos;t backannotate this operation.
-Please update or replace the schematic&apos;s parts that refer to package %1 first.</source>
-        <translation>Nem lehet a változtatást visszavezetni a kapcsolási rajzba.
-Frissítsd vagy cseréld ki a kapcsolási rajzban az összes alkatrészt ami a %1 tokozást használja.</translation>
-    </message>
-    <message>
         <source>&apos;%1&apos; leads to a name conflict with &apos;%2&apos; in main schematic due to module instance &apos;%3&apos;!</source>
         <translation>&apos;%1&apos; névütközést okoz ezzel &apos;%2&apos; a fő kapcsolási rajzban a &apos;%3&apos; modul példány miatt!</translation>
+    </message>
+    <message>
+        <source> (w/ 3d package: %1)</source>
+        <translation> (w/ 3d tokozás: %1)</translation>
+    </message>
+    <message>
+        <source>Can&apos;t backannotate this operation.
+Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>package </source>
+        <translation>tokozás</translation>
+    </message>
+    <message>
+        <source> and </source>
+        <translation> és </translation>
+    </message>
+    <message>
+        <source>3d package </source>
+        <translation>3D tokozás </translation>
+    </message>
+</context>
+<context>
+    <name>d_align.c</name>
+    <message>
+        <source>Aligning %d objects</source>
+        <translation>%d objektum igazítása</translation>
+    </message>
+    <message>
+        <source>Aligned Left</source>
+        <translation>Balra zárt</translation>
+    </message>
+    <message>
+        <source>Distributed Horizonatally</source>
+        <translation>Vízszintesen elosztva</translation>
+    </message>
+    <message>
+        <source>Distribute Horizonatally Not Available</source>
+        <translation>Vízszintes elosztás nem alkalmazható</translation>
+    </message>
+    <message>
+        <source>Aligned Right</source>
+        <translation>Hobbra zárt</translation>
+    </message>
+    <message>
+        <source>Aligned Top</source>
+        <translation>Felülrezárt</translation>
+    </message>
+    <message>
+        <source>Distribute Vertically</source>
+        <translation>Függőlegesen elosztva</translation>
+    </message>
+    <message>
+        <source>Distribute Vertically Not Available</source>
+        <translation>Függőleges elosztás nem alkalmazható</translation>
+    </message>
+    <message>
+        <source>Aligned Bottom</source>
+        <translation>Lentre igazítva</translation>
+    </message>
+    <message>
+        <source>Aligned Centers X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aligned Centers Y</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Aligned to Grid</source>
+        <translation>Rácsra igazítva</translation>
+    </message>
+    <message>
+        <source>Unexpected Align Mode!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some objects extend outside the allowed board area.</source>
+        <translation type="unfinished">Néhány objektum túlnyúlik a megengedett területen.</translation>
     </message>
 </context>
 <context>
@@ -913,10 +930,6 @@ Felülírod a jelenlegi hozzárendelést?</translation>
         <translation>Valóban törlni szeretnéd a %1 tulajdonságot?</translation>
     </message>
     <message>
-        <source>redefined by part (overwrites constant value)</source>
-        <translation>módosítva lett az alkatrész által (felülírja a konstans értéket)</translation>
-    </message>
-    <message>
         <source>Value</source>
         <translation>Érték</translation>
     </message>
@@ -933,16 +946,8 @@ Felülírod a jelenlegi hozzárendelést?</translation>
         <translation>Használd a PACKAGE parancsot a tokozás kiválasztásához!</translation>
     </message>
     <message>
-        <source>Attribute name &apos;%1&apos; is already used in the board!</source>
-        <translation>%1 tulajdonság már használatban van a nyákon!</translation>
-    </message>
-    <message>
         <source>Technologies</source>
         <translation>Technológiák</translation>
-    </message>
-    <message>
-        <source>redefined by library (with different value)</source>
-        <translation>új értéket kapott a könyvtárból </translation>
     </message>
     <message>
         <source>current (%1)</source>
@@ -953,28 +958,12 @@ Felülírod a jelenlegi hozzárendelést?</translation>
         <translation>Érvénytelen alkatrész vagy kapunév: &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>redefined by library (with same value)</source>
-        <translation>új értéket kapott a könyvtárból (viszont maradt azonos)</translation>
-    </message>
-    <message>
-        <source>Defined by part</source>
-        <translation>Alkatrész által meghatározott</translation>
-    </message>
-    <message>
-        <source>redefined by part</source>
-        <translation>Alkatrész által újra meghatározott</translation>
-    </message>
-    <message>
         <source>Value of attribute &apos;%1&apos; already set to &apos;%2&apos;</source>
         <translation>%1 tulajdonság értéke már %2-re van állítva</translation>
     </message>
     <message>
         <source>Invalid option: &apos;%1&apos;</source>
         <translation>Érvénytelen opció: %1</translation>
-    </message>
-    <message>
-        <source>Defined by element</source>
-        <translation>Részegység által meghatározott</translation>
     </message>
     <message>
         <source>all with same value</source>
@@ -1005,10 +994,6 @@ Felülírjuk?</translation>
         <translation>Kattints bal gombbal a tulajdonság letételéhez</translation>
     </message>
     <message>
-        <source>Globally defined by board</source>
-        <translation>Globálisan meg van határozva a nyák által</translation>
-    </message>
-    <message>
         <source>Attribute &apos;%1&apos; is defined in the schematic library and can&apos;t be deleted here.</source>
         <translation>%1 tulajdonság a kapcsolásirajz könyvtárában lett megadva, így itt nem törölhető.</translation>
     </message>
@@ -1021,36 +1006,8 @@ Felülírjuk?</translation>
         <translation>&amp;Módosít</translation>
     </message>
     <message>
-        <source>Display</source>
-        <translation>Látható</translation>
-    </message>
-    <message>
-        <source>The attribute &apos;%1&apos; is defined constant.
-
-Force overwrite?</source>
-        <translation>A(z) %1 tulajdonság  már konstansként meg lett határozva
-
-Felülírjuk?</translation>
-    </message>
-    <message>
         <source>Attribute &apos;%1&apos; is defined in the library and can&apos;t be deleted here.</source>
         <translation>%1 tulajdonság az alkatrészkönyvtárban lett megadva, így itt nem törölhető.</translation>
-    </message>
-    <message>
-        <source>Globally defined by schematic</source>
-        <translation>Globálisan meg van határozva a kapcsolásirajz által</translation>
-    </message>
-    <message>
-        <source>default value</source>
-        <translation>alapértelmezett érték</translation>
-    </message>
-    <message>
-        <source>Defined by library</source>
-        <translation>Alkatrészkönyvtár által meghatározott</translation>
-    </message>
-    <message>
-        <source>user defined</source>
-        <translation>felhasználó által meghatározott</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; not found in &apos;%2&apos;.</source>
@@ -1071,10 +1028,6 @@ Felülírjuk?</translation>
     <message>
         <source>New attribute</source>
         <translation>Új tulajdonság</translation>
-    </message>
-    <message>
-        <source>Global Attributes</source>
-        <translation>Globális tulajdonságok</translation>
     </message>
     <message>
         <source>Change attribute</source>
@@ -1269,6 +1222,38 @@ Folytassuk?</translation>
         <source>Job cancelled</source>
         <translation>Feladat megszakítva</translation>
     </message>
+    <message>
+        <source>Bga(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>#</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Micro vias enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong BGA attribute for element: %1 %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The autorouter is not available while editing a designblock.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>d_board.c</name>
@@ -1335,10 +1320,6 @@ Folytassuk?</translation>
         <translation>Érvénytelen  &apos;stop&apos; érték: %1</translation>
     </message>
     <message>
-        <source>&amp;Show all packages</source>
-        <translation>Mu&amp;tasd az összes könyvtárat</translation>
-    </message>
-    <message>
         <source>Invalid pin direction: %1</source>
         <translation>Érvénytelen láb irány: %1</translation>
     </message>
@@ -1349,10 +1330,6 @@ Folytassuk?</translation>
     <message>
         <source>Invalid pin function: %1</source>
         <translation>Érvénytelen láb funkció: %1</translation>
-    </message>
-    <message>
-        <source>&amp;Show all technologies</source>
-        <translation>Mutasd az összes elérhető tech&amp;nológiát</translation>
     </message>
     <message>
         <source>New Ratio:</source>
@@ -1465,10 +1442,6 @@ Használd a REPLACE (kicserél) parancsot helyette ha nincs sémád.</translatio
         <translation>méret-segédvonal offszete</translation>
     </message>
     <message>
-        <source>Change of package or technology is only possible in the default assembly variant!</source>
-        <translation>A tokozás vagy alkatrésztípus csak az alapértelmezett beültetési verzióban változtatható meg!</translation>
-    </message>
-    <message>
         <source>New Line Distance:</source>
         <translation>Új vonaltávolság:</translation>
     </message>
@@ -1507,6 +1480,14 @@ A hierarchikus struktúrákban lévő alkatrészek csak a kapcsolási rajzban m�
     <message>
         <source>Can&apos;t change net class. Nets in hierarchical structures have to be changed in the schematic!</source>
         <translation>Nem lehet a vezetékosztályt megváltoztatni. A hierarhikus struktúrákat csak a kapcsolási rajzban lehet módosítani!</translation>
+    </message>
+    <message>
+        <source>&amp;Show all device variations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change of package, 3d package, or technology is only possible in the default assembly variant!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1792,20 +1773,8 @@ vagy kattints a &quot;Gyerünk&quot; (GO) gombra a kijelölés közepére tétel
 <context>
     <name>d_displa.c</name>
     <message>
-        <source>&amp;Del</source>
-        <translation>&amp;Törlés</translation>
-    </message>
-    <message>
-        <source>&amp;New</source>
-        <translation>&amp;Új</translation>
-    </message>
-    <message>
         <source>&amp;Name</source>
         <translation>&amp;Új</translation>
-    </message>
-    <message>
-        <source>N&amp;one</source>
-        <translation>Mind &amp;rejtett</translation>
     </message>
     <message>
         <source>N&amp;umber</source>
@@ -1840,10 +1809,6 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
         <translation>Ismeretlen réteg: %1</translation>
     </message>
     <message>
-        <source>New alias</source>
-        <translation>Új álnév</translation>
-    </message>
-    <message>
         <source>New layer</source>
         <translation>Új réteg</translation>
     </message>
@@ -1856,24 +1821,60 @@ Kérlek add meg a nevét a &apos;név&apos; (Name) mezőben.</translation>
         <translation>&amp;Látható</translation>
     </message>
     <message>
-        <source>&amp;Change</source>
-        <translation>S&amp;zerkeszt</translation>
-    </message>
-    <message>
-        <source>Alias for current layer selection:</source>
-        <translation>Álnév a jelenlegi réteg kijelölésre:</translation>
-    </message>
-    <message>
         <source>Unavailable layer: %1</source>
         <translation>Nem elérhető réteg: %1</translation>
     </message>
     <message>
-        <source>A&amp;ll</source>
-        <translation>Ö&amp;sszes</translation>
-    </message>
-    <message>
         <source>&amp;Apply</source>
         <translation>&amp;Alkalmaz</translation>
+    </message>
+    <message>
+        <source>&amp;+</source>
+        <translation>&amp;+</translation>
+    </message>
+    <message>
+        <source> &amp;– </source>
+        <translation> &amp;- </translation>
+    </message>
+    <message>
+        <source>Select &amp;All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select &amp;None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer Presets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add N&amp;ew</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Layer Preset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name for new layer set</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alias name &apos;%1&apos; already exists!</source>
+        <translation type="unfinished">%1 álnév  már létezik!</translation>
+    </message>
+    <message>
+        <source>Please edit or remove preset layer groups in eagle.scr</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name for current layer selection:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Layer preset name &apos;%1&apos; already exists!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2038,10 +2039,6 @@ elérhető ebben a %2 verzióban!</translation>
         <translation>Megnyitás</translation>
     </message>
     <message>
-        <source>&amp;New:</source>
-        <translation>&amp;Új:</translation>
-    </message>
-    <message>
         <source>library object name</source>
         <translation>könyvtár objektum név</translation>
     </message>
@@ -2066,14 +2063,28 @@ elérhető ebben a %2 verzióban!</translation>
         <translation>Az EAGLE licenszed nem tartalmazza a kapcsolásirajz modult!</translation>
     </message>
     <message>
-        <source>Limits of Make Pro licence have been adjusted to fit in board.</source>
-        <translation>A Make Pro licensz méretkorlátozásai be lettek állítva a panel méreteihez. </translation>
+        <source>Import Device</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Limit width of Make Pro licence has been extended to board width of %1.
-Limit height is not sufficient to fit in board height of %2!</source>
-        <translation>A Make Pro licensz szélességkorlátozása ki lett nyújtva a panel szélességéhez (%1).
-A Make Pro licensz magasságkorlátozása ki lett nyújtva a panel magassságához (%2)!</translation>
+        <source>Import Package</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import Symbol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Importálás</translation>
+    </message>
+    <message>
+        <source>&amp;New </source>
+        <translation>&amp;Új </translation>
+    </message>
+    <message>
+        <source> Name:</source>
+        <translation>Név:</translation>
     </message>
 </context>
 <context>
@@ -2317,6 +2328,14 @@ Az összhangba hozást nem tudom elvégezni, ezért a hibát kézzel kell kijav�
         <source>Module</source>
         <translation>Modul</translation>
     </message>
+    <message>
+        <source>Airwires (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to approve all airwires?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>d_export.c</name>
@@ -2502,6 +2521,26 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
         <source>Left-click to define group polygon edges (right-click closes polygon)</source>
         <translation>Kattints bal gombbal a sokszög kijelölés csúcsainak megadásához (jobbklikk befejezi a sokszöget)</translation>
     </message>
+    <message>
+        <source>No consistent drawing pair loaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+right-click to continue selection in the other editor!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl+right-click to finish selection!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl right-click to continue selection in the other editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ctrl right-click to finish selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>d_help.c</name>
@@ -2526,6 +2565,10 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     <message>
         <source>Left-click to select object to get info for</source>
         <translation>Kattints bal egérgombbal arra az objektumra, amelyről több információt szeretnél</translation>
+    </message>
+    <message>
+        <source>No design block loaded!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2710,6 +2753,13 @@ A legkisebb rács használatához kattints a &apos;Legfinomabb&apos;-ra.</transl
     <message>
         <source>Type in the new menu contents</source>
         <translation>Írj az új menüelemkebe</translation>
+    </message>
+</context>
+<context>
+    <name>d_mfg.c</name>
+    <message>
+        <source>The Manufacturing command can only be used in a board!</source>
+        <translation>A Manufacturing parancs csak a nyáktervezőben használható!</translation>
     </message>
 </context>
 <context>
@@ -3040,6 +3090,10 @@ mind a(z) (%2) lábához</translation>
         <source>Can&apos;t find package: %1</source>
         <translation>A %1 tokozás nem található</translation>
     </message>
+    <message>
+        <source>Error loading library.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>d_pad.c</name>
@@ -3196,16 +3250,6 @@ nem konzisztensek, ezért nem  illeszthetőek be!</translation>
         <translation>Vezeték ütközés: a &apos;%1&apos; már létezik!</translation>
     </message>
     <message>
-        <source>Consistency lost during paste from file!
-No forward-/backannotation will be performed!
-
-Please contact CadSoft!</source>
-        <translation>Felborult a konzisztencia a beillesztés során!
-Ameddig ez fennáll a visszavonás nem működik!
-
-Vedd fel a kapcsolatot a CadSoft-al!</translation>
-    </message>
-    <message>
         <source>PASTE from a file is only possible in a board or a schematic!</source>
         <translation>A beillesztés csak a kapcsolásirajz-szerkesztőben és a nyáktervezőben működik!</translation>
     </message>
@@ -3238,14 +3282,67 @@ Vedd fel a kapcsolatot a CadSoft-al!</translation>
         <translation>A nethez van(nak) nem bekötött tápláb(ak) csatlakoztatva</translation>
     </message>
     <message>
-        <source>The schematic will be imported into current module &apos;%1&apos; without the board.
-Importing both is only possible on schematic main level.</source>
-        <translation>A kapcsolási rajz importálva lesz a jelenlegi (&apos;%1&apos;) modulba a nyákterv nélkül.
-A kapcsolási rajz és a nyákterv együtt csak a fő kapcsolási rajzban importálható.</translation>
-    </message>
-    <message>
         <source>Can&apos;t paste hierarchical schematics into a module!</source>
         <translation>Hierarchikus kapcsolási rajzokat nem lehet a modulba beilleszteni!</translation>
+    </message>
+    <message>
+        <source>Clear search text</source>
+        <translation type="unfinished">Keresőmező törlése</translation>
+    </message>
+    <message>
+        <source>&amp;Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Leírás</translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute</source>
+        <translation type="unfinished">Attribútum</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished">Érték</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Sorry, no match!&lt;/b&gt;&lt;p&gt;</source>
+        <translation type="unfinished">&lt;b&gt;Sajnos nincs találat!&lt;/b&gt;&lt;p&gt;</translation>
+    </message>
+    <message>
+        <source>No design block selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no drawing to paste to the current drawing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A schematic/board pair cannot be imported into a module (&apos;%1&apos; currently edited). Import of a pair is only possible to main schematic. If you continue, the import of the board will be skipped.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Consistency lost during paste from file!
+No forward-/backannotation will be performed!
+
+Please contact Autodesk.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No consistent schematic board pair loaded. Command was canceled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no design block to drop here!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PASTE a design block is only possible in a board or a schematic!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3698,10 +3795,25 @@ Parts in hierarchical structures have to be changed in the schematic!</source>
 A hierarchikus struktúrában lévő alkatrészeket a kapcsolási rajzban lehet csak megváltoztatni!</translation>
     </message>
     <message>
+        <source> (w/ 3d package: %1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Can&apos;t backannotate this operation.
-Please update or replace the schematic&apos;s parts that refer to package %1 first.</source>
-        <translation>Nem sikerült visszavezetni a kapcsolási rajzba a műveletet.
-Frissítsd vagy cseréld a kapcsolási rajzban azokat az alkatrészeket amelyek a %1 tokozáshoz tartoznak.</translation>
+Please update or replace the schematic&apos;s parts that refer to %1%2%3 first.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>package </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> and </source>
+        <translation type="unfinished"> és </translation>
+    </message>
+    <message>
+        <source>3d package </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3811,6 +3923,14 @@ Frissítsd vagy cseréld a kapcsolási rajzban azokat az alkatrészeket amelyek 
     <message>
         <source>The Route command can only be used in a board!</source>
         <translation>Az összekötés (ROUTE) parancs csak a nyáktervezőben használható!</translation>
+    </message>
+    <message>
+        <source>Left-click to place wire (double-click ends wire) </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Next Layer: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4173,10 +4293,6 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
         <translation>Ismeretlen objektumtípus: %1</translation>
     </message>
     <message>
-        <source>Display &amp;signal names</source>
-        <translation>Netnevek &amp;megjelenítése a vezetősávokon</translation>
-    </message>
-    <message>
         <source>Display via lengths</source>
         <translation>Via hosszak megjelenítése</translation>
     </message>
@@ -4185,34 +4301,28 @@ Kérlek törölj néhány nem használt furatméret szimbólum hozzárendelést.
         <translation>Furatok megjelenítése</translation>
     </message>
     <message>
-        <source>Board limits (Make Pro edition)</source>
-        <translation>Méretkorlát megjelenítése (Make Pro verzióban)</translation>
+        <source>Display &amp;signal names on pads</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Width</source>
-        <translation>Szélesség</translation>
+        <source>Display signal names on &amp;traces</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Height</source>
-        <translation>magasság</translation>
+        <source>Group command default on</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Create dimension lines</source>
-        <translation>Panelszél vonalak legenerálása</translation>
+        <source>Missing mode!</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Adjustable board limits are not supported for current license type!</source>
-        <translation>A méretkorlát nem állítható a jelenlegi licenszkonstrukcióban!</translation>
+        <source>Loop Removal can only be On or Off.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Too many arguments!</source>
-        <translation>Túl sok argumentum!</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not in the valid
-range &apos;%2 .. %3&apos;</source>
-        <translation>&apos;%1&apos; érvénytelen nincs 
-a &apos;%2 ..%3&apos; tartományban</translation>
+        <source>Single Layer Mode can only be On or Off.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4255,6 +4365,25 @@ a &apos;%2 ..%3&apos; tartományban</translation>
     <message>
         <source>Left-click on pad to define signal (double-click ends signal)</source>
         <translation>Kattints bal gombbal az összekötés rajzolásához, majd duplán a befejezéséhez</translation>
+    </message>
+</context>
+<context>
+    <name>d_slice.c</name>
+    <message>
+        <source>Left-click to start defining a slice line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left-click to define slice line.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No lines sliced!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left-click to start defining a slice line</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4332,6 +4461,21 @@ a &apos;%2 ..%3&apos; tartományban</translation>
     <message>
         <source>The Split command can&apos;t be used in a device set!</source>
         <translation>A Split parancs nem használható az eszközkészletben!</translation>
+    </message>
+</context>
+<context>
+    <name>d_syncfusion.c</name>
+    <message>
+        <source>The Fusionsync command can only be used in a board!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync cannot be used in offline mode.  Please log in and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You must be connected to the Internet to use Fusion Sync.  Please reconnect and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4436,16 +4580,8 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
         <translation>A régi_névnek az &apos;régi_név = új_név&apos; -ben tartalmaznia kell az elérési utat!</translation>
     </message>
     <message>
-        <source>Update Library Objects</source>
-        <translation>Könyvtár objektumok frissítése</translation>
-    </message>
-    <message>
         <source>%1 is not a library file!</source>
         <translation>%1 nem könyvtárfájl!</translation>
-    </message>
-    <message>
-        <source>Can&apos;t remove &apos;@&apos; fom library %1 (%2 already exists)</source>
-        <translation>Nem lehet eltávolítani a kukacot a %1 könyvtárból (%2 már létezik)</translation>
     </message>
     <message>
         <source> and board</source>
@@ -4528,6 +4664,19 @@ Kérlek futtasd a Tervezési Szabály Ellenőrzőt a (DRC)-t.</translation>
     <message>
         <source>If this is not intended, adjust the library paths or library deviceset names and update again.</source>
         <translation>Ha ezek nem szándékosak akkor állítsd be a megfelelő könyvtár elérési utakat és frissíts újra.</translation>
+    </message>
+    <message>
+        <source>%1 has not been downloaded!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t remove &apos;@&apos; from library %1 (%2 already exists)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Following 3d packages could not be updated in order to keep consistency:
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4785,24 +4934,24 @@ történő használatához</translation>
 <context>
     <name>d_wire.c</name>
     <message>
-        <source>Left-click to start wire</source>
-        <translation>Kattints bal gombbal a vonal-rajzolás megkezdéséhez</translation>
-    </message>
-    <message>
         <source>Invalid option: %1</source>
         <translation>Érvénytelen opció: %1</translation>
     </message>
     <message>
-        <source>Left-click to draw wire (double-click ends wire)</source>
-        <translation>Kattints bal gombbal vonal rajzolásához, majd duplán a befejezéséhez</translation>
-    </message>
-    <message>
-        <source>The Wire command can&apos;t be used in a device set!</source>
-        <translation>A Wire parancs nem használható az eszközkészletben!</translation>
-    </message>
-    <message>
         <source>name</source>
         <translation>név</translation>
+    </message>
+    <message>
+        <source>Left-click to draw line (double-click ends line)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left-click to start line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The Line command can&apos;t be used in a device set!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4810,6 +4959,26 @@ történő használatához</translation>
     <message>
         <source>No drawing loaded!</source>
         <translation>Nincs rajz betöltve!</translation>
+    </message>
+    <message>
+        <source>No object to save!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select a file name for the design block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no design block to save!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Option DBL only supported in schematic or board context.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Option selection only supported in schematic or board context.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5094,6 +5263,14 @@ Folytassuk a mentést?</translation>
         <source>Invalid or reserved character &apos;%1&apos; in %2: &apos;%3&apos;</source>
         <translation>Érvénytelen vagy fenntartott karakter &apos;%1&apos; ebben: &apos;%2&apos;: &apos;%3&apos;</translation>
     </message>
+    <message>
+        <source>Are you sure you want to save the EAGLE 7.x copies to the same files as the currently-open drawings? The EAGLE 7.x formatting will be overwritten if you re-save the open drawings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to save the EAGLE 7.x copy to the same file as the currently-open drawing? The EAGLE 7.x formatting will be overwritten if you re-save the open drawing.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>drc.c</name>
@@ -5135,10 +5312,6 @@ Folytassuk a mentést?</translation>
 </context>
 <context>
     <name>eagle.c</name>
-    <message>
-        <source>EAGLE was started with &apos;--setup&apos;, but some files are missing!</source>
-        <translation>Az EAGLE a -setup opcióval indult, azonban néhány fájl hiányzik!</translation>
-    </message>
     <message>
         <source>Could not load the full set of SVG icons from
 &apos;%1&apos;.
@@ -5374,6 +5547,10 @@ A hiányzó ikonok a nem vektoros &quot;klasszikus&quot; ikonkészletből leszne
     <message>
         <source>Different selection of assembly variant in schematic and board (%1 / %2)</source>
         <translation>A kapcsolási rajzban és a nyáktervben más a kiválasztott beültetési verzió (%1 / %2)</translation>
+    </message>
+    <message>
+        <source>Part %1 has inconsistent 3d packages in schematic and board (%2 from %3 / %4 from %5)</source>
+        <translation>A(z) %1 alkatrésznek nem konzisztensek a 3D tokozásai a kapcsolási rajzban és a nyáktervben (%2 ebben: %3  míg %4 ebben: %5)</translation>
     </message>
 </context>
 <context>
@@ -5632,13 +5809,6 @@ Retry?</source>
         <translation>lábak</translation>
     </message>
     <message>
-        <source>Library update failed (error code %1)
-Please contact CadSoft!</source>
-        <translation>Az alkatrészkönyvtár frissítése sikertelen volt 
-(hibakód: %1)
-Vedd fel a kapcsolatot a CadSoft-al!</translation>
-    </message>
-    <message>
         <source>gates</source>
         <translation>kapuk</translation>
     </message>
@@ -5709,16 +5879,6 @@ egyetlen kapu helyére sem az új verzióban
     <message>
         <source>Device %1 is being added.</source>
         <translation>%1 eszköz hozzá lett adva.</translation>
-    </message>
-    <message>
-        <source>Consistency lost during library update!
-No forward-/backannotation will be performed!
-
-Please contact CadSoft!</source>
-        <translation>Konzisztencia hiba történt az alkatrészkönyvtár-frissítés során!
-Nem tudom tovább a nyákterv és kapcsolási rajz tartalmát szinkronban tartani.
-
-Vedd fel a kapcsolatot a Cadsofttal!</translation>
     </message>
     <message>
         <source>A different version of %1 %2 is already present in this file,
@@ -5798,40 +5958,98 @@ Az eszközkészlet régi verzióján egy könyvtárfrissítés javasolt.
         <translation>Nincs összerendelés a külső és nem külső alkatrészek között.
 %1 (%2external) nem összerendelhető az új verzióval: %3(%4external).</translation>
     </message>
+    <message>
+        <source>&lt;html&gt;The new version of device &lt;b&gt;%1&lt;/b&gt; (package variant &lt;b&gt;&apos;%2&apos;&lt;/b&gt;) contains 3D packages.&lt;p&gt;Please select one for use when updating old versions of the device that lack a reference to a 3D package:&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;3d package &lt;b&gt;%1&lt;/b&gt; in the old version of device &lt;b&gt;%2&lt;/b&gt; (package variant &lt;b&gt;&apos;%3&apos;&lt;/b&gt;) is not present in the new version of this device.&lt;p&gt;Please select a new 3d package:&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;New version of device contains no 3d packages so no replacements are available for 3d package &lt;b&gt;&apos;%1&apos;&lt;/b&gt; in the old version of device &lt;b&gt;%2&lt;/b&gt; (package variant &lt;b&gt;%3&lt;/b&gt;).&lt;p&gt;The 3d package will be removed from this device.&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Library update failed (error code %1)
+Please contact Autodesk!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Consistency lost during library update!
+No forward-/backannotation will be performed!
+
+Please contact Autodesk.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>licence.c</name>
     <message>
-        <source>Student Version - NOT FOR COMMERCIAL USE!</source>
-        <translation>Oktatási verzió - KERESKEDELMI HASZNÁLATA TILOS!</translation>
+        <source>The %1 edition of EAGLE can&apos;t perform the requested action!&lt;br&gt;&lt;br&gt;%2&lt;br&gt;&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;Click here to upgrade&lt;/a&gt;</source>
+        <translation>Az EAGLE %1 verziójában a kért művelet nem végezhető el!&lt;br&gt;&lt;br&gt;%2&lt;br&gt;&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;Ide kattintva tudsz licenszet beszerezni&lt;/a&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>loginwindow.c</name>
+    <message>
+        <source>Sign in</source>
+        <translation>Bejelentkezés</translation>
+    </message>
+</context>
+<context>
+    <name>manufacturingflyout.c</name>
+    <message>
+        <source>Additional Information</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%u User License</source>
-        <translation>%u felhasználói licensz</translation>
+        <source>Property</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>FOR EDUCATIONAL USE ONLY!</source>
-        <translation>CSAK OKTATÁSI CÉLOKRA!</translation>
+        <source>metric</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Single User License</source>
-        <translation>Egy felhasználós licensz</translation>
+        <source>imperial</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>License has expired!</source>
-        <translation>A licensz lejárt!</translation>
+        <source>Board</source>
+        <translation type="unfinished">Nyák</translation>
     </message>
     <message>
-        <source>Expiration Date: %s</source>
-        <translation>Licensz lejár: %s</translation>
+        <source>Drills</source>
+        <translation type="unfinished">Furatátmérők</translation>
     </message>
     <message>
-        <source>The %1 edition of EAGLE can&apos;t perform the requested action!
-
-%2</source>
-        <translation>A kívánt művelet nem végezhető el az EAGLE %1 verziójában!
-
-%2</translation>
+        <source>Initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Gerber &amp; Excellon Drill Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Screenshot To File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not save screenshot to file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Hiba</translation>
+    </message>
+    <message>
+        <source>Loading preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>count</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5976,16 +6194,6 @@ on some Windows platforms. Continue anyway?</source>
 <context>
     <name>o_board.c</name>
     <message>
-        <source>
-
-Click OK to skip deleting this element,
-Cancel to cancel deleting the group.</source>
-        <translation>
-
-Kattints az Ok-ra ennek az objektumnak a törlésének kihagyásához
-Vagy a Mégsemre a kijelölés törlésének kihagyásához.</translation>
-    </message>
-    <message>
         <source>Package &apos;%1&apos;
 of library &apos;%2&apos;
 contains an invalid polygon.</source>
@@ -6055,6 +6263,22 @@ A NAME parancs segítségével lehet buszokat összevonni.</translation>
     <message>
         <source>Contact &apos;%1&apos; of element &apos;%2&apos; is connected to several signals: &apos;%3&apos; and &apos;%4&apos;</source>
         <translation>A &apos;%2&apos; elem &apos;%1&apos; kontaktja több szignálhoz is hozzá van kötve: &apos;%3&apos; és &apos;%4&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>o_designblock.c</name>
+    <message>
+        <source>Can not add a inconsistent drawing to design block %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is not an EAGLE file.</source>
+        <translation>Ez a fáj nem EAGLE-el készült.</translation>
+    </message>
+    <message>
+        <source>Can&apos;t load design block file:
+ %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6220,6 +6444,10 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
         <source>signal names</source>
         <translation>vezeték nevek</translation>
     </message>
+    <message>
+        <source>File exists. Can&apos;t create a new drawing with name %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>o_elemen.c</name>
@@ -6230,6 +6458,25 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
     <message>
         <source>, Value: </source>
         <translation>. Érték: </translation>
+    </message>
+    <message>
+        <source> + Edits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tag &lt;%1&gt; references undefined library &apos;%2&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>o_fusionsyncmodel.c</name>
+    <message>
+        <source>Please define a closed board outline in the Dimension layer before pushing to Fusion.</source>
+        <translation>Kérlek rajzold meg a panel kontúrját a Dimensionrétegre mielőtt Fuison-ba exportálod.  </translation>
+    </message>
+    <message>
+        <source>Some objects extend outside the allowed board area. Please move the components in Fusion or upgrade your Eagle license and try again.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6242,14 +6489,53 @@ Kérlek olvasd el alaposan a kompatibilitási megjegyzéseket!</translation>
 <context>
     <name>o_group.c</name>
     <message>
+        <source>Not all instances of %1 are included in the selection.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A net segment of %1 is only partially included in the selection.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Instance %1 connected to net %2 is not included in the selection.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some corresponding schematic objects of current selection are not on current sheet or present on multiple sheets:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Element %1 connected to signal %2 is not included in the group.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The selection doesn&apos;t form an independent design block!
+
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>
+Add or remove objects from selection or restart!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This group contains elements or signals that cannot be deleted, as the operation cannot be back-annotated. If you wish to revert traces or vias back to airwires, please use the RIPUP tool. 
+
+Click OK to delete all other grouped objects or hit cancel to cancel the operaton completely.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Consistency lost!
 No forward-/backannotation will be performed!
 
-Please contact CadSoft!</source>
-        <translation>Konzisztencia hiba!
-Nem tudom tovább a nyákot és a sémát szinkronban tartani!
-
-Vedd fel a kapcsolatot a Cadsofttal!</translation>
+Please contact Autodesk.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6265,6 +6551,21 @@ Vedd fel a kapcsolatot a Cadsofttal!</translation>
     <message>
         <source>Name &apos;%1&apos; already exists!</source>
         <translation>A(z) &apos;%1&apos; név már létezik!</translation>
+    </message>
+    <message>
+        <source> + Edits</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>o_librar.c</name>
+    <message>
+        <source>invalid/missing library reference in tag &lt;%2&gt;</source>
+        <translation>hiányzó vagy hivatkozás egy könyvtárra a &lt;%2&gt; tagben</translation>
+    </message>
+    <message>
+        <source>redefinition of library &apos;%1&apos; in tag &lt;%2&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6348,6 +6649,10 @@ Használd a név (NAME) parancsot a vezetéknevek összekapcsolásához.</transl
         <source>, Value: </source>
         <translation>, érték:</translation>
     </message>
+    <message>
+        <source>tag &lt;%1&gt; references undefined library &apos;%2&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>o_pin.c</name>
@@ -6361,6 +6666,10 @@ Használd a név (NAME) parancsot a vezetéknevek összekapcsolásához.</transl
     <message>
         <source>attributes part &apos;%1&apos; and gate &apos;%2&apos; reference undefined instance on this sheet in tag &lt;%3&gt;</source>
         <translation>a &apos;%1&apos; alkatrész attributumai és a &apos;%2&apos; kapu érvénytelen elemre hivatokzik ezen a lapon ebben a tagben: &lt;%3&gt;</translation>
+    </message>
+    <message>
+        <source>ignoring redefinition of pinref to part &apos;%1&apos;, gate &apos;%2&apos;, pin &apos;%3&apos;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7044,10 +7353,6 @@ Elmented a feladatot?</translation>
         <translation>&amp;Kapcsolásirajz...</translation>
     </message>
     <message>
-        <source>&amp;Show selected</source>
-        <translation>Csak a &amp;kijelölteket mutat</translation>
-    </message>
-    <message>
         <source>&amp;Drill rack...</source>
         <translation>&amp;Szerszámfej-tár...</translation>
     </message>
@@ -7099,10 +7404,6 @@ Rendben van ez így?</translation>
     <message>
         <source>&amp;Save job...</source>
         <translation>Feladat &amp;mentése...</translation>
-    </message>
-    <message>
-        <source>Show &amp;all</source>
-        <translation>Mindent m&amp;utat</translation>
     </message>
     <message>
         <source>Promp&amp;t</source>
@@ -7283,6 +7584,14 @@ Continue anyway?</source>
         <translation>A &apos;pos.Coord&apos; opció be van állítva egyes füleken, míg másokon nincs. Ez problémás kimenetet eredményezhet.
 
 Valóban folytassuk?</translation>
+    </message>
+    <message>
+        <source>Show onl&amp;y selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is not possible to use the CAM processor for a design block.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7573,235 +7882,10 @@ Elfogadod ezeket a nagyobb értékeket?</translation>
     </message>
 </context>
 <context>
-    <name>registry.c</name>
+    <name>routetoolutils.c</name>
     <message>
-        <source>Can&apos;t open file: </source>
-        <translation>Fájl nem megnyitható: </translation>
-    </message>
-    <message>
-        <source>Error while writing file %1.</source>
-        <translation>Hiba a fájl írása közben %1.</translation>
-    </message>
-    <message>
-        <source>Select EAGLE Licence File</source>
-        <translation>Válaszd ki az EAGLE licsnsz fájlt</translation>
-    </message>
-    <message>
-        <source>Invalid data in file %1.
-
-Please check!</source>
-        <translation>Érvénytelen adat a %1 fájlban.
-
-Ellenőrízd kérlek!</translation>
-    </message>
-    <message>
-        <source>Error while decoding license file %1.
-
-Please verify the installation code!</source>
-        <translation>Hiba a %1 licensz fájl dekódolásakor
-
-Ellenőrízd a telepítési kódot (installation code) !</translation>
-    </message>
-    <message>
-        <source>Your license is not valid for this version of EAGLE!
-
-Please contact CadSoft for an upgrade.</source>
-        <translation>Az EAGLE licenszed nem érvéányes az EAGLE ezen verziójához!
-
-Vedd fel a kapcsolatot a Cadsoft képviselőjével.</translation>
-    </message>
-    <message>
-        <source>&amp;Browse...</source>
-        <translation>&amp;Tallózás...</translation>
-    </message>
-    <message>
-        <source>Your license is void!
-
-Please contact CadSoft.</source>
-        <translation>A licenszed érvénytelen
-
-Vedd fel a kapcsolatot a Cadsofttal.</translation>
-    </message>
-    <message>
-        <source>Your license is not valid for %1!
-
-Please contact CadSoft for an upgrade.</source>
-        <translation>Az EAGLE licenszed nem érvényes %1-hez
-
-Vedd fel a kapcsolatot a Cadsoft képviselőjével.</translation>
-    </message>
-    <message>
-        <source>EAGLE License</source>
-        <translation>Az EAGLE licenszelése</translation>
-    </message>
-    <message>
-        <source>Error while licensing EAGLE.
-
-Please verify the installation code!</source>
-        <translation>Hiba az EAGLE licenszelésekor
-
-Ellenőrízd a telepítési kódot (installation code) !
-</translation>
-    </message>
-    <message>
-        <source>Error in file %1, code line %2.
-
-Please check!</source>
-        <translation>Fájl hiba %1, sorban %2.
-
-Bitte überprüfen!</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Cancel&lt;/b&gt; leaves the existing license data unchanged.</source>
-        <translation>&lt;b&gt;Mégsem&lt;/b&gt; a meglévő licensz adatok változatlanul hagyása.</translation>
-    </message>
-    <message>
-        <source>&lt;nobr&gt;Enter the full path to the license file:&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;Licenszfájl elérési útja:&lt;/nobr&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;nobr&gt;Type in the &lt;b&gt;Installation Code&lt;/b&gt; (ten lowercase letters):&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;Gépeld be a &lt;b&gt;telepítési kódot&lt;/b&gt; (tíz kisbetű):&lt;/nobr&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;nobr&gt;Click the &lt;b&gt;OK&lt;/b&gt; button to license your copy of EAGLE.&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;Kattints az &lt;b&gt;OK&lt;/b&gt; gombra az EAGLE licenszeléséhez.&lt;/nobr&gt;</translation>
-    </message>
-    <message>
-        <source>Please make sure you have selected the correct license file.
-
-</source>
-        <translation>Kérlek ellenőrízd megfelelő licenszfájt választottál-e ki.
-
-</translation>
-    </message>
-    <message>
-        <source>If you are installing an update version of EAGLE you may have to use the
-file that came with your original version of EAGLE.</source>
-        <translation>Ha az EAGLE frissített verzióját telepíted, akkor az eredeti verzióval kapott licenszfájlt 
-kell használnod.</translation>
-    </message>
-    <message>
-        <source>This license has expired!</source>
-        <translation>A licensz lejárt!</translation>
-    </message>
-    <message>
-        <source>The code you entered has already been used on a different computer!</source>
-        <translation>A megadott kódot egy másik számítógépen már használták!</translation>
-    </message>
-    <message>
-        <source>The code you entered has already been used!</source>
-        <translation>A megadott kód már használatban van!</translation>
-    </message>
-    <message>
-        <source>Server unavailable - please try again later!</source>
-        <translation>A szerver nem elérhető - kérlek próbáld meg később!</translation>
-    </message>
-    <message>
-        <source>Error %1 while contacting server!</source>
-        <translation>%1 hiba történt a szerverhez csatlakozás során!</translation>
-    </message>
-    <message>
-        <source>EAGLE needs to install a license file on your computer in order to work.&lt;br&gt;&lt;br&gt;</source>
-        <translation>A program használatához licenszelned kell az EAGLE-t&lt;br&gt;&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Select &lt;b&gt;Use license file&lt;/b&gt; if you have a personalized EAGLE license file.&lt;br&gt;</source>
-        <translation>Válaszd ki a licenszedet ha már licensz fájlod.&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Select &lt;b&gt;Run as Freeware&lt;/b&gt; to run EAGLE as Freeware.&lt;br&gt;</source>
-        <translation>Válaszd a &lt;b&gt;Futtatás Freeware módban&lt;/b&gt; opciót ha Freeeware módban szeretnéd futtatni az EAGLE-t.&lt;br&gt;</translation>
-    </message>
-    <message>
-        <source>Use license file</source>
-        <translation>Licenszfájl kiválasztása</translation>
-    </message>
-    <message>
-        <source>Run as Freeware</source>
-        <translation>Freewareként futtatás</translation>
-    </message>
-    <message>
-        <source>Your EAGLE license #%1 has expired!</source>
-        <translation>A #%1 EAGLE licenszed  érvényessége lejárt!</translation>
-    </message>
-    <message>
-        <source>Your EAGLE license #%1 is not valid for this version of EAGLE!</source>
-        <translation>Az #%1 számú licensz nem érvényes ehhez a verzióhoz!</translation>
-    </message>
-    <message>
-        <source>The file
-  &apos;%1&apos;
-is an installed binary key file.
-
-Please select a license file you have received from CadSoft!</source>
-        <translation>A(z) &apos;%1&apos; fájl
-
-egy már telepített bináris kulcsfájl
-
-Kérlek válaszd ki azt a fájlt amelyet a CadSoft-tól kaptál!</translation>
-    </message>
-    <message>
-        <source>Please run EAGLE as administrator to install your license!</source>
-        <translation>Az EAGLE liceneszeléséhez Rendszergazda módban kell futtatnod a programot!</translation>
-    </message>
-    <message>
-        <source>EAGLE 30 day trial license</source>
-        <translation>30 napos EAGLE próbaverzió</translation>
-    </message>
-    <message>
-        <source>&lt;nobr&gt;Enter your EAGLE 30 day trial code:&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;Add meg a 30 napos próbaverzió kulcsát:&lt;/nobr&gt;</translation>
-    </message>
-    <message>
-        <source>See &lt;b&gt;%1&lt;/b&gt; for more information&lt;br&gt;about the EAGLE 30 day trial license.</source>
-        <translation>Itt találhatsz további információkat &lt;br&gt;a 30 napos próbaverzióról: &lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;nobr&gt;Click the &lt;b&gt;OK&lt;/b&gt; button to install your EAGLE 30 day trial license.&lt;/nobr&gt;</source>
-        <translation>&lt;nobr&gt;Kattints az &lt;b&gt;OK&lt;/b&gt; gombra az EAGLE 30 napos próbaverzió licensz telepítéséhez.&lt;/nobr&gt;</translation>
-    </message>
-    <message>
-        <source>Please enter a valid EAGLE 30 day trial code!</source>
-        <translation>Nem megfelelő 30 napos próbaverzió kód!</translation>
-    </message>
-    <message>
-        <source>Error while accessing 30 day trial license - please contact CadSoft!</source>
-        <translation>Hiba a 30 napos próbaverzió licensz elérésekor - vedd fel a kapcsolatot a CadSoft-al!
-</translation>
-    </message>
-    <message>
-        <source>The code you entered is not a valid 30 day trial code!</source>
-        <translation>A megadott kód nem 30 napos próbaverzió kód!</translation>
-    </message>
-    <message>
-        <source>A 30 day trial license has already been issued for this computer!</source>
-        <translation>A 30 napos próbaverzió licensz már telepítve lett erre a számítógépre!</translation>
-    </message>
-    <message>
-        <source>Thank you for trying EAGLE!
-
-Your EAGLE 30 day trial license is valid until %1.</source>
-        <translation>Köszönjük, hogy az EAGLE-t használod!
-
-A 30 napos licenszed eddig érvényes: %1</translation>
-    </message>
-    <message>
-        <source>Error %1 while installing the EAGLE 30 day trial license.
-
-Please contact CadSoft!</source>
-        <translation>Hiba a 30 napos próbaverzió licensz telepítésekor
-
-Vedd fel a kapcsolatot a CadSoft-al!
-</translation>
-    </message>
-    <message>
-        <source>Select &lt;b&gt;30 day trial&lt;/b&gt; if you have an EAGLE 30 day trial code from&lt;br&gt;%1.</source>
-        <translation>Válaszd a 30 napos próbaverziót, ha kaptál a &lt;b&gt;30 napos&lt;/b&gt; próbaverzió kódot innen&lt;br&gt;%1.</translation>
-    </message>
-    <message>
-        <source>30 day trial</source>
-        <translation>30 napos próbaverzió</translation>
+        <source> at line %1</source>
+        <translation> a %1. sorban</translation>
     </message>
 </context>
 <context>
@@ -7949,328 +8033,124 @@ Felülírod?</translation>
 
 (Csak a %2 és %3 közti értékek érvényesek)</translation>
     </message>
+    <message>
+        <source>Invalid align mode: &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
-    <name>setup.c</name>
+    <name>u_attribute.c</name>
     <message>
-        <source>&amp;No</source>
-        <translation>&amp;Nem</translation>
+        <source>The attribute &apos;%1&apos; is defined constant.
+
+Force overwrite?</source>
+        <translation type="unfinished">A(z) %1 tulajdonság  már konstansként meg lett határozva
+
+Felülírjuk?</translation>
     </message>
     <message>
-        <source>&amp;Yes</source>
-        <translation>&amp;Igen</translation>
+        <source>Globally defined by board</source>
+        <translation type="unfinished">Globálisan meg van határozva a nyák által</translation>
     </message>
     <message>
-        <source>Finished</source>
-        <translation>Elkészült</translation>
+        <source>Globally defined by schematic</source>
+        <translation type="unfinished">Globálisan meg van határozva a kapcsolásirajz által</translation>
     </message>
     <message>
-        <source>Click &quot;Finish&quot; to end Setup.</source>
-        <translation>Kattints a &quot;Befejezés&quot; gombra a telepítés befejezéséhez.</translation>
+        <source>Defined by library</source>
+        <translation type="unfinished">Alkatrészkönyvtár által meghatározott</translation>
     </message>
     <message>
-        <source>&amp;Uninstall</source>
-        <translation>&amp;Eltávolítás</translation>
+        <source>Defined by part</source>
+        <translation type="unfinished">Alkatrész által meghatározott</translation>
     </message>
     <message>
-        <source>Setup</source>
-        <translation>Telepítés</translation>
+        <source>Defined by element</source>
+        <translation type="unfinished">Részegység által meghatározott</translation>
     </message>
     <message>
-        <source>Uninstall</source>
-        <translation>Eltávolítás</translation>
+        <source>redefined by library (with same value)</source>
+        <translation type="unfinished">új értéket kapott a könyvtárból (viszont maradt azonos)</translation>
     </message>
     <message>
-        <source>Please read the following License Agreement. Press the PAGE DOWN key to see the rest of the agreement.</source>
-        <translation>Kérlek olvasd el a Licenszet. Használd a PAGE DOWN gombot a görgetéshez.</translation>
+        <source>redefined by library (with different value)</source>
+        <translation type="unfinished">új értéket kapott a könyvtárból </translation>
     </message>
     <message>
-        <source>To install to a different directory, click &quot;Browse&quot; and select another directory.</source>
-        <translation>Más mappába telepítéshez kattints a &quot;Tallózásra&quot; és válassz másik könyvtárat.</translation>
+        <source>redefined by part</source>
+        <translation type="unfinished">Alkatrész által újra meghatározott</translation>
     </message>
     <message>
-        <source>Error while copying &apos;%1&apos;</source>
-        <translation>Hibás másolás &apos;%1&apos;</translation>
+        <source>redefined by part (overwrites constant value)</source>
+        <translation type="unfinished">módosítva lett az alkatrész által (felülírja a konstans értéket)</translation>
     </message>
     <message>
-        <source>&amp;Don&apos;t license now</source>
-        <translation>&amp;Licenszelés elhalasztása</translation>
+        <source>Change attribute</source>
+        <translation type="unfinished">Tulajdonság megváltoztatása</translation>
     </message>
     <message>
-        <source>Welcome to the EAGLE Setup program.</source>
-        <translation>Köszönti Önt az EAGLE telepítő.</translation>
+        <source>New attribute</source>
+        <translation type="unfinished">Új tulajdonság</translation>
     </message>
     <message>
-        <source>Can&apos;t create link &apos;%1&apos;!</source>
-        <translation>Nem létrehozható  link&apos;%1&apos;!</translation>
+        <source>Name</source>
+        <translation type="unfinished">Név</translation>
     </message>
     <message>
-        <source>Can&apos;t open &apos;%1&apos; for writing!</source>
-        <translation>Nem nyitható meg írásra &apos;%1&apos; !</translation>
+        <source>Value</source>
+        <translation type="unfinished">Érték</translation>
     </message>
     <message>
-        <source>Click &quot;Cancel&quot; if you are not sure.</source>
-        <translation>Click &quot;Mégsem&quot;,ha nem vagy biztos benne.</translation>
+        <source>default value</source>
+        <translation type="unfinished">alapértelmezett érték</translation>
     </message>
     <message>
-        <source>Can&apos;t create directory &apos;%1&apos;</source>
-        <translation>Nem létrehozható &apos;%1&apos; könyvtár</translation>
+        <source>user defined</source>
+        <translation type="unfinished">felhasználó által meghatározott</translation>
     </message>
     <message>
-        <source>&amp;Close</source>
-        <translation>&amp;Bezárás</translation>
+        <source>Display</source>
+        <translation type="unfinished">Láthatóság</translation>
     </message>
     <message>
-        <source>Setup will install EAGLE in the following directory.</source>
-        <translation>A követekező mappába fognak kerülni az EAGLE működéséhez szükséges fájlok.</translation>
+        <source>Reserved attribute name: &apos;%1&apos;</source>
+        <translation type="unfinished">%1 tulajdonság nem használható a program számára van fenntartva</translation>
     </message>
     <message>
-        <source>&lt;p&gt;To continue installing EAGLE, click &quot;Resume&quot;. To quit the Setup program, click &quot;Exit Setup&quot;.</source>
-        <translation>&lt;p&gt;A telepítés folytatásához kattints a &quot;Folytatás&quot; gombra. A telepítőből kilépéhez kattints a &quot;Kilépés a telepítőből&quot; gombra.</translation>
+        <source>Attribute name &apos;%1&apos; is already in use!</source>
+        <translation type="unfinished">%1 tulajdonság már használatban van!</translation>
     </message>
     <message>
-        <source>Copying Files</source>
-        <translation>Fájl másolás</translation>
+        <source>Attribute name &apos;%1&apos; is already used in the board!</source>
+        <translation type="unfinished">%1 tulajdonság már használatban van a nyákon!</translation>
     </message>
     <message>
-        <source>Error while creating command line version of EAGLE!</source>
-        <translation>Hibás parancssor ebben az  EAGLE verzióban!</translation>
+        <source>The attribute &apos;%1&apos; is already defined in the board with value &apos;%2&apos;!
+
+Overwrite?</source>
+        <translation type="unfinished">%1 tulajdonság már a nyákon meg lett adva %2 értékkel
+
+Felülírjuk?</translation>
     </message>
     <message>
-        <source>Setup is not complete.&lt;p&gt;</source>
-        <translation>A telepítés még nem teljes.&lt;p&gt;</translation>
+        <source>Attributes of %1</source>
+        <translation type="unfinished">%1 tulajdonságai</translation>
     </message>
     <message>
-        <source>The file &apos;%1&apos; is write protected. To overwrite the file, click &quot;Yes&quot;, otherwise click &quot;No&quot;.&lt;p&gt;Note that clicking &quot;No&quot; may lead to an incomplete installation of EAGLE!</source>
-        <translation>A &apos;%1&apos; fájl írásvédett. A felülírásáhpz kattints az &quot;Igen&quot; gombra, ellenkező esetben a &quot;Nem&quot;-re.&lt;p&gt;Ne feledd, ha a &quot;Nem&quot;-et választod, akkor lehet egy nem befejezett EAGLE-t kapsz!</translation>
+        <source>Global Attributes</source>
+        <translation type="unfinished">Globális tulajdonságok</translation>
     </message>
     <message>
-        <source>Can&apos;t open &apos;%1&apos; for reading!</source>
-        <translation>Nem nyitható &apos;%1&apos; olvasásra!</translation>
+        <source>&amp;New</source>
+        <translation type="unfinished">&amp;Új</translation>
     </message>
     <message>
-        <source>Existing Files:</source>
-        <translation>Létező fájlok:</translation>
+        <source>&amp;Change</source>
+        <translation type="unfinished">&amp;Módosít</translation>
     </message>
     <message>
-        <source>Otherwise you can run EAGLE as Freeware.</source>
-        <translation>Vagy futtathatod az EAGLE-t Freeware módban.</translation>
-    </message>
-    <message>
-        <source>Destination Directory:</source>
-        <translation>Cél könyvtár:</translation>
-    </message>
-    <message>
-        <source>To install to this directory, click &quot;Next&quot;.</source>
-        <translation>Ha a mappa megfelelő akkor kattints a &quot;Tovább&quot; gombra.</translation>
-    </message>
-    <message>
-        <source>Removing Files</source>
-        <translation>Fájl mozgatása</translation>
-    </message>
-    <message>
-        <source>Manual</source>
-        <translation>Kézikönyv</translation>
-    </message>
-    <message>
-        <source>Readme</source>
-        <translation>Olvass el</translation>
-    </message>
-    <message>
-        <source>Can&apos;t create start menu entry!</source>
-        <translation>Nem létrehozható Starmenü bejegyzés!</translation>
-    </message>
-    <message>
-        <source>Uninstall has removed EAGLE %1 from your computer.</source>
-        <translation>Eltávolítás EAGLE %1 a te gépedről.</translation>
-    </message>
-    <message>
-        <source>E&amp;xit Setup</source>
-        <translation>Kilépés &amp;Setup</translation>
-    </message>
-    <message>
-        <source>Existing Files</source>
-        <translation>Létező fájl</translation>
-    </message>
-    <message>
-        <source>Exit Setup</source>
-        <translation>Kilépés Setup</translation>
-    </message>
-    <message>
-        <source>Uninstalling EAGLE</source>
-        <translation>EAGLE eltávolítás</translation>
-    </message>
-    <message>
-        <source>B&amp;rowse...</source>
-        <translation>&amp;Tallózás...</translation>
-    </message>
-    <message>
-        <source>This program removes EAGLE %1 from your computer.</source>
-        <translation>Az EAGLE %1 eltávolítása a te gépedről.</translation>
-    </message>
-    <message>
-        <source>Setup has enough information to start copying the program files. If you want to review or change any settings, click &quot;Back&quot;. If you are satisfied with the settings, click &quot;Next&quot; to begin copying files.</source>
-        <translation>A telepítéshez szükséges összes beállítást megadtad. Ha meg akarod változtatni ezeket, akkor kattints a &quot;Vissza&quot; gombra. Ha biztosan mindent jól adtál meg akkor kattints a &quot;Tovább&quot; gombra a telepítés megkezdéséhez. </translation>
-    </message>
-    <message>
-        <source>This program will install EAGLE on your computer.</source>
-        <translation>Ez a program vezet végig az EAGLE telepítési folyamatán.</translation>
-    </message>
-    <message>
-        <source>Current Settings:</source>
-        <translation>Aktuális beállítás:</translation>
-    </message>
-    <message>
-        <source>EAGLE Setup failed</source>
-        <translation>EAGLE Setup hiba</translation>
-    </message>
-    <message>
-        <source>Can&apos;t create registry entry &quot;%1&quot;</source>
-        <translation>Registry-bejegyzés &quot;%1&quot; nem jött létre</translation>
-    </message>
-    <message>
-        <source>THE DESTINATION DIRECTORY CONTAINS EXISTING FILES, WHICH WILL BE OVERWRITTEN!</source>
-        <translation>A CÉLKÖNYVTÁR FÁJLOKAT TARTALMAZ, AMELYEK FELÜL LESZNEK ÍRVA!</translation>
-    </message>
-    <message>
-        <source>Update Documentation</source>
-        <translation>Dokumentáció frissítése</translation>
-    </message>
-    <message>
-        <source>If you quit the Setup program now, the installation may be incomplete. You may run the Setup program at a later time to complete the installation.</source>
-        <translation>Ha most kilépsz a telepítőből, akkor a telepítés befejezetlen maradhat. Viszont később is futtathatod a telepítőt.</translation>
-    </message>
-    <message>
-        <source>&amp;Run as Freeware</source>
-        <translation>&amp;Futtatás Freeware módban</translation>
-    </message>
-    <message>
-        <source>EAGLE Setup is now complete</source>
-        <translation>Az EAGLE telepítése befejeződött</translation>
-    </message>
-    <message>
-        <source>Write Protected File</source>
-        <translation>Irásvédett fájl</translation>
-    </message>
-    <message>
-        <source>An error has occurred while installing EAGLE.&lt;p&gt;Please fix the problem and run EAGLE Setup again.</source>
-        <translation>Installálás során hiba történt.&lt;p&gt;Hárítsa el a hibát és futtassa a telepítőt.</translation>
-    </message>
-    <message>
-        <source>You can choose not to install EAGLE by clicking &quot;Cancel&quot; to exit Setup.</source>
-        <translation>Telepítés megszakításához nyomd meg a &quot;Mégsem&quot; gombot .</translation>
-    </message>
-    <message>
-        <source>Can&apos;t determine start folder!</source>
-        <translation>Nem meghatározható Start könyvtár!</translation>
-    </message>
-    <message>
-        <source>Source and destination directory are the same.&lt;p&gt;Please select a different directory!</source>
-        <translation>Forrás és célkönyvtár ugyanaz.&lt;p&gt;Válassz másik könyvtárat!</translation>
-    </message>
-    <message>
-        <source>&amp;Resume</source>
-        <translation>&amp;Újrakezd</translation>
-    </message>
-    <message>
-        <source>EAGLE License</source>
-        <translation>EAGLE-Licensz</translation>
-    </message>
-    <message>
-        <source>To do the licensing when you start EAGLE for the first time, select &quot;Don&apos;t license now&quot;.</source>
-        <translation>Ha az EAGLE futtatásakor szeretnéd licenszelni az EAGLE-t, akkor válaszd a &quot;Licenszelés később opciót&quot;.</translation>
-    </message>
-    <message>
-        <source>Tutorial</source>
-        <translation>Bemutató</translation>
-    </message>
-    <message>
-        <source>If you quit the Setup program now, EAGLE will not be installed.</source>
-        <translation>Ha most kilész a programból, az EAGLE nem lesz installálva.</translation>
-    </message>
-    <message>
-        <source>Choose Destination Directory</source>
-        <translation>Válassz cél könyvtárat</translation>
-    </message>
-    <message>
-        <source>Click &quot;Uninstall&quot; to remove EAGLE %1 from your computer.</source>
-        <translation>Kattints az &quot;Eltávolítás&quot; gombra az EAGLE %1 eltávolításához.</translation>
-    </message>
-    <message>
-        <source>Can&apos;t determine list of installed items!</source>
-        <translation>Nem lehet meghatározni a telepített elemeket!</translation>
-    </message>
-    <message>
-        <source>Uninstall is now removing files from your computer.</source>
-        <translation>Az eltávolító most eltávolítja a fájlokat a számítógépedről.</translation>
-    </message>
-    <message>
-        <source>Some installed items could not be removed. You may want to remove these manually.</source>
-        <translation>Néhány telepített elemet nem lehetett eltávolítani. Megpróbálhatod őket &quot;kézzel&quot; letörölni.</translation>
-    </message>
-    <message>
-        <source>Start Copying Files</source>
-        <translation>Fájlok másolásának elkezdése</translation>
-    </message>
-    <message>
-        <source>Welcome</source>
-        <translation>Üdvözöljük</translation>
-    </message>
-    <message>
-        <source>Click &quot;Next&quot; to continue with the Setup program.</source>
-        <translation>Kattints a &quot;Tovább&quot; gombra a telepítés folytatásához.</translation>
-    </message>
-    <message>
-        <source>Destination Directory</source>
-        <translation>Célmappa</translation>
-    </message>
-    <message>
-        <source>The directory &apos;%1&apos; contains existing files.&lt;p&gt;Click &quot;Yes&quot; to overwrite these files.&lt;br&gt;Click &quot;No&quot; to select a different destination directory.</source>
-        <translation>A &apos;%1&apos; mappa fájlokat tartalmaz . &lt;p&gt;Kattints az &quot;Igen&quot; gombra a fájlok felülírásához.&lt;br&gt; Kattints a &quot;Nem&quot; gombra másik mappa kiválasztásához.</translation>
-    </message>
-    <message>
-        <source>Can&apos;t overwrite &apos;%1&apos;</source>
-        <translation>&apos;%1&apos; nem felülírható</translation>
-    </message>
-    <message>
-        <source>Setup is now copying files to your computer.</source>
-        <translation>A telepítő  most másolja a fájlokat a számítógépedre.</translation>
-    </message>
-    <message>
-        <source>Do you accept the terms of the preceding License Agreement? If you choose &quot;No&quot;, Setup will close. To install EAGLE, you must accept this agreement.</source>
-        <translation> Az EAGLE feltelepítéséhez el kell fogadnod a megállapodást.Ha a &quot;Nem&quot; gombra kattintassz a telepítő kilép.</translation>
-    </message>
-    <message>
-        <source>Software License Agreement</source>
-        <translation>Szoftver Licensz Megállapodás</translation>
-    </message>
-    <message>
-        <source>If you have received a license file, please select &quot;Use license file&quot; below.</source>
-        <translation>Ha megkaptad a licenszfájlodat, akkor kattints a &quot;Licensz fájl választása&quot; gombra.</translation>
-    </message>
-    <message>
-        <source>&amp;Use license file</source>
-        <translation>&amp;Licensz fájl kiválasztása</translation>
-    </message>
-    <message>
-        <source>No write access to destination directory!</source>
-        <translation>A célmappa nem írható!</translation>
-    </message>
-    <message>
-        <source>If you have gotten a 30 day trial code from&lt;br&gt;%1, select &quot;Use 30 day trial code&quot;.</source>
-        <translation>Ha kaptál a 30 napos próbaverzióhoz kódot innen 
-%1
-válaszd a &quot;30 napos próbaverzió&quot; opciót.</translation>
-    </message>
-    <message>
-        <source>&amp;Use 30 day trial code</source>
-        <translation>&amp;30 napos próbaverzió</translation>
-    </message>
-    <message>
-        <source>You do not have sufficient rights for the installation.
-Please run it with administrator rights or contact an administrator!</source>
-        <translation>Nincs kellő jogosultságod a telepítés elvégzéséhez.
-Futtasd a telepítőt adminisztrátor fiókkal, vagy vedd fel a kapcsolatot a rendszergazdával!</translation>
+        <source>&amp;Del</source>
+        <translation type="unfinished">&amp;Törlés</translation>
     </message>
 </context>
 <context>
@@ -8684,10 +8564,6 @@ Futtasd a telepítőt adminisztrátor fiókkal, vagy vedd fel a kapcsolatot a re
         <translation>&amp;Beállítások...</translation>
     </message>
     <message>
-        <source>&amp;Use...</source>
-        <translation>&amp;Használatba vétel...</translation>
-    </message>
-    <message>
         <source>New alias name:</source>
         <translation>Névcsere:</translation>
     </message>
@@ -8991,10 +8867,6 @@ Futtasd a telepítőt adminisztrátor fiókkal, vagy vedd fel a kapcsolatot a re
     <message>
         <source>Generate/switch to board</source>
         <translation>Váltás a nyáktervre/annak legenerálása</translation>
-    </message>
-    <message>
-        <source>Use library</source>
-        <translation>Könyvtár használata</translation>
     </message>
     <message>
         <source>Execute script</source>
@@ -9668,6 +9540,221 @@ Továbbá visszatérhetsz a nyáktervhez, de akkor az Autorouter feladat meg les
         <source>End Job</source>
         <translation>Feladat befejezése</translation>
     </message>
+    <message>
+        <source>Please edit or remove preset layer groups in eagle.scr</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open library manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a design block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BGA Autorouter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Copy for EAGLE 7.x...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save as Design Block...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Selection as Design Block...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Design block properties...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open library &amp;manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Open library...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Create new version...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish a new version of this managed library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Update to latest version...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update to the latest version of this managed library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Discard local edits...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard local edits and revert to the last downloaded version of this managed library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View on &amp;web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View this managed library in a web browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Create managed library...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish library as a managed library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align To Grid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Left Edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Centers Horizontally</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Right Edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Top Edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Centers Vertically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Align Bottom Edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distribute Horizontally</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distribute Vertically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ignore Obstacles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Walkaround Obstacles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loop Remove off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loop Remove on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Layer Mode Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Layer Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Single Layer Mode On</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not managed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Managed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Managed draft (locally modified)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>u_designblock.c</name>
+    <message>
+        <source>Generate Design Block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modify Design block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to load design block from file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t modify an unnamed Design block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal error: selection is inconsistent!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Leírás</translation>
+    </message>
+    <message>
+        <source>Description of design block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sheets</source>
+        <translation type="unfinished">Lapok</translation>
+    </message>
+    <message>
+        <source>Sheet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse...</source>
+        <translation type="unfinished">Tallózás...</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished">Szerkesztés</translation>
+    </message>
+    <message>
+        <source>Select a file name for the design block</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>u_dialog.c</name>
@@ -9875,6 +9962,21 @@ tartomány: %2..%3%4</translation>
         <source>Language</source>
         <translation>Nyelv</translation>
     </message>
+    <message>
+        <source>&lt;Here you will see a preview of your description.&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;Enter your html description here.&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>u_dialog.h</name>
+    <message>
+        <source>Search</source>
+        <translation>Keresés</translation>
+    </message>
 </context>
 <context>
     <name>u_editor.c</name>
@@ -9907,10 +10009,6 @@ tartomány: %2..%3%4</translation>
         <translation>Lapok</translation>
     </message>
     <message>
-        <source>Can&apos;t close window while command is running in other window!</source>
-        <translation>Nem lehet az ablakot bezárni amíg a parancs fut egy másik ablakban!</translation>
-    </message>
-    <message>
         <source>Open recent</source>
         <translation>Utoljára használt </translation>
     </message>
@@ -9937,10 +10035,6 @@ tartomány: %2..%3%4</translation>
     <message>
         <source>Schematic - </source>
         <translation>Kapcsolásirajz - </translation>
-    </message>
-    <message>
-        <source>Your EAGLE license has expired!</source>
-        <translation>Az EAGLE licenszed  érvényessége lejárt!</translation>
     </message>
     <message>
         <source>click to hide</source>
@@ -10066,6 +10160,107 @@ tartomány: %2..%3%4</translation>
         <source>Create new module &apos;%1&apos;?</source>
         <translation>Valóban létrehozzuk a(z) %1 modult?</translation>
     </message>
+    <message>
+        <source>&amp;View on Web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To add 3D packages to this library, you&apos;ll first need to convert it to a managed library. Then you&apos;ll be able to edit the 3D packages using our web editor.
+
+Would you like to convert %1 to a managed library?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem retrieving sync status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pull required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No syncing required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sync status unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your Eagle board has been succesfully pushed to Fusion 360. 
+
+To edit your PCB in Fusion, ensure that the PCB Feature box is checked in Fusion Preferences under Preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion: Not authenticated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion: No network connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing push to Fusion took too long. Please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion: Please try again later
+%1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error retrieving status of push to Fusion: Not authenticated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error retrieving status of push to Fusion: No network connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error retrieving status of push to Fusion: %1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error retrieving status of push to Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t close window while command is running!
+
+Stop now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t close window while command is running in other window!
+
+Stop now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Managed Library </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Version %1%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Designblock </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>u_fkeys.c</name>
@@ -10141,20 +10336,211 @@ tartomány: %2..%3%4</translation>
         <translation>Érték</translation>
     </message>
     <message>
-        <source>Use</source>
-        <translation>Használatba vesz</translation>
+        <source> + Edits</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use additional library</source>
-        <translation>Másik alkatrészkönyvtár használatba vétele</translation>
+        <source>Invalid content</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Un-Use</source>
-        <translation>Használaton kívül helyez</translation>
+        <source>Open Library Manager</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No longer use selected library</source>
-        <translation>Továbbiakban nem használjuk a kijelölt könyvtárat</translation>
+        <source>Copy Urn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only show local libraries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for Library Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Working offline.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete local copies of these managed libraries?&lt;br&gt;You will not be able to add parts from them.&lt;br&gt;The libraries will also be removed from the Control Panel but can be re-downloaded at any time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create Managed Library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View on Web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your Library is now a Managed Library.&lt;br&gt;&lt;br&gt;To begin adding 3D packages, click View on Web to view your library on Circuits.io&lt;br&gt;&lt;br&gt;Note: It is recommended to run Library-&gt;Update... to update objects in any schematic and board files with your new managed library.&lt;br&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create New Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a managed library to link your components with 3D models on the Circuits website.
+
+Soon, you will be able to share managed libraries with the Eagle community.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Archive local copy on create.
+It will be moved to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note: Your managed library will be accessible through the Eagle Control Panel under My Managed Libraries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A new version of your library will be created.
+Note: Any 3D packages uploaded through the web will be retained.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating managed library...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating new version...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error creating managed library: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Importing library file...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Library file &apos;%1&apos; doesn&apos;t exist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t open library file &apos;%1&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error importing managed library from file &apos;%1&apos;: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Processing library...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Managed library import failed.&lt;br&gt;If this problem persists, please &lt;a href=&quot;%1&quot;&gt;contact technical support&lt;/a&gt; and include the library URN: &lt;i&gt;%2&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloading managed library...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error checking status of managed library import: %1.
+Retrying.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error downloading managed library.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your original library file can now be found in &lt;i&gt;%1&lt;/i&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your original library file couldn&apos;t be archived and remains at its original location.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;Are you sure you want to discard your local edits? This will revert your library back to the last saved version.&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard Local Edits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discarding edits...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;Discarding local edits&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;Checking for updates to &lt;i&gt;%1&lt;/i&gt;...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;Updates to your library are available.
+
+Would you like to update &lt;i&gt;%1&lt;/i&gt; to Version %2%3%4?&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> (w/ asset URNs and 3D packages)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> or revert to Version %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Revert</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Up to Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your library is up-to-date.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 &lt;i&gt;%2&lt;/i&gt; to Version %3...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Updating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discarding edits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 complete.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10256,14 +10642,6 @@ A fájl már létezik</translation>
         <translation>Ismeretlen hiba történt a fájlok másolása közben</translation>
     </message>
     <message>
-        <source>Bubble help</source>
-        <translation>Buborék súgó</translation>
-    </message>
-    <message>
-        <source>Check for &amp;Update...</source>
-        <translation>Újabb &amp;verzió keresése...</translation>
-    </message>
-    <message>
         <source>&lt;b&gt;Empty Project&lt;/b&gt;&lt;p&gt;
 Use the context menu to create new schematic or board files within this project.</source>
         <translation>&lt;b&gt;A projekt üres&lt;/b&gt;&lt;p&gt;
@@ -10284,10 +10662,6 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     <message>
         <source>&amp;Print</source>
         <translation>&amp;Nyomtatás</translation>
-    </message>
-    <message>
-        <source>Please close all EAGLE windows (except for the Control Panel) before accessing &lt;i&gt;EAGLE License&lt;/i&gt;!</source>
-        <translation>Kérlek zárj be minden ablakot a (vezérlőpanelen kívül) mielőtt az &lt;i&gt; EAGLE licenszet  &lt;/i&gt; aktiválod!</translation>
     </message>
     <message>
         <source>New &amp;Project</source>
@@ -10378,10 +10752,6 @@ Kattints a projektre jobb gombbal kapcsolásirajz vagy nyákterv létrehozásáh
     <message>
         <source>&amp;Board...</source>
         <translation>&amp;Panel...</translation>
-    </message>
-    <message>
-        <source>Translator</source>
-        <translation>Hungarian translation by Marton Miklos, martonmiklos@t-online.hu</translation>
     </message>
     <message>
         <source>S&amp;cript</source>
@@ -10738,10 +11108,6 @@ to
         <translation>&amp;Összes mentése</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Under development&lt;/b&gt;&lt;h1&gt;&lt;font color=red&gt;NOT FOR&lt;br&gt;PRODUCTION USE!&lt;/font&gt;&lt;/h1&gt;&lt;hr&gt;</source>
-        <translation>&lt;b&gt;Fejlesztési verzió&lt;/b&gt;&lt;h1&gt;&lt;font color=red&gt;NE HASZNÁLD&lt;br&gt;ÉLES TERMÉK FEJLESZTÉSÉRE!&lt;/font&gt;&lt;/h1&gt;&lt;hr&gt;</translation>
-    </message>
-    <message>
         <source>&amp;Use all</source>
         <translation>&amp;Összes alkatrészkönyvtár használatba vétele</translation>
     </message>
@@ -10779,10 +11145,6 @@ amíg parancs fut a kapcsolásirajz-szerkesztőben!</translation>
     <message>
         <source>Can&apos;t utime &apos;%1&apos;</source>
         <translation>Nem lehet az utime parancsot végrehajtani %1</translation>
-    </message>
-    <message>
-        <source>EAGLE &amp;License...</source>
-        <translation>EAGLE L&amp;icensz...</translation>
     </message>
     <message>
         <source>The directory
@@ -10885,10 +11247,6 @@ while command is running in library window!</source>
         <translation>%1 futtatása sikerteln</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Registered to:&lt;/b&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;Regisztrálva:&lt;/b&gt;&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>External text editor</source>
         <translation>Külső szövegszerkesztő</translation>
     </message>
@@ -10973,16 +11331,8 @@ while command is running in library window!</source>
         <translation>Keresés a fában</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;asily &lt;b&gt;A&lt;/b&gt;pplicable &lt;b&gt;G&lt;/b&gt;raphical &lt;b&gt;L&lt;/b&gt;ayout &lt;b&gt;E&lt;/b&gt;ditor&lt;br&gt;&lt;br&gt;Version %1 for %2 (%3 bit)&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;gyszerűen h&lt;b&gt;A&lt;/b&gt;sználható &lt;b&gt;G&lt;/b&gt;rafikus pane&lt;b&gt;L&lt;/b&gt; sz&lt;b&gt;E&lt;/b&gt;rkesztő&lt;br&gt;&lt;br&gt;Verzió %1 for %2 (%3 bit)&lt;br&gt;&lt;br&gt;</translation>
-    </message>
-    <message>
         <source>D&amp;ocumentation</source>
         <translation>&amp;Dokumentáció</translation>
-    </message>
-    <message>
-        <source>Classic icon style</source>
-        <translation>Klasszikus ikonok</translation>
     </message>
     <message>
         <source>Icon size</source>
@@ -11037,24 +11387,512 @@ nem létezik!</translation>
         <translation>&amp;Biztonsági másolatok / Fájl zárolás...</translation>
     </message>
     <message>
-        <source>Board limits (Make Pro edition)</source>
-        <translation>Panelméret korlátozások (Make Pro verzió)</translation>
+        <source>&lt;center&gt;&lt;h1&gt;EAGLE&lt;/h1&gt;&lt;b&gt;E&lt;/b&gt;asily &lt;b&gt;A&lt;/b&gt;pplicable &lt;b&gt;G&lt;/b&gt;raphical &lt;b&gt;L&lt;/b&gt;ayout &lt;b&gt;E&lt;/b&gt;ditor&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Adjust board width or height limit</source>
-        <translation>Panelméret magasság/szélesség beállítása</translation>
+        <source>Design &amp;Blocks</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Width</source>
-        <translation>Szélesség</translation>
+        <source>Keep legacy vector font in this drawing</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Height</source>
-        <translation>Magasság</translation>
+        <source>Detect Board Shape</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Limits can be modified later under Options / Set / Misc </source>
-        <translation>A méretkorlát később is mórosítható a Beállítások / Egyéb menüpont alatt </translation>
+        <source>Extensions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Manufacturing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;View on web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Add to drawing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Add to board</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Add to schematic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Urn defined</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy Urn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View on &amp;Web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create &amp;managed library</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Managed Libraries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My Managed Libraries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t delete &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open library &amp;manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Design Blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Licence information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Go online</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Go offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Designblock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Designblock...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to sign out? Eagle will fall back to Free license.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you want to Sign in? Click &apos;No&apos; to stay offline.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t create a new schematic editor while in edit designblock mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>u_syncfusion.c</name>
+    <message>
+        <source>Fusion Sync [BETA]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit Source...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View on Web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source: loading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pull from Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push to Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pull from Fusion...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push to Fusion...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished">Bezárás</translation>
+    </message>
+    <message>
+        <source>Cannot open on web because no hub information found. Please link your design to Fusion again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source: could not be loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Source: &lt;b&gt;%1&lt;/b&gt; in &lt;b&gt;%2 (V%3)&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last edited on %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Never pulled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last pulled on: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pull from Fusion to sync your changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Never pushed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last pushed on: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push to Fusion to sync your changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OUT OF SYNC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UP TO DATE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PUSH IN PROGRESS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PUSH ERROR: PUSH AGAIN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion problem: FIX IN FUSION</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: Not authenticated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: No network connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: The selected Fusion file does not exist or you do not have access to it. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please create a new PCB feature or select an existing one.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: You do not have access to the selected Fusion file. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: Please try again later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: The selected PCB feature does not exist. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error connecting to Forge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Név</translation>
+    </message>
+    <message>
+        <source>Currently linked to &lt;b&gt;%1&lt;/b&gt; in Fusion design &lt;b&gt;%2&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It seems like you don&apos;t have a Forge Hub yet.
+Please launch Fusion to create your first Hub.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will link your Eagle board with Fusion PCB feature &lt;b&gt;%1&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will create a new Fusion design called &lt;b&gt;%1&lt;/b&gt; in folder &lt;b&gt;%2&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will create a new Fusion design called &lt;b&gt;%1&lt;/b&gt; in Fusion project &lt;b&gt;%2&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: Not authenticated. Please try logging in again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error connecting to Forge: Please try again later
+%1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error connecting to Forge: 
+Please try again later: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove Fusion Link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Mégsem</translation>
+    </message>
+    <message>
+        <source>Edit Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Selecting a PCB feature will link your Eagle board to an existing Fusion design.
+
+Selecting a Fusion project or folder will create a new Fusion design for your PCB in this location.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>3D Package</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type a description of your changes here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pushing to Fusion: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing push to Fusion...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pushing Eagle design to Fusion...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pushing to Fusion may take several minutes.
+You may hide this window while the push is in progress.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This version does not have a description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pull</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Version %1 created on %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pulling from Fusion: Not authenticated. Please try logging in again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pulling from Fusion: No network connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulling from Fusion took too long. Please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pulling from Fusion: Please try again later
+%1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error pulling from Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulling Fusion design into Eagle...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sync your PCB with Fusion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Streamline your workflow by creating a link between your mechanical and electrical models using Fusion Sync.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>• Create a mechanical model of your Eagle board to place in Fusion.
+
+• Generate a link between your Eagle board layout and Fusion CAD model.
+
+• Sync any design changes from Eagle or Fusion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next &gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>1. Choose Fusion design type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Link to an existing Fusion design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose this option if your PCB needs to fit inside an existing mechanical model. This will enable you to iteratively edit a PCB feature within the context of a single Fusion design.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new Fusion design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose this option if you plan to design mechanical models to fit around your PCB. A new Fusion design will be created for your PCB, which can be inserted into multiple Fusion mechanical models.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>2. Select source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose an existing PCB feature from Fusion to link with.
+
+Note: This requires that the PCB feature has already been created in Fusion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt; Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose a location to create your new Fusion design.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Retrieving Fusion Sync status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync cannot be used in offline mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please log in and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync needs internet access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Eagle could not connect to the internet. Please reconnect and try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync is currently unavailable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Eagle could not connect to the web service. Please try again later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The web service is currently unavailable. Please try again later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fusion Sync is not yet available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The web service is not yet available. Please try again soon.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unexpected cause.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12465,6 +13303,28 @@ Kérlek ellenőrízd, hogy nem-e kell a réteget invertálni, vagy kivágni a r�
         <source>Replaced invalid characters by &apos;_&apos; in the following names:
 </source>
         <translation>Az érvénytelen karaktereket alulvonásra (&apos;_&apos;) cseráltük a következő nevekben:</translation>
+    </message>
+</context>
+<context>
+    <name>urns.c</name>
+    <message>
+        <source> + Edits</source>
+        <translation> + Módosítás</translation>
+    </message>
+</context>
+<context>
+    <name>webapi.c</name>
+    <message>
+        <source>Update is available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License &amp;Information...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About EAGLE</source>
+        <translation type="unfinished">Az EAGLE-ről</translation>
     </message>
 </context>
 </TS>
